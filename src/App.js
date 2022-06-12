@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Navbar } from "./components";
-import { Features, Footer, Header } from "./containers";
 
 const App = () => {
 	return (
