@@ -1,8 +1,22 @@
-import React from "react";
-import "./layout.css";
+import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
-	return <div>Layout</div>;
+	return (
+		<>
+			<nav>
+				<ul>
+					<li>
+						<Link to="/">Home</Link>
+					</li>
+					<li>
+						<Link to="/songpage">Song Page</Link>
+					</li>
+				</ul>
+			</nav>
+
+			<Outlet />
+		</>
+	);
 };
 
 export default Layout;

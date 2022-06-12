@@ -65,3 +65,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+ul {
+	list-style-type: none;
+}
