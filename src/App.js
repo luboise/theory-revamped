@@ -1,25 +1,32 @@
 import React from "react";
 import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navbar, Chart } from "./components";
+import { NoPage, Songpage, Home } from "./pages";
 
-import { Navbar } from "./components";
-import { Features, Footer, Header } from "./containers";
-import { Layout, NoPage, Songpage, Home } from "./pages";
+function App() {
+	let Component;
+	switch (window.location.pathname) {
+		case "/":
+			Component = Home;
+			break;
+		case "/songpage":
+			Component = Songpage;
+			break;
+		default:
+			Component = NoPage;
+			break;
+	}
 
-export default function App() {
 	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Navbar />}>
-					<Route index element={<Home />} />
-					<Route path="songpage" element={<Songpage />} />
-					<Route path="*" element={<NoPage />} />
-				</Route>
-			</Routes>
-		</BrowserRouter>
+		<>
+			<Navbar />
+			<div className="main-container">Component </div>
+		</>
 	);
 }
+
+export default App;
 
 /*
 const App = () => {

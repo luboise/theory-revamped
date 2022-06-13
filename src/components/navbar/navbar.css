@@ -1,11 +1,7 @@
-.navbar {
+.navbar__container {
 	width: 100%;
 	height: 30%;
 	/*height: --navbar-height;*/
-
-	position: absolute;
-	top: 0;
-	right: 0;
 
 	font-size: 3rem;
 
