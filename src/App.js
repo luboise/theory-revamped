@@ -1,45 +1,29 @@
 import React from "react";
 import "./App.css";
 
-import { Navbar, Chart } from "./components";
+import { Navbar } from "./global-components";
 import { NoPage, Songpage, Home } from "./pages";
 
 function App() {
-	let Component;
+	let Page;
 	switch (window.location.pathname) {
 		case "/":
-			Component = Home;
+			Page = Home;
 			break;
 		case "/songpage":
-			Component = Songpage;
+			Page = Songpage;
 			break;
 		default:
-			Component = NoPage;
+			Page = NoPage;
 			break;
 	}
 
 	return (
 		<>
 			<Navbar />
-			<div className="main-container">
-				<Component />
-			</div>
+			<Page />
 		</>
 	);
 }
 
 export default App;
-
-/*
-const App = () => {
-	return (
-		<div className="gradient_bg">
-			<div className="top_of_page">
-				<Navbar />
-				<Header />
-				<h1>hello</h1>
-			</div>
-		</div>
-	);
-};
-*/
