@@ -13,8 +13,6 @@ const Songpage = () => {
 	<div className="song-page">
 		<ChartTitle attribs={testChart} />
 		<ChartMethodContainer attribs={testChart}></ChartMethodContainer>
-		{/* <ChartPreface />
-		<ChartMethod /> */}
 		<ChartExtras></ChartExtras>
 	</div>
 	);
