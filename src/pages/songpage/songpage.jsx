@@ -4,7 +4,7 @@ import "./songpage.css";
 import { ChartTitle, ChartPreface, ChartMethod, ChartExtras, ChartMethodContainer} from "./songpage-components";
 
 let testChart = {
-	title: "Fascination MAXX",
+	title: "Sillus Lovus",
 	url: "https://youtu.be/Iw1-wYBAcc4?t=26",
 };
 
