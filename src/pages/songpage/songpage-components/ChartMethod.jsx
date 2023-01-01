@@ -14,7 +14,7 @@ const ChartDifficulty = (methodDifficulty) => {
 	for (let i = 0; i < methodDifficulty; i++) SVGArray.push(SVG_STAR_FILLED)
 	for (let i = 0; i < STAR_MAX_DIFFICULTY - methodDifficulty; i++) SVGArray.push(SVG_STAR_HOLLOW)
 
-	return SVGArray.flat();
+	return <div className="chart-method-difficulty-container">{SVGArray.flat()}</div>;
 
 }
 
@@ -24,7 +24,7 @@ const ChartMethod = ( { attribs }) => {
 	return (	
 	<div className="chart-method">
 		<div className="chart-method-header">
-			<div className="chart-method-rating-container">
+			<div id="chart-method-rating-container">
 				<button className="btn-vote">{SVG_THUMBS_DOWN}</button>
 				<p>{attribs.score}</p>
 				<button className="btn-vote">{SVG_THUMBS_UP}</button>
@@ -43,7 +43,7 @@ const ChartMethod = ( { attribs }) => {
 		
 		
 
-	</div>
+ 	</div>
 	)
 };
 
