@@ -51,7 +51,7 @@ div.chart-method {
 }
 
 
-.chart-method-rating-container {
+#chart-method-rating-container {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
