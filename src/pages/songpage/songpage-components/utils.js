@@ -1,10 +1,24 @@
-export const SORT_TYPES = [
-	"Highest Voted",
-	"Easiest",
-	"Hardest",
-	"Newest",
-	"Oldest",
-];
+// export const SORT_TYPES = [
+// 	"Highest Voted",
+// 	"Easiest",
+// 	"Hardest",
+// 	"Newest",
+// 	"Oldest",
+// ];
+
+function makeSortFunction(property, descending = true) {
+	return (a, b) => {
+		return descending ? a[property] < b[property] : a[property] > b[property];
+	};
+}
+
+export const SORT_TYPES = {
+	"Highest Voted": makeSortFunction("score"),
+	Easiest: makeSortFunction("difficulty", false),
+	Hardest: makeSortFunction("difficulty"),
+	Newest: makeSortFunction("timestamp"),
+	Oldest: makeSortFunction("timestamp", false),
+};
 
 export const SVG_THUMBS_DOWN = (
 	<svg

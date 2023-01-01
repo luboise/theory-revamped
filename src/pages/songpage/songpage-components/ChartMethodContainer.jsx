@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import ChartMethod from "./ChartMethod"
 
-import {SORT_TYPES} from "./utils"
+import { SORT_TYPES } from "./utils"
 
 const MakeSortButton = (ButtonText, onclickFunction) => {
 	return (
@@ -25,30 +25,13 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 function ChartMethodContainer() {
 
 	function SortMethods(sortType) {
-		if (!SORT_TYPES.includes(sortType)) {
+		if (!Object.keys(SORT_TYPES).includes(sortType)) {
 			alert(`Invalid sort type given: ${sortType}`)
 			return false;
 		} else {
-			if (sortType === "Highest Voted") {
-					methodsToRender.sort((a, b) => {
-					if (a.score < b.score) return 1;
-					else return 0;
-				})
-			} else if (sortType === "Newest") {
-				methodsToRender.sort((a, b) => {
-					if (a.timestamp < b.timestamp) return 1;
-					else return 0;
-				})
-			} else if (sortType === "Oldest") {
-				methodsToRender.sort((a, b) => {
-					if (a.timestamp > b.timestamp) return 1;
-					else return 0;
-				})
-			}
+			methodsToRender.sort(SORT_TYPES[sortType])
 
-			// setCurrentSortType(sortType)
 			setMethodsToRender([...methodsToRender])
-			return true;
 		}
 	}
 
@@ -85,7 +68,7 @@ function ChartMethodContainer() {
 	return (
 		<div className="chart-method-container">
 			<div id="method-sorting-buttons">
-				{MakeSortButtons(SORT_TYPES, SortMethods)}
+				{MakeSortButtons(Object.keys(SORT_TYPES), SortMethods)}
 			</div>
 			{(methodsToRender.map((method) => {return <ChartMethod attribs={method}/>})).flat()}
 		</div>
