@@ -31,13 +31,16 @@ const ChartMethod = ( { attribs }) => {
 			</div>
 			<h2>{attribs.title}</h2>
 			{ChartDifficulty(attribs.difficulty)}
-			<div className="chart-method-body">
-				<ReactMarkdown children={attribs.body}></ReactMarkdown>
-			</div>
-			<div className="chart-method-footer">
-				<p>Author: {attribs.author}<br></br>Timestamp: {DateFromUNIXTimestamp(attribs.timestamp)}</p>
-			</div>
 		</div>
+
+		<div className="chart-method-body">
+			<ReactMarkdown children={attribs.body}></ReactMarkdown>
+		</div>
+		
+		<div className="chart-method-footer">
+			<p>Author: {attribs.author}<br></br>Timestamp: {DateFromUNIXTimestamp(attribs.timestamp)}</p>
+		</div>
+		
 		
 
 	</div>
