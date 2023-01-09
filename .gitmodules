@@ -1,0 +1,3 @@
+[submodule "submodules/old_theory"]
+	path = submodules/old_theory
+	url = https://github.com/playtime881/Theory.git
