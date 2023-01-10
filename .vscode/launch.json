@@ -6,7 +6,7 @@
 			"type": "firefox",
 			"request": "launch",
 			"reAttach": true,
-
+			"preLaunchTask": "npm: start",
 			"enableCRAWorkaround": true,
 
 			"url": "http://localhost:3000",
