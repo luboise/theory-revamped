@@ -1,7 +1,6 @@
 {
   "name": "theory-revamped",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,11 +16,9 @@
     "url": "https://github.com/playtime881/theory-revamped/issues"
   },
   "homepage": "https://github.com/playtime881/theory-revamped#readme",
+  "description": "",
   "workspaces": [
     "packages/react-client",
     "packages/express-server"
-  ],
-  "devDependencies": {
-    "concurrently": "^7.6.0"
-  }
+  ]
 }
