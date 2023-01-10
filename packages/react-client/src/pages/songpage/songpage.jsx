@@ -1,7 +1,13 @@
 import React from "react";
 import "./songpage.css";
 
-import { ChartTitle, ChartPreface, ChartMethod, ChartExtras, ChartMethodContainer} from "./songpage-components";
+import {
+	ChartTitle,
+	ChartPreface,
+	ChartMethod,
+	ChartExtras,
+	ChartMethodContainer,
+} from "./songpage-components";
 
 let testChart = {
 	title: "Sillus Lovus",
@@ -10,11 +16,11 @@ let testChart = {
 
 const Songpage = () => {
 	return (
-	<div className="song-page">
-		<ChartTitle attribs={testChart} />
-		<ChartMethodContainer attribs={testChart}></ChartMethodContainer>
-		<ChartExtras></ChartExtras>
-	</div>
+		<div className="song-page">
+			<ChartTitle attribs={testChart} />
+			<ChartMethodContainer attribs={testChart}></ChartMethodContainer>
+			<ChartExtras></ChartExtras>
+		</div>
 	);
 };
 

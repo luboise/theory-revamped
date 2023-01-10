@@ -2,7 +2,7 @@ import React from "react";
 
 const LinkButton = ({ url, text, svgpath }) => {
 	if (!url) {
-		console.log(`INVALID URL: ${url}`)
+		console.log(`INVALID URL: ${url}`);
 		return;
 	}
 
@@ -12,10 +12,7 @@ const LinkButton = ({ url, text, svgpath }) => {
 	let ytID = url.match(re)[1];
 
 	return (
-		<a
-			href={url}
-			title="TITLE OF THE VIDEO HERE"
-		>
+		<a href={url} title="TITLE OF THE VIDEO HERE">
 			{text}
 			{/* <img
 				alt="Link to chart preview"

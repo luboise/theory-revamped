@@ -6,9 +6,29 @@
 // 	"Oldest",
 // ];
 
-function makeSortFunction(property, descending = true) {
+function makeSortFunction(
+	property,
+	descending = true,
+	subsortProperty = "score"
+) {
 	return (a, b) => {
-		return descending ? a[property] < b[property] : a[property] > b[property];
+		const larger = a[property] > b[property];
+		const smaller = a[property] < b[property];
+
+		// Compare subsort if
+		if (
+			!larger &&
+			!smaller &&
+			a[subsortProperty] &&
+			b[subsortProperty] &&
+			property != subsortProperty
+		) {
+			if (a[subsortProperty] < b[subsortProperty]) return 1;
+			else return -1;
+		}
+
+		if (descending ? smaller : larger) return 1;
+		else return -1;
 	};
 }
 

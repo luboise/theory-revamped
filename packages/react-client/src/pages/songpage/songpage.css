@@ -45,11 +45,9 @@ div.chart-method {
 	display: flex;
 }
 
-
 .chart-method-header h2 {
-	width: 80%
+	width: 80%;
 }
-
 
 #chart-method-rating-container {
 	display: flex;
