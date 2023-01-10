@@ -10,7 +10,7 @@ function App() {
 	const [apiResponse, setapiResponse] = useState("");
 
 	function callAPI() {
-		fetch("http://localhost:9000/songpage")
+		fetch("http://localhost:9000/rows/all")
 			.then((res) => res.text())
 			.then((res) => setapiResponse(res));
 	}

@@ -3,9 +3,14 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"start": "node ./bin/www"
+		"start": "nodemon ./bin/www",
+		"create-db": "node createCarsTable.js",
+		"delete-db": "node deleteCarsTable.js",
+		"load-data": "node loadCarData.js",
+		"read-data": "node readDataTest.js"
 	},
 	"dependencies": {
+		"aws-sdk": "^2.1291.0",
 		"cookie-parser": "~1.4.4",
 		"cors": "^2.8.5",
 		"debug": "~2.6.9",
