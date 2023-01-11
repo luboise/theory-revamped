@@ -1,30 +1,34 @@
 {
-  "name": "theory-revamped",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/playtime881/theory-revamped.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/playtime881/theory-revamped/issues"
-  },
-  "homepage": "https://github.com/playtime881/theory-revamped#readme",
-  "description": "",
-  "workspaces": [
-    "packages/react-client",
-    "packages/express-server"
-  ],
-  "dependencies": {
-    "dotenv": "^16.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+	"name": "theory-revamped",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sls": "serverless offline start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/playtime881/theory-revamped.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/playtime881/theory-revamped/issues"
+	},
+	"homepage": "https://github.com/playtime881/theory-revamped#readme",
+	"description": "",
+	"workspaces": [
+		"packages/react-client",
+		"packages/express-server"
+	],
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"serverless": "^3.26.0",
+		"serverless-dynamodb-local": "^0.2.40"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20",
+		"serverless-offline": "^12.0.4"
+	}
 }
