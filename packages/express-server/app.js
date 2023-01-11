@@ -30,6 +30,26 @@ require("dotenv").config();
 // 	});
 // });
 
+// params for creating table in DynamoDB (implement later)
+let params = {
+	TableName: "Songs",
+
+	AttributeDefinitions: [
+		{ AttributeName: "song_id", AttributeType: "N" },
+		{ AttributeName: "version", AttributeType: "N" },
+		{ AttributeName: "approved", AttributeType: "B" },
+	],
+	KeySchema: [
+		{ AttributeName: "song_id", KeyType: "HASH" }, // Partition key
+	],
+	GlobalSecondaryIndexes: {
+		KeySchema: [
+			{ AttributeName: "version", KeyType: "HASH" },
+			{ AttributeName: "approved", KeyType: "HASH" },
+		],
+	},
+};
+
 app.get("/api", (req, res) => {
 	res.send("please work");
 });
