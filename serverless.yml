@@ -18,5 +18,14 @@ provider:
    region: us-east-1
 
 functions:
-   hello:
-      handler: handler.hello
+   express-handler:
+      handler: packages/express-server/app.handler
+      events:
+         - http:
+              path: /api
+              method: ANY
+              cors: true
+         - http:
+              path: /api/{any+}
+              method: ANY
+              cors: true
