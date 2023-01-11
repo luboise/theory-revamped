@@ -3,11 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"start": "nodemon ./bin/www",
-		"create-db": "node createCarsTable.js",
-		"delete-db": "node deleteCarsTable.js",
-		"load-data": "node loadCarData.js",
-		"read-data": "node readDataTest.js"
+		"start": "nodemon ./bin/www"
 	},
 	"dependencies": {
 		"aws-sdk": "^2.1291.0",
@@ -17,6 +13,8 @@
 		"express": "^4.18.2",
 		"http-errors": "~1.6.3",
 		"jade": "^0.29.0",
-		"morgan": "~1.9.1"
+		"morgan": "~1.9.1",
+		"serverless": "^3.26.0",
+		"serverless-http": "^3.1.1"
 	}
 }
