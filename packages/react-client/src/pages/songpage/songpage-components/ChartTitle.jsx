@@ -2,15 +2,18 @@ import React from "react";
 
 import { LinkButton } from "../../../global-components";
 
-const ChartTitle = ({ songObject }) => {
+const ChartTitle = ({ songObject = {} }) => {
+	const objKeys = Object.keys(songObject);
+
 	return (
 		<div className="chart-header">
-			<h1>{!"title" in songObject ? "NULL TITLE" : songObject.title}</h1>
+			<h1>{objKeys.includes("title") ? songObject.title : "NULL TITLE"}</h1>
 
-			<LinkButton
-				url={songObject.url ? songObject.url : ""}
-				text="Chart Preview"
-			/>
+			{objKeys.includes("url") ? (
+				<LinkButton url={songObject} text="Chart Preview" />
+			) : (
+				<></>
+			)}
 		</div>
 	);
 };
