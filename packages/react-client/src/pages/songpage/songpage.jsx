@@ -1,13 +1,14 @@
 import React from "react";
-import "./songpage.css";
+import { useParams } from "react-router-dom";
+import { callAPI } from "../../utils.js";
 
 import {
 	ChartTitle,
-	ChartPreface,
-	ChartMethod,
 	ChartExtras,
 	ChartMethodContainer,
 } from "./songpage-components";
+
+import "./songpage.css";
 
 let testChart = {
 	title: "Sillus Lovus",
@@ -15,10 +16,16 @@ let testChart = {
 };
 
 const Songpage = () => {
+	let { song_id, diff } = useParams();
+
+	let songObject = callAPI(`/api/song/${song_id}`);
+
+	if (!songObject) songObject = testChart;
+
 	return (
 		<div className="song-page">
-			<ChartTitle attribs={testChart} />
-			<ChartMethodContainer attribs={testChart}></ChartMethodContainer>
+			<ChartTitle attribs={songObject} />
+			<ChartMethodContainer songObject={songObject}></ChartMethodContainer>
 			<ChartExtras></ChartExtras>
 		</div>
 	);

@@ -2,12 +2,15 @@ import React from "react";
 
 import { LinkButton } from "../../../global-components";
 
-const ChartTitle = ({ attribs }) => {
+const ChartTitle = ({ songObject }) => {
 	return (
 		<div className="chart-header">
-			<h1>{!attribs.title ? "NULL TITLE" : attribs.title}</h1>
+			<h1>{!songObject.title ? "NULL TITLE" : songObject.title}</h1>
 
-			<LinkButton url={attribs.url} text="Preview" />
+			<LinkButton
+				url={songObject.url ? songObject.url : ""}
+				text="Chart Preview"
+			/>
 		</div>
 	);
 };

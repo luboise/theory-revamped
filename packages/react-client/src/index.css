@@ -15,3 +15,73 @@
 	--navbar-height: 20%;
 	--navbar-item-width: 20%;
 }
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--color-bg);
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+.gradient_bg {
+	/* ff 3.6+ */
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(88, 45, 0, 1) 0%,
+		rgba(2, 19, 157, 1) 50%,
+		rgba(88, 45, 0, 1) 100%
+	);
+
+	/* safari 5.1+,chrome 10+ */
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(88, 45, 0, 1) 0%,
+		rgba(2, 19, 157, 1) 50%,
+		rgba(88, 45, 0, 1) 100%
+	);
+
+	/* opera 11.10+ */
+	background: -o-linear-gradient(
+		90deg,
+		rgba(88, 45, 0, 1) 0%,
+		rgba(2, 19, 157, 1) 50%,
+		rgba(88, 45, 0, 1) 100%
+	);
+
+	/* ie 6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#582D00', endColorstr='#582D00', GradientType=0 );
+
+	/* ie 10+ */
+	background: -ms-linear-gradient(
+		90deg,
+		rgba(88, 45, 0, 1) 0%,
+		rgba(2, 19, 157, 1) 50%,
+		rgba(88, 45, 0, 1) 100%
+	);
+
+	/* global 94%+ browsers support */
+	background: linear-gradient(
+		90deg,
+		rgba(88, 45, 0, 1) 0%,
+		rgba(2, 19, 157, 1) 50%,
+		rgba(88, 45, 0, 1) 100%
+	);
+}
+
+body {
+	background-image: url(assets/stolen-konmai-bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+}
