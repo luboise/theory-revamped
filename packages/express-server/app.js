@@ -1,9 +1,9 @@
 const createError = require("http-errors");
 const serverless = require("serverless-http");
 const express = require("express");
-const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-const cors = require("cors");
+const bodyParser = require("body-parser");
+const { response } = require("express");
 
 const app = express();
 
@@ -11,24 +11,8 @@ app.use(logger("dev"));
 
 require("dotenv").config();
 
-// /* GET users listing. */
-// app.get("/testdb", (req, res) => {
-// 	let params = {
-// 		TableName: tableName,
-// 	};
-
-// 	dynamoClient.scan(params, (err, data) => {
-// 		if (err) {
-// 			console.log(err);
-// 		} else {
-// 			var items = [];
-// 			for (var i in data.Items) items.push(data.Items[i]["Name"]);
-
-// 			res.contentType = "application/json";
-// 			res.send(items);
-// 		}
-// 	});
-// });
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 // params for creating table in DynamoDB (implement later)
 let params = {
@@ -50,8 +34,36 @@ let params = {
 	},
 };
 
-app.get("/api", (req, res) => {
+app.get("/api", async function (req, res) {
 	res.send("please work");
+});
+
+app.post("/api/postman", async function (req, res) {
+	res.send(JSON.stringify(req.body) + " was returned.");
+});
+
+app.get("/api/song/:song_id", async function (req, res) {
+	const testSong = {
+		song_id: 28064,
+		version: 28,
+		title: "Ah Hah Yeah",
+		title_ascii: "Ah Hah Yeah",
+		artist: "Masayoshi Iimori",
+		genre: "UPTEMPO RAW",
+		bpm_list: {
+			0: 115,
+			40000: 230,
+			60000: 115,
+			100000: 230,
+		},
+	};
+
+	res.send(testSong);
+	// res.send({
+	// 	song_id: parseInt(req.params["song_id"]),
+	// 	title: "penis",
+	// 	ascii_title: "penis2",
+	// });
 });
 
 module.exports.handler = serverless(app);
