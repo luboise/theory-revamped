@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { callAPI } from "../../utils.js";
+import { callAPI as callAPI } from "../../utils.js";
 
 import {
 	ChartTitle,
@@ -16,11 +16,20 @@ let testChart = {
 };
 
 const Songpage = () => {
-	let { song_id, diff } = useParams();
+	const [apiResponse, setapiResponse] = useState({});
+
+	let { song_id } = useParams();
+	let { diff } = useParams();
+
+	console.log(song_id, diff);
 
 	let songObject = callAPI(`/api/song/${song_id}`);
 
+	console.log(songObject);
+
 	if (!songObject) songObject = testChart;
+
+	// console.log(songObject);
 
 	return (
 		<div className="song-page">

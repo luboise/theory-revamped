@@ -5,7 +5,7 @@ import { LinkButton } from "../../../global-components";
 const ChartTitle = ({ songObject }) => {
 	return (
 		<div className="chart-header">
-			<h1>{!songObject.title ? "NULL TITLE" : songObject.title}</h1>
+			<h1>{!"title" in songObject ? "NULL TITLE" : songObject.title}</h1>
 
 			<LinkButton
 				url={songObject.url ? songObject.url : ""}
