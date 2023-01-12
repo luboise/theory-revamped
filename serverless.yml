@@ -17,6 +17,31 @@ provider:
    stage: dev
    region: us-east-1
 
+resources:
+   Resources:
+      SongTable:
+         Type: AWS::DynamoDB::Table
+         Properties:
+            TableName: Songs
+            AttributeDefinitions:
+               - AttributeName: song_id
+                 AttributeType: N
+               - AttributeName: version
+                 AttributeType: N
+               - AttributeName: approved
+                 AttributeType: S
+            KeySchema:
+               - AttributeName: song_id
+                 KeyType: HASH
+            GlobalSecondaryIndexes:
+               GlobalSecondaryIndex:
+                  IndexName: version-index
+                  KeySchema:
+                     - AttributeName: version
+                       keyType: HASH
+                     - AttributeName: approved
+                       keyType: HASH
+
 functions:
    express-handler:
       handler: packages/express-server/app.handler
