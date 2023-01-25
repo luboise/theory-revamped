@@ -1,8 +1,8 @@
 # For full config options, check the docs:
 #    docs.serverless.com
 
-plugins:
-   - serverless-offline
+# plugins:
+#    - serverless-offline
 
 service: theory-revamped-express-server
 # app and org for use with dashboard.serverless.com
@@ -10,19 +10,37 @@ service: theory-revamped-express-server
 #org: your-org-name
 
 frameworkVersion: "3"
+useDotenv: true
 
 provider:
    name: aws
    runtime: nodejs12.x
    stage: dev
-   region: us-east-1
+   region: ${AWS_REGION}
+   environment:
+
+   TABLE_NAME:
+      Ref: songTable
+
+   iamRoleStatements:
+      - Effect: Allow
+        Action:
+           - dynamodb:DescribeTable
+           - dynamodb:Query
+           - dynamodb:Scan
+           - dynamodb:GetItem
+           - dynamodb:PutItem
+           - dynamodb:UpdateItem
+           - dynamodb:DeleteItem
+        Resource:
+           - "Fn::GetAtt": [songTable, Arn]
 
 resources:
    Resources:
       SongTable:
          Type: AWS::DynamoDB::Table
          Properties:
-            TableName: Songs
+            TableName: songTable
             AttributeDefinitions:
                - AttributeName: song_id
                  AttributeType: N
