@@ -2,6 +2,14 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Run current py file",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}",
+			"console": "integratedTerminal",
+			"cwd": "${fileDirname}"
+		},
+		{
 			"name": "Launch localhost",
 			"type": "firefox",
 			"request": "launch",
