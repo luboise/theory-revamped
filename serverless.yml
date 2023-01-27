@@ -1,8 +1,8 @@
 # For full config options, check the docs:
 #    docs.serverless.com
 
-# plugins:
-#    - serverless-offline
+plugins:
+   - serverless-offline
 
 service: theory-revamped-express-server
 # app and org for use with dashboard.serverless.com

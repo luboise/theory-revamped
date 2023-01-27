@@ -66,4 +66,32 @@ app.get("/api/song/:song_id", async function (req, res) {
 	// });
 });
 
+// For offline use
+const fs = require("fs");
+
+app.get("/api/get_resource/:filename", async (req, res) => {
+	let filehandle = null;
+	try {
+		// Using the filehandle method
+		filehandle = await fs.promises.open(
+			`./resources/${req.params.filename}`,
+			"r"
+		);
+		const data = await filehandle.readFile("utf-8");
+
+		filehandle.close();
+
+		res.json(data);
+	} catch (e) {
+		console.log("Error", e);
+
+		res.json({});
+	}
+
+	// fs.readFile("./resources/:filename", (err, json) => {
+	// 	let obj = JSON.parse(json);
+	// 	res.json(obj);
+	// });
+});
+
 module.exports.handler = serverless(app);

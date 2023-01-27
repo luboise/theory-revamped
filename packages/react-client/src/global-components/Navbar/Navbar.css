@@ -38,3 +38,12 @@
 	color: blue;
 	background-color: grey;
 }
+
+div.song-page-router {
+	display: flex;
+}
+
+div.game-version-dropdown {
+	display: flex;
+	flex-direction: column;
+}
