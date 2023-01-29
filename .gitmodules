@@ -1,6 +1,6 @@
 [submodule "submodules/old_theory"]
 	path = submodules/old_theory
-	url = https://github.com/playtime881/Theory.git
+	url = https://github.com/luboise/Theory.git
 [submodule "submodules/IIDX DB Tools"]
 	path = submodules/IIDX DB Tools
-	url = https://github.com/playtime881/IIDX-MusicDB-Tools.git
+	url = https://github.com/luboise/IIDX-MusicDB-Tools.git
