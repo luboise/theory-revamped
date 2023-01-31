@@ -9,7 +9,7 @@ import {
 
 import "./App.css";
 
-import { Navbar } from "./global-components";
+import { Navbar, ChartNavigator } from "./global-components";
 import { NoPage, Songpage, Home } from "./pages";
 
 const router = createBrowserRouter(
@@ -26,8 +26,12 @@ function App() {
 	return (
 		<>
 			<Navbar />
-
-			<RouterProvider router={router} />
+			<div className="page-main-body">
+				<ChartNavigator />
+				<div className="page-contents">
+					<RouterProvider router={router} />
+				</div>
+			</div>
 		</>
 	);
 }

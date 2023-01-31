@@ -67,3 +67,11 @@ body {
 ul {
 	list-style-type: none;
 }
+
+.page-main-body {
+	display: flex;
+}
+
+.page-contents {
+	width: 100%;
+}
