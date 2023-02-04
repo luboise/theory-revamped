@@ -34,6 +34,16 @@ let params = {
 	},
 };
 
+const testChart = {
+	song_id: 99999,
+	version: -1,
+	title: "Test chart title",
+	title_ascii: "Test chart ascii title",
+	artist: "Test chart artist",
+	genre: "Test chart genre",
+	methods: [],
+};
+
 async function readResource(filename) {
 	try {
 		// Using the filehandle method
@@ -58,27 +68,38 @@ app.post("/api/postman", async function (req, res) {
 	res.send(JSON.stringify(req.body) + " was returned.");
 });
 
-app.get("/api/song/:song_id", async function (req, res) {
-	const song_objects = await readResource("song_objects.json");
-	const chart_objects = await readResource("chart_objects.json");
-	const method_objects = await readResource("method_objects.json");
+app.get("/api/song/:song_id/:diff", async function (req, res) {
+	try {
+		const songObjects = JSON.parse(await readResource("song_objects.json"));
+		const chartObjects = JSON.parse(await readResource("chart_objects.json"));
+		const methodObjects = JSON.parse(
+			await readResource("method_objects.json")
+		);
 
-	const testSong = {
-		song_id: 28064,
-		version: 28,
-		title: "Ah Hah Yeah",
-		title_ascii: "Ah Hah Yeah",
-		artist: "Masayoshi Iimori",
-		genre: "UPTEMPO RAW",
-		bpm_list: {
-			0: 115,
-			40000: 230,
-			60000: 115,
-			100000: 230,
-		},
-	};
+		const songData =
+			req.params.song_id in songObjects
+				? songObjects[req.params.song_id]
+				: {};
 
-	res.send(testSong);
+		// Get methods from method object
+		const methods = [];
+		const wantedChartID = `${req.params.song_id}_${req.params.diff}`;
+		const methodsList = chartObjects[wantedChartID]["methods"] || [];
+
+		methodsList.forEach((methodKey) => {
+			if (methodKey in methodObjects) methods.push(methodObjects[methodKey]);
+		});
+
+		const returnObj = {
+			...songData,
+			methods: methods,
+		};
+
+		res.send(returnObj);
+	} catch (e) {
+		console.log(e.message);
+		res.send({ ...testChart, errorStatus: true });
+	}
 });
 
 // For offline use

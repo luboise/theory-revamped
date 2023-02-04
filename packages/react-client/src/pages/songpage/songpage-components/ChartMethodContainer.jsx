@@ -29,7 +29,7 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 	return returnJSX;
 };
 
-function ChartMethodContainer() {
+function ChartMethodContainer({ apiReturn }) {
 	function SortMethods(sortType) {
 		if (!Object.keys(SORT_TYPES).includes(sortType)) {
 			alert(`Invalid sort type given: ${sortType}`);
@@ -40,63 +40,45 @@ function ChartMethodContainer() {
 		}
 	}
 
-	const testMethodAttribs = {
-		method_id: 1,
-		title: "Silly Love COOL STRAT THAT I FOUND ON THE INTERNET",
-		score: 69,
-		difficulty: 1,
-		body: "yeah u just readi t slow idk what else there is to say very simple this chart is a fkn 10 anyawy. Please like and subscribe to theory.tools.",
-		author: "your(e) mother 😳",
-		timestamp: 1672550428000,
-	};
-
-	const testMethodAttribs2 = {
-		method_id: 2,
-		title: "Gape Horn",
-		score: 600,
-		difficulty: 5,
-		body: "you must quit iidx and have sex (impossible)",
-		author: "allah",
-		timestamp: 1672550429001,
-	};
-
-	const testMethodAttribs3 = {
-		method_id: 3,
-		title: "Silly Love COOL STRAT THAT I FOUND ON THE INTERNET",
-		score: 70,
-		difficulty: 1,
-		body: "Watch out for the song **abruptly changing to 124BPM**. The small break before the BPM change is a good warning that its coming up. Memorise where it speeds up again and this chart shouldn't give you any problems.",
-		timestamp: 2472550428000,
-	};
-
-	const testMethodAttribs4 = {
-		method_id: 4,
-		title: "im going to kill myself",
-		score: 69,
-		difficulty: 1,
-		body: "Watch out for the song **abruptly changing to 124BPM**. The small break before the BPM change is a good warning that its coming up. Memorise where it speeds up again and this chart shouldn't give you any problems.",
-		timestamp: 2472550428000,
-	};
-
-	// const [currentSortType, setCurrentSortType] = useState("None");
-	const testMethods = [
-		testMethodAttribs,
-		testMethodAttribs2,
-		testMethodAttribs3,
-		testMethodAttribs4,
-	];
-	const [methodsToRender, setMethodsToRender] = useState(testMethods);
-
-	return (
-		<div className="chart-method-container">
-			<div id="method-sorting-buttons">
-				{MakeSortButtons(Object.keys(SORT_TYPES), SortMethods)}
-			</div>
-			{methodsToRender.map((method) => {
-				return <ChartMethod attribs={method} />;
-			})}
-		</div>
+	const [methodsToRender, setMethodsToRender] = useState(
+		apiReturn.methods || []
 	);
+
+	console.log(methodsToRender);
+
+	if (apiReturn.errorStatus) {
+		return (
+			<p>
+				<span className="error-text">
+					<b>An error has occured.</b>
+				</span>
+			</p>
+		);
+	} else {
+		return (
+			<div className="chart-method-container">
+				{methodsToRender.length ? (
+					((
+						<div id="method-sorting-buttons">
+							{MakeSortButtons(Object.keys(SORT_TYPES), SortMethods)}
+						</div>
+					),
+					methodsToRender.map((methodObject, index) => {
+						return (
+							<ChartMethod
+								methodObject={methodObject}
+								listIndex={index}
+							/>
+						);
+					}))
+				) : (
+					<div className="info-box">
+						<p>There are currently no methods for this chart.</p>
+					</div>
+				)}
+			</div>
+		);
+	}
 }
 
 export default ChartMethodContainer;

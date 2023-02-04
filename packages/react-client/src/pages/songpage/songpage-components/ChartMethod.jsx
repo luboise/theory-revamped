@@ -26,37 +26,39 @@ const ChartDifficulty = (methodDifficulty) => {
 	);
 };
 
-const ChartMethod = ({ attribs }) => {
+const ChartMethod = ({ methodObject, listIndex }) => {
+	console.log(methodObject);
 	if (
 		!(
-			attribs.title &&
-			attribs.score &&
-			attribs.difficulty &&
-			attribs.timestamp
+			methodObject.title &&
+			(methodObject.rating === 0 || methodObject.rating) &&
+			methodObject.difficulty &&
+			methodObject.timestamp
 		)
 	)
-		return;
+		return <p>{`Method missing at index ${listIndex}`}</p>;
 
 	return (
-		<div className="chart-method" key={attribs.method_id}>
+		<div className="chart-method" key={`method-index-${listIndex}`}>
 			<div className="chart-method-header">
 				<div id="chart-method-rating-container">
 					<button className="btn-vote">{SVG_THUMBS_DOWN}</button>
-					<p>{attribs.score}</p>
+					<p>{methodObject.rating}</p>
 					<button className="btn-vote">{SVG_THUMBS_UP}</button>
 				</div>
-				<h2>{attribs.title}</h2>
-				{ChartDifficulty(attribs.difficulty)}
+				<h2>{methodObject.title}</h2>
+				{ChartDifficulty(methodObject.difficulty)}
 			</div>
 
 			<div className="chart-method-body">
-				<ReactMarkdown children={attribs.body}></ReactMarkdown>
+				<ReactMarkdown children={methodObject.body}></ReactMarkdown>
 			</div>
 
 			<div className="chart-method-footer">
 				<p>
-					Author: {attribs.author}
-					<br></br>Timestamp: {DateFromUNIXTimestamp(attribs.timestamp)}
+					Author: {methodObject.author}
+					<br></br>Timestamp:{" "}
+					{DateFromUNIXTimestamp(methodObject.timestamp)}
 				</p>
 			</div>
 		</div>

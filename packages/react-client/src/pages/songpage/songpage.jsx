@@ -23,7 +23,7 @@ const Songpage = () => {
 	const { diff } = useParams();
 
 	const handleData = async () => {
-		const song = await callAPI(`/api/song/${song_id}`);
+		const song = await callAPI(`/api/song/${song_id}/${diff}`);
 		if (song.data) {
 			console.log("New song obtained: ", song.data);
 			setsongObject(song.data);
@@ -44,9 +44,9 @@ const Songpage = () => {
 				<>
 					<ChartTitle songObject={songObject} />
 					<ChartMethodContainer
-						songObject={songObject}
+						apiReturn={songObject}
 					></ChartMethodContainer>
-					<ChartExtras></ChartExtras>
+					{/* <ChartExtras></ChartExtras> */}
 				</>
 			) : (
 				<p>Loading...</p>
