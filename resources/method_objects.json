@@ -1,0 +1,912 @@
+{
+    "cef6fcf7-fc21-4dd4-99d3-0a0972db8e74": {
+        "approved": true,
+        "chart_id": "13054_3",
+        "title": "Set for 155BPM max (optional Gear Shift)",
+        "difficulty": 1,
+        "body": "The song starts at 140BPM, raises to 155BPM and drops back down at the end of the song. You can get around this by just setting the songs minimum GN to your regular GN.\n\n![\"Concertino GN Max\"](CiB.png \"Concertino in blue min GN shenanigans\") (image from another chart, concept still the same)\n\nThere is a gap at the end where you can gear shift up by 1 if you really struggle with reading slow, but honestly it isn't necessary.\n\n![\"Concertino Gear Shift\"](CiB2.png \"Concertino in blue min GS shenanigans\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482427
+    },
+    "07429b3e-d277-4084-bb1c-b79e9abb2e9d": {
+        "approved": true,
+        "chart_id": "13031_3",
+        "title": "No tech",
+        "difficulty": 0,
+        "body": "There are 3 notes in the slowdown and it speeds back up before the density comes back in. No tech required, simple as that.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482427
+    },
+    "c0f5d507-ac17-4033-97ab-d4d8ff2c0730": {
+        "approved": true,
+        "chart_id": "13026_4",
+        "title": "No tech required",
+        "difficulty": 0,
+        "body": "The song slows down a little bit from 82BPM to 72BPM at the very end, but its honestly not enough to throw off your reading. No tech required.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482427
+    },
+    "f4a42260-4b2d-48fc-9505-3081bffcbc66": {
+        "approved": true,
+        "chart_id": "14036_3",
+        "title": "Shift GN a bit or read fast",
+        "difficulty": 1,
+        "body": "If you're comfortable reading ~11% faster than normal for 20 seconds, you can easily no tech this.\n\nOptionally, you can choose to set your GN a bit higher so that the first (easy) half is slower than normal but the speedup is easier.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482427
+    },
+    "99f1cf2e-06c9-4d23-bce7-379767ee362e": {
+        "approved": true,
+        "chart_id": "14036_3",
+        "title": "Use regular hi-speed",
+        "difficulty": 2,
+        "body": "While a gear shift with floating hi-speed affects your hi-speed by 0.5x, a gear shift in regular hi-speed is a lot smaller. We can use this to our advantage.\n\n1. Switch to regular hi-speed by holding start and pressing effect\n2. Adjust your lane cover and green number as close to your regular numbers as you can\n3. Gear shift down by one like normal before the speedup. Good places are shown below.\n\nThis method saves you reading at an off speed bar the ending.\n\nYou can gear shift anywhere before the chart speeds up, but note that the easy windows disappear once you're into the chorus.\n\n![2hot2eat lol](2h2e.png \"Good GS spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482427
+    },
+    "330501e6-02e4-4f7b-8bf2-b47ad0884889": {
+        "approved": true,
+        "chart_id": "14014_3",
+        "title": "No tech required (optional gear shift)",
+        "difficulty": 1,
+        "body": "Blind Justice just features a mild slowdown at the end. With only 6 chords to hit soflan tech isn't really necessary, but that being said you can gear shift up by 1 between the first 2 chords (circled in green).\n\n![blind justice lol](BJ.png \"Le gear shift\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "658ba817-395f-45a5-b84c-8cb939f947ab": {
+        "approved": true,
+        "chart_id": "14052_3",
+        "title": "DOLCE. half lane cover regular hi-speed strategy",
+        "difficulty": 5,
+        "body": "What DOLCE. does utilises the fact that turning the lane cover back on when using regular hi-speed doesn't float. This means that if you adjust your GN to be double when the lane cover is halfway down your screen at the beginning, that if you turn the lane cover off you'll be at normal GN for the 400BPM section.\n\nIf that's confusing, here are some steps/a timeline of the chart. If you can't read without a lane cover, you may need to use lift to make the chart more readable.  \nIf this strategy confuses you, take a look at how DOLCE. applies it in the chart preview.\n\nSlow reading is required as well as memorisation.\n\n1. Switch to regular hi-speed using start and effect\n2. Put your sudden+ so that it covers half of the lane\n3. Gear shift your GN to be double what it normally is\n4. Turn off the lane cover\n5. Read the beginning slow and hit the stops\n6. After the final stop there is a 100BPM section. This will be the same 4 notes repeated with a trill at the very end, so even if you cant read at 25% speed, try to time the repeating notes. On nonran this is 7643, and can be comfortably 1handed\n7. Read the 200BPM section slow for a bit, and turn your lane cover back on at the earliest gap you can find. If you practice this enough, you can turn the lane cover on without breaking combo (anywhere marked in green below)\n8. Turn the lane cover back off in the break before the jacks\n9. Hit the final slow section. There aren't many notes, so just do your best to hold gauge\n\n![faxx cover on](FM1.png \"da lane cover\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "c7f9345a-b6b9-425e-903a-9b6f9118862f": {
+        "approved": true,
+        "chart_id": "14052_3",
+        "title": "Float it",
+        "difficulty": 1,
+        "body": "Just float it whenever it changes. Try to float as little as possible if you do.\nGear shifting down a couple times right before the jacks in substitution for a float is heavily recommended however.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "458ea769-e5e5-4166-9b05-bf2c2a84600c": {
+        "approved": true,
+        "chart_id": "16020_3",
+        "title": "Gear shift (optional) + float at end",
+        "difficulty": 2,
+        "body": "Himiko has 2 slowdowns, one in the middle with manageable density and one at the end with crippling density.\n\nIf you're struggling to read the first slowdown, the first half of it is very easy, giving you a lot of time to fit 2 or 3 gear shifts in there. There are 2 gaps before the chords where you can shift back down, as opposed to the 9 gaps at the beginning for shifting up. If you miss these, you can always float after the speedup, but mistakes like this are the reason I always opt for no tech on the first slowdown.\n\n(Shift up at blue, shift back down at purple)\n\n![himiko diff](himidrop1.png \"Himiko first slowdown\")\n\nHimiko's second drop comes after the most dense part of the chart. If you can't follow this well, it can be tricky to follow when you should float.\n\n-  If you have 0 slow reading ability, float right as the BPM changes and just tank it.\n-  If you can hold your slow reading for a bit, hit one or two of the chunks before floating to keep your gauge a bit more stable and float at either of the 2 purple lines (gaps). If you miss both of these, your accuracy dropped from missing the float will be too much and you might as well try again if you're aiming for high accuracy.\n\n![himiko diff again](himidrop2.png \"Himiko second slowdown\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "aa1cd95c-98c4-458e-951d-3743f908703c": {
+        "approved": true,
+        "chart_id": "16020_3",
+        "title": "No tech",
+        "difficulty": 4,
+        "body": "If you can read both slowdowns, good god go for it. Good for clears, bad for timing.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "9f03c3c4-b710-4e63-a542-4cd487d2d623": {
+        "approved": true,
+        "chart_id": "16018_4",
+        "title": "FHS off + gear shifts (Toby strategy)",
+        "difficulty": 3,
+        "body": "**_Use [regular hi-speed](../../reg_hs.md) for this strategy, NOT FLOATING HI-SPEED!_**\n\nMarie Antoinette goes from 215BPM -> 205BPM -> 248BPM.\n\n1. Before the **first BPM change** (215 -> 205), **gear shift up by one** tick (circled in blue below)\n2. Before the **second BPM change** (205 -> 248), **gear shift down by two** ticks (circled second in blue below)\n3. (optional) Tweak your lane cover so the final green number is closer\n\nThis method is very effective if your numbers work out, but can be less consistent than using something like a [LIFT Substitute](../../tech\\LIFTSub.md).\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "b2736d05-f777-45e2-b59f-84ec179f1252": {
+        "approved": true,
+        "chart_id": "16018_4",
+        "title": "Double lane cover removal",
+        "difficulty": 4,
+        "body": "Make sure to use regular hi-speed for this strategy, as disabling your lane cover in recent styles floats. It is also recommended to use a [LIFT Substitute](../../tech\\LIFTSub.md).\n\nThe first change is towards the beginning, and can be (but doesn't need to be) mitigated by moving your lane cover a small amount in the circled gap.\n\n![Marie Antoinette coveroff1](MAoff1.png \"cover off 1\")\n\nOptimal lane cover is 173WN (or 173 / 1000 \\* LIFT). For the ending speedup section there is a similar large gap where you can turn off your lane cover. Simply turn off your lane cover, and the chart will be scrolling at the correct speed.\n\n![Marie Antoinette coveroff2](MAoff2.png \"cover off 2\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "3e0537ac-57be-47b2-812e-c525c2c8b5d0": {
+        "approved": true,
+        "chart_id": "16018_4",
+        "title": "Gear Shift",
+        "difficulty": 2,
+        "body": "Depending on your Green Number, you might be able to just shift down 1 or 2 in the blue circle in the image above to cover the speedup. If you can do this it is way easier and more consistent, but this method in itself doesn't cover as wide of a range of Green Numbers and will likely require you to fiddle with your lane cover to find a comfortable shift.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "17f299f0-a896-4900-834f-4e89547396b5": {
+        "approved": true,
+        "chart_id": "16018_4",
+        "title": "Float",
+        "difficulty": 1,
+        "body": "If neither Method 1 or 2 work for you, you can just float the chart once you reach the speedup. It's relatively safe, even for holding a hard clear. Similar to Method 1, the initial float is optional.\n\nFloat right on the green line (BPM change)",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "d8b03177-a20c-4130-8dab-900aeb71c6c3": {
+        "approved": true,
+        "chart_id": "16028_3",
+        "title": "6 gear shift down + lane cover off + reading slow",
+        "difficulty": 5,
+        "body": "(This tech is for lightning model cabs and home controllers. The start button is not in an easy position to abuse on old cabs. Method 2 is likely required if you are playing on an old cab)\n\n![YCo dead or arive](YCo.png \"Y.Co soflan. Good luck\")\n\nFirstly, Method 1 requires that you play on non-ran (mirror for p2). If you can not hit non-ran patterns, and I don't mean less comfortable hitting them I mean that you literally can not hit them, consider learning the more difficult Method 2.\n\nPosition your right hand so it covers start and button 6. You'll notice from the image above that the patterns alternate between key 1+3 and key 6. Your aim is to gear shift down by **6** anywhere in this section.\n\nThe easiest way (in my opinion) to do this is to hold start and hit 9 times, using your right thumb to hit key 6.  \n**(13 --> 6 --> 13 --> 6 --> 13 --> 6 --> 13 --> 6 --> 13)**\n\nWhat this will do is shift you down by 10 (because of the 10 white key presses) and then shift you up by 4 (because of the 4 black key hits), leaving you at a net 6 down.\n\n![YCo dead or arive](YCo_chunk.png \"Y.Co chunk\")\n\n**BONUS:** Try and double tap start and hold it down on the second tap when you go for the gear shift chunk, before going for the chunk. This will turn your lane cover off before the gear shifts, and eliminate the need to turn it off later, and lets you focus all of the soflan down in a 2 second window.\n\nIf you don't do this, you'll want to turn off your lane cover during any of the sections where there is no note on 6 (your off hand will be free to hit start). The purple circle is a deadline cut off, because by that point the song has reached 540BPM and it is starting to get out of hand.\n\n![YCo dead or arive](YCo_lcoff.png \"Y.Co lane cover off\")\n\nAfter the hyper fast section (1 2 3 4 5 6 7 6 5 4) the chart will slow down to be extremely slow because you have gear shifted it down by 6. You will need to read this slow.\n\nAfter the final black note, turn your lane cover back on at the purple line for that sweet sweet auto float, and you are done. The rest of the chart should be at your regular Green Number. DOLCE. also turns the lane cover back on in the same spot in the chart preview video, so give that another watch if you're still not sure where this is.\n\n(The purple line is also marked on the image at the top of this method)\n\n![YCo dead or arive](YCo_lcon.png \"Y.Co lane cover on\")\n\n**GOLDEN RULE: DO NOT TOUCH THE CHART AT ALL DURING THE 822BPM SECTION!**\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "a21cad7f-c1cd-4272-9c4c-9fc07d722df9": {
+        "approved": true,
+        "chart_id": "16028_3",
+        "title": " DOLCE.",
+        "difficulty": 6,
+        "body": "Read Method 1 for context, as Method 1 is essentially just my easier take on DOLCE.'s method.\n\nDOLCE.'s method is identical to Method 1, HOWEVER, you will need to adjust your speed changes depending on the random. This means holding start for white keys, and letting go for black keys **in between notes**.\n\nThis is best explained by DOLCE.'s incredible play (the linked chart preview). You will see his random gave him key2 + key4 then key1 (p1 equivalent key4 + key6 then key7). He only holds start while hitting key1, as this will shift him down, and needs to let go of start between the notes.\n\nThis means that Method 2 is extremely random dependent, basically requiring you to be able to hit the entire first half of the soflan section with 1 hand, as well as having a single impossible, but extremely unlikely (1/840) random (all 3 black keys).\n\nYour aim is still to gear **shift down by 6**, lane cover off, lane cover back on after the song slows down again, so its definitely possible to transition from Method 1 to Method 2 after learning it.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "807f55be-d152-4e96-bfc3-1a60a24e2cbe": {
+        "approved": true,
+        "chart_id": "17024_3",
+        "title": "Gear Shift + double float",
+        "difficulty": 3,
+        "body": "D consists of a speedup, followed by a consistent 170BPM section, followed by a slowdown into a 120BPM section. With that being said, there are actually large gaps that you can float on before each consistent section, signified by the end of each CN.\n\nFor the speedup, there is a small gap **(circled in blue)** where you can fit a **gear shift down**. This allows you to read the beginning of the chart at a normal speed, while also having the speedup be manageable. The gap may seem small, but once you get a feel for where it is in the song you can consistently fit a gear shift in there.\n\nFinally, after the CN section at the end of the speedup, you can float to restore your speed for the upcoming section (circled in purple). Repeat for the CNs at the ending. Keep in mind that on floating hi-speed, turning your lane cover on floats automatically for you.\n\n**It is highly recommended to switch off your SUDDEN+ cover while holding the CNs and turn it back on after the CNs end to float.**\n\n![D's nuts](D.png \"D shift + float spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "7f14c4ae-c980-46fb-b798-115167b2371c": {
+        "approved": true,
+        "chart_id": "18026_3",
+        "title": "(Float OR read slow) + Gear Shift",
+        "difficulty": 4,
+        "body": "Method 1 is simpler and lets you choose between reading slow at the beginning or dropping gauge for a float.\n\n**Choose step 1 OR step 2. DO NOT DO BOTH!**\n\n1. Set for 150 (set Base GN to 1.25 \\* GN) and read the start slow\n2. Read the beginning at normal speed and float once the song hits 150BPM\n3. During the 120BPM slowdown, gear shift down by 1 or 2\n4. The end of the chart should be at a readable speed. Be wary of the extra 10BPM speedup shortly after the initial one\n\nThe non-ran contains mostly white keys during the slowdown, making it helpful for a guaranteed easy gear shift.\n\n![NCL gear shift](NCL1.png \"New Castle Legions Gear Shift spot\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "428e7fa7-6815-49c4-8da4-b4913baa1f29": {
+        "approved": true,
+        "chart_id": "18026_3",
+        "title": "Read slow + Pre-Float",
+        "difficulty": 5,
+        "body": "Method 2 is a lot more cumbersome and requires reading slow, however ensures that you have a perfect Green Number for the ending, which is the hardest section of the chart.\n\n1. Prepare your Base GN for the pre-float later (set Base GN to 1.5 \\* GN)\n2. Gear Shift at the beginning of the chart to `1.25 * Regular GN`\n3. Read the beginning 120BPM section slow\n4. Read the 150BPM section at normal speed, the gear shift at the beginning of the chart covers this change for you\n5. Float during the 120BPM slowdown. This will cover you for the rest of the chart.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "bf1feae2-877b-4b96-8ae5-5c3e340c0afd": {
+        "approved": true,
+        "chart_id": "18026_3",
+        "title": "Read the whole thing slow",
+        "difficulty": 3,
+        "body": "Set for 180 (set Base GN to `1.5 * Regular GN`) or if you can read a little fast set for 170 (set Base GN to `1.4167 * Regular GN` and just read the whole chart slow until the ending. Terrible for scoring, good for clearing if you can manage to read this slow.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "d16c04b6-c4de-4ef1-8404-77ce71cc4acc": {
+        "approved": true,
+        "chart_id": "18041_3",
+        "title": "Gear Shift",
+        "difficulty": 1,
+        "body": "This chart features a fairly dense half BPM section during the first half. Luckily, there is a fairly large gap in the beginning for you to fix your GN, and a large gap towards the end to slow it back down again.\n\nOptimal hi-speed is one that you can double easily (ends in .00 or .50), so try and adjust your lane cover to find a value close to those.\n\nShift up at blue, shift down at purple by same amount. Shifting after the scratch is recommended so that you dont accidentally float.\n\n![rakuen gear shifts](RAK.png \"Rakuen gear shift spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "25028593-1fe4-471b-9752-efd1bedce042": {
+        "approved": true,
+        "chart_id": "18039_3",
+        "title": "Set for 189 or No Tech",
+        "difficulty": 0,
+        "body": "The BPM change is at the beginning and changes the song from 182BPM to 189BPM. You can no-tech this if you're comfortable with reading a bit fast, but the better option is to just read the beginning a bit slower and set your minimum GN to your regular GN (`1.0385 * Regular GN` for older styles).\n\nJust put up your GN by about 5 and it should be good enough.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "d01ce32e-0a2a-49bc-aee2-7c4692b5ad9c": {
+        "approved": true,
+        "chart_id": "18056_3",
+        "title": "Gear shift + memorise",
+        "difficulty": 4,
+        "body": "SABER WING has many stops in the beginning where the notes freeze for a second before coming down. The key thing to look for here is a chord with scratch, followed by another chord with scratch.\n\n![saber wing stops](SW1.png \"SABER WING stops\") ![saber wing stops](SW2.png \"SABER WING stops\")\n\nAfter these stops, there is a 444BPM section with a single scratch in it, followed by a slowdown back to 74BPM.\n\nThe strategy here is the to shift before the slowdown so that when it approaches you'll be at a normal hi-speed. Unfortunately, this means that you'll effectively be at around 64 GN before the notes approach and you're just about guaranteed to drop combo. **If you're aiming for FC, play on non-ran and literally memorise the first few notes of the slow section.**\n\n**Gear shift up by about 4 or 5** during the 444BPM section (circled in blue), and shift back down the same amount in the gap afterwards (circled in purple).\n\nThe gap looks small, however the song is playing at 37BPM. You can see how big this gap is and how to fit gear shifts in on the chart preview. CHARM even overshot it by 1 and had time to correct it.\n\nThe optimal Gear Shift here is a change that TRIPLES your hi-speed. Aim for a round number (eg 2.0x, 2.5x) for best results.\n\n![saber wing stops](SW3.png \"SABER WING Gear Shifts\")\n\nThe most important thing with this chart is to **NOT FLOAT IT!** If you float, you will lose a lot of ex floating it again.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482430
+    },
+    "33b58c84-5e99-4544-bf2d-12c7de77f854": {
+        "approved": true,
+        "chart_id": "18014_3",
+        "title": "Read slow",
+        "difficulty": 3,
+        "body": "This chart features a slowdown in the middle with no gaps to adjust your hi-speed without breaking combo. If you aim on holding combo, reading slow is advised.\n\nThe non-ran (mirror for 2p) for this chart features an easy section for your right hand and a seperate easy pattern for your left hand to transition into reading slow.\n\nDuring the slowdown, look out for chords. The chords signal the end of the slowdown.\n\n![ZETA slowdown](ZET.png \"ZETA slowdown\")\n\nIf you're only looking for normal clear floating is fine. However, even for scoring, reading slow is advised.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "624ff19c-2e43-4ec8-95c2-162f1df72bcc": {
+        "approved": true,
+        "chart_id": "19030_3",
+        "title": "Float Float Float!",
+        "difficulty": 0,
+        "body": "The song starts at 101BPM, has a large break before jumping to 202BPM. Float any time during that break.\n\nThere is a similar break at the end where the song transitions back to 101BPM. You can float it but there are only 5 notes left in the chart, so you can easily read it slow.\n\nThis is a good chart to learn how to save your WN by tapping Start 4 times instead of floating.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "b8ce3fde-ac34-425d-a015-20235009c0d7": {
+        "approved": true,
+        "chart_id": "19071_3",
+        "title": "No tech required!",
+        "difficulty": 0,
+        "body": "quaver starts at 182BPM and works its way up to 186BPM slowly over the course of the chart. This means that by the end of the chart your Green Number will be 2.50% lower than normal! Absolutely unreadable.\n\nIn all seriousness, quaver doesn't require tech. If you have OCD or something, just adjust the scroll so that the lowest GN of the chart is your regular Base GN.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "e6032078-8477-4c89-90c9-3390538c2bf3": {
+        "approved": true,
+        "chart_id": "19041_3",
+        "title": "Set for 193",
+        "difficulty": 1,
+        "body": "All of the soflan for this chart is at the beginning. It slows down, it speeds up and that's it.\n\nFunnily enough, during the speedup this chart actually goes to 209BPM and then back to 193BPM. If you want some sexy perfect Green Number action (because adjusting for max bpm would be adjusting for 209BPM and the rest of the chart is 193BPM), **set your Base GN at the beginning to 192/172 \\* GN**. After the speedup, you will be at your normal base GN.\n\n![S12 Esthers](S12E.png \"Session 12 Esthers soflan diagram\")\n\nYou can probs just gear shift down 1 and be fine if you dont care about exact numbers, no changing Base GN required.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "f47b8bd4-a8a4-4ce6-87b7-baa66b11831c": {
+        "approved": true,
+        "chart_id": "19014_3",
+        "title": "Gear shift (optimal)",
+        "difficulty": 2,
+        "body": "Adjust your lane cover so that your floating hi-speed is a multiple of 0.5 (0.5x, 1.0x, 1.5x, 2.0x, etc). If you can't do this, the strategy will still work just not with perfect double/half GN numbers.\n\nRight as you are approaching the slow down there is a very low density section where you have a lot of time to adjust your Green Number. You want to gear shift enough times that you **DOUBLE** your floating hi-speed. Gear shifting always affects your hi-speed by 0.5x. So for example, if your hi-speed is 2.0x, you want to shift up 4 times.\n\nAfter the half bpm section there is another large break. Shift down the same amount of times that you shifted up and bingo you've done it.\n\nShift up at blue, shift down at purple. Be wary of accidentally floating, as this will destroy your gear shift efforts.\n\n![sanoyara super star shift](SNSS.png \"SNSS Gear Shift Instructions\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "7c7bc585-cda7-4712-8eb7-ce215c324be0": {
+        "approved": true,
+        "chart_id": "19014_3",
+        "title": "No tech.",
+        "difficulty": 1,
+        "body": "If you can comfortably read slow there isn't really a reason to go out of your way to tech this one. The slowdown is pretty tame, even for a SPA10.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "6c307751-0224-43e1-8ab6-98e8fa17c059": {
+        "approved": true,
+        "chart_id": "19042_3",
+        "title": "Set for 194",
+        "difficulty": 4,
+        "body": "Set your Base GN so that the minimum GN of the chart is 194BPM and just read it slow. This chart doesn't have any sections where you can easily adjust your Green Number, so if you want to hold combo you're going to have to just read with the flow of the chart.\n\nNote that there are two more slow sections, one of these closing out the chart. The signal for the first 2 slow sections ending is a roll/dense stream, so keep your eyes out for those.\n\n![Seijin slowdowns](Snt.png \"Seijin slowdown guide\")\n\nYou can probably still scrape a clear by floating if that's all that you're looking for out of this chart.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "104d0c85-e7cc-42f0-ae4e-f7c46472675a": {
+        "approved": true,
+        "chart_id": "19074_4",
+        "title": "No tech",
+        "difficulty": 4,
+        "body": "TITANS RETURN SPL is a tricky chart to combo and time well. While the NC is trivial if you can hit HCN, this is more for the HC. I recommend no tech, learn the scratch pattern and replicate it. You can almost comfortably 1 hand the notes on any random, but non-ran is also fine. If you are losing all of your gauge to the density at the end of the slow sections, play on non-ran or mirror. This will give comfortable stair like patterns (check chart preview).\n\nBe careful of the backspin scratch in the second slowdown section as it can definitely catch you off guard.\n\nIf studying scratch patterns isn't for you, play TITANS RETURN SPA. It has the exact same scratch patterns (only missing the backspin) but with nerfed density, letting you learn the scratch patterns naturally.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "0083dcbf-1b57-483c-aa4f-7e0a16362b98": {
+        "approved": true,
+        "chart_id": "19074_4",
+        "title": "Float.",
+        "difficulty": 1,
+        "body": "If you're purely playing for score, you can just float the chart 4 times (once after each BPM change).",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "0a6e6044-de62-4835-94ef-007c0f1fad02": {
+        "approved": true,
+        "chart_id": "20070_3",
+        "title": " Pre-float + lane cover off + Gear Shift",
+        "difficulty": 6,
+        "body": "The most complicated tech that can completely remove the need to read slow.\n\n1. Set your Base GN to `0.5667 * current GN` (0.5667 ≈ 170/300)\n2. Ensure that your lane cover is in a spot that allows this number. Too low, and the game will force a lower GN. **Optionally, turn off your lane cover**\n3. Gear shift to `3.75 * regular GN` (4x is fine)\n4. Read the easy part slow\n5. Read the difficult section at the beginning at your regular speed\n6. Float (or turn on your lane cover) in the gap right before the chart slows down again (circled in purple)\n\nThis has you covered for the entire opening section. You can also read the start at a faster speed, but this will require you to do more gear shifting mid chart.\n\n![DAY DREAM float spot](DD1.png \"DAY DREAM float spot\")\n\nFor the middle of the chart there is a 90BPM slowdown section, however there are gaps before and after it for you to fit some gear shifts in.\n\nTry to gear shift up (at blue) enough times that you **double** your hi-speed value, but 2-3 should be enough.\n\nGear shift down (at purple) by the same amount.\n\n![DAY DREAM GS](DD2.png \"DAY DREAM Gear Shift spot\")\n\nThat is all the soflan for the rest of the chart. For NC, try to build some gauge after this section. For HC, if you made it this far and you're good at bursts you should be home free.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "61e1e255-adcf-4421-8c72-28ee3c157c04": {
+        "approved": true,
+        "chart_id": "20057_3",
+        "title": "No tech required",
+        "difficulty": 0,
+        "body": "The chart just has a slowdown from 160BPM to 130BPM at the end during the stream. Just take note of this and slow down with the song.\n\n![Holy Snow slowdown](HS.png \"Holy Snow slowdown\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "1693c5bc-fbf4-413f-9c7b-8c3e10f6cc1b": {
+        "approved": true,
+        "chart_id": "20071_3",
+        "title": "Gear shift down, then back up",
+        "difficulty": 3,
+        "body": "As the majority of the 300BPM section in JOMANDA is low density, you can just read it fast. That being said, you'll still need to do some tech.\n\nThis method will require tweaking. If when you gear shift down by 1 it is still too difficult to read, consider lowering your SUDDEN+ cover or raising your lift higher to accomodate the higher speed of the chart. **Be wary not to accidentally float when gear shifting back up!**\n\n1. **Gear shift down 1** at the beginning of the slowdown (marked in purple). If you are struggling to do this and are comfortable reading slow, you can opt to gear shift down earlier in the chart (circled in blue)\n2. Read the slowdown slow and the speedup fast\n3. **Gear shift back up by 1 after the scratch** circled in green\n4. Read the rest of the chart normally\n\n![jomama circled float](JO1.png \"JOMANDA Alternative Float spot\")\n\n![jomama speedups](JO2.png \"JOMANDA Speedup Float\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ba3412a7-7ae3-47f2-852b-b8b1f9cb5206": {
+        "approved": true,
+        "chart_id": "20071_3",
+        "title": " Pre-float + read slow",
+        "difficulty": 6,
+        "body": "Method 2 is completely overkill, but I thought I'd keep it here anyway.\n\nThis strategy focuses more on the transition between the speedup and the rest of the chart rather than focusing on the speedup. If you're comfy with reading slow and reading fast, method 1 is heavily advised. If you can get through the first 10 seconds of the speedup, it becomes much easier.\n\n1. Set your Base GN to `0.65 * current GN` (0.65 = 195/300)\n2. Gear shift back to your regular GN\n3. Gear shift down 1 or 2 at the end of the slowdown depending on how fast you can read (marked with purple line above)\n4. Float on the final scratch during the speedup (circled in green above)\n5. The rest of the chart will be at your regular reading speed\n\nIf you're good at reading slow and struggle to fit in gear shifts without breaking combo, you can gear shift in the larger gap before the speedup instead (circled in blue above).",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "8ff007e4-71ed-463e-b997-843fecd5dacb": {
+        "approved": true,
+        "chart_id": "20099_3",
+        "title": "Set for 260 and double float",
+        "difficulty": 3,
+        "body": "This chart has 2 major speed changes. The first is a gradual speedup from 230BPM to 280BPM. The second is a speedup from 210BPM to 260BPM.\n\nThis second speedup comes before the densest section in the entire chart, so its important that any important speed changes are performed before this section. The key part of this strategy is that the ratio between 280BPM and 230BPM (1.2174) and 260BPM and 210BPM (1.2381) are very close.\n\n1. Set your Base GN to `1.2381 * regular GN` (1.2381 ≈ 260/210)\n2. Float at the empty 230BPM section at the start of the chart\n3. Read the easy section slow, the chart will speed up back to your normal speed\n4. Float anywhere in the 210BPM section before the burst\n5. Turn off your lane cover (278WN optimal) or shift down by 1 in any of the gaps after the burst\n\nAlmost the entire chart will play at your desired green number. Float spots below (purple), Gear Shift/lane cover off spots (green)\n\n![ongaku float spots](ON1.png \"Ongaku float spots\")\n\n![ongaku gc/lco](ON2.png \"Ongaku Gear Shift spots\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "b9f50b44-5d8d-4e2d-b559-23bb508ec8f6": {
+        "approved": true,
+        "chart_id": "20099_3",
+        "title": "RAG's Strategy (Single float, read fast)",
+        "difficulty": 2,
+        "body": "RAG's strategy is similar to Method 1, however he sets for 260BPM earlier on in the chart eliminating the need for a second float.\n\n1. Set your Base GN to `1.1304 * regular GN` (1.1304 ≈ 260/230)\n2. Float at the beginning in the 230BPM section. This will set you up for the speedup at the end\n3. Read the middle of the chart fast (~8% faster than normal)\n4. Turn off your lane cover (278WN optimal) or shift down by 1 in any of the gaps after the burst (image above)\n\nSimpler than Method 1, almost set and forget besides the ending.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "c838ce86-531e-4c8c-8e0e-38a0e8abd72e": {
+        "approved": true,
+        "chart_id": "20041_3",
+        "title": "Set for 166, or read fast",
+        "difficulty": 1,
+        "body": "SYNC-ANTHEM has a single BPM change from 160BPM to 166BPM towards the end of the chart. This means you have 2 options.\n\n**OPTION 1: Read the ending fast**\n\nAs its only a 6BPM increase (3.75% speed increase), you can probably comfortably read the ending that extra bit fast.\n\n**OPTION 2: Set for 166BPM**\n\nIf you would rather read most of the chart a tad bit slow and read the ending normally, set the chart so that the minimum GN is your regular GN (or `1.0375 * GN` for older styles).\n\n![SYNC ANTHEM speed change](SA.png \"SYNC-ANTHEM Speed Change\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "440fc135-ecf3-4bfa-9122-1c7879b4ea2e": {
+        "approved": true,
+        "chart_id": "20051_3",
+        "title": "Float (optimal)",
+        "difficulty": 2,
+        "body": "Sol Cosine Job 2 has a calm increase from 190BPM -> 195BPM -> 200BPM. There's a really simple float spot shortly after the final BPM change that fixes your GN back to what it is normally (circled in blue).\n\nYou could honestly just no-tech this and be fine, but the float is so easy there's no reason not to do it.\n\n![Sol Cosine Job 2 float spot](SCJ.png \"Sol Cosine Job 2 Float\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ba1fc28b-2766-45e2-9de8-83ca026362aa": {
+        "approved": true,
+        "chart_id": "20051_3",
+        "title": "Set for 200",
+        "difficulty": 1,
+        "body": "If you're too lazy to float, you could adjust the chart so your regular GN is your minimum GN. Honestly though, just float it.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "e827bc1d-2263-4f2e-ae93-95754179542b": {
+        "approved": true,
+        "chart_id": "20062_3",
+        "title": "No tech (Optional Gear Shift)",
+        "difficulty": 2,
+        "body": "While the soflan in STULTI isn't too difficult to read slow, you CAN gear shift up as much as you like (2-4 recommended) after the scratches towards the beginning of the soflan (circled in blue).\n\nThere is ample space for you to shift back down the same amount before it speeds back up again (circled in purple).\n\n![STULTI](ST.png \"STULTI Gear Shift spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "0d045caf-4ba8-4665-b206-2217e8a7b64c": {
+        "approved": true,
+        "chart_id": "23050_3",
+        "title": "No tech required",
+        "difficulty": 0,
+        "body": "This chart slows down to 100BPM after the second backspin scratch and speeds back up to 218BPM on the first note after that gap. As long as you know that this slowdown is in the chart, theres no real way to break combo (or even lose score) on it.\n\n![Asa drop](Asa.png \"朝焼けから始まるボクらの小さな旅\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "123600a5-cc5f-4e23-b039-0c66428e07b8": {
+        "approved": true,
+        "chart_id": "23024_3",
+        "title": "No tech",
+        "difficulty": 2,
+        "body": "If you aim on holding a full combo, this chart almost requires that you don't use any Soflan tech during the slowdown. This is because the scratch notes are very close to the black keys that you could easily use to Gear Shift. This isn't even factoring in that on random these keys would be even more spread out.\n\nThis being said, I'll include a Pre-float method for scoring below.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "bc2e0ffd-2741-4ca3-b933-844473a64dd5": {
+        "approved": true,
+        "chart_id": "23024_3",
+        "title": "Pre-Float",
+        "difficulty": 2,
+        "body": "1. Adjust your Base GN to be double what it normally is, and try to get your Hi-speed as close to a multiple of 0.5x as possible (0.5x, 1.0x, 1.5x) by adjusting your lane cover\n2. Gear Shift back to your regular GN. If your new Base GN is a perfect multiple of 0.5x, you'll get to keep the same pristine GN you normally play on\n3. In the blue circle on the image below, Gear Shift up enough times to double your Hi-speed (or something close to that). If you can't read fast for the 5 notes after this spot, try not to fully double the number\n4. The slow section is no longer slow! Read it like normal\n5. Float at the purple circled scratch note. This will double your GN again, resulting in the speedup returning you to your normal Base GN\n\nBe wary not to hold start and move the turntable at the same time while you are gear shifting up, as this will float you to a very slow speed.\n\n![get ready slowdown](GR.png \"Where to gear shift and float\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "da6ae8e5-f683-40d4-bce6-eb3283f7b80c": {
+        "approved": true,
+        "chart_id": "23022_3",
+        "title": "Read slow (optional gear shift)",
+        "difficulty": 2,
+        "body": "This chart has a fairly simple slowdown at the end that is mostly readable even for people who struggle with reading slow until the chords come in.\n\nThere is an optional gear shift up by 1 that you can after the first or second chord (second required if you're worried about accidentally floating) that will make the ending chords more readable. I'll mark these with blue for first gear shift, purple for second.\n\nThese are not necessary if you are comfortable with your slow reading, even for scoring.\n\n![Meikyoushisui slowdown](Mei.png \"Meikyoushisui slowdown float spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "35fc2c16-eff4-49d3-8f25-ba2535d910fc": {
+        "approved": true,
+        "chart_id": "23079_3",
+        "title": "Double Float",
+        "difficulty": 2,
+        "body": "This song actually has 2 really nice gaps for floating the slowdown, although the first one isn't nearly as intuitive.\n\nFor the first float, you want to intentionally drag out your scratch (circled in blue) and just tap start while moving it. This will float you back to your Base GN for the slowdown.\n\nTry not to hold start for too long so that you dont shift your WN by too much.\n\nAs for after the slowdown, there is just a simple block where you can float back up (circled in purple). No reading slow required.\n\n![NINJA IS DEAD slowdown](NID.png \"Where to float NINJA IS DEAD IIDX ver.\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "f1cf6825-39bd-4ee8-81b8-b1fe790bcb8c": {
+        "approved": true,
+        "chart_id": "23079_3",
+        "title": "Read slow",
+        "difficulty": 1,
+        "body": "The patterns and rhythms during the slowdown aren't terribly difficult. If you're good at reading slow and just playing for the clear by all means you don't have to use any tech for this chart.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "71e9c4b1-17eb-4d05-b86e-900f57a7665d": {
+        "approved": true,
+        "chart_id": "23074_3",
+        "title": "No tech really viable",
+        "difficulty": 4,
+        "body": "I wouldn't recommend trying to tech this chart. The BPM changes very frequently and always returns to 185BPM when not in a soflan section, so keeping your Base GN centered around 185BPM makes the most sense.\n\nThis chart has 2 major slowdowns to half BPM, both of which actually drop even lower to 23BPM, and then returns to 185BPM after each one.\n\nWhile I won't provide any tech in this guide, I will provide this video that I made of POSSESSION without any background keysounds so that you can learn the patterns without all of the other instruments blasting in the song, and know which keysounds your taps are mapped to.\n\n[![IMAGE ALT TEXT](http://img.youtube.com/vi/haxfw2sWgeI/0.jpg)](https://www.youtube.com/watch?v=haxfw2sWgeI \"POSSESSION without keysounds\")\n\nI'll also provide a link to this clap track/consistent BPM guide for POSSESSION created by IIDX EZREAL. Another helpful video to help visualise/memorise the BPM changes in this chart.\n\n[![IMAGE ALT TEXT](http://img.youtube.com/vi/8rbN-tgXJbI/0.jpg)](https://www.youtube.com/watch?v=8rbN-tgXJbI \"(IIDX) POSSESSION SP Another 185bpm converted\")\n\nIf you have (or find) any useful tech for POSSESSION and think it could belong in this guide, feel free to message me using the contact info on the [Home](../../../index.md) page or submit it via the [GitHub page](https://github.com/playtime881/Theory) for this guide under the main branch.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "3a2a5fc5-e0ed-4cfc-b09d-aca8d45708ed": {
+        "approved": true,
+        "chart_id": "24004_3",
+        "title": "No tech (optional gear shift)",
+        "difficulty": 1,
+        "body": "The slowdown on this chart is at the ending and is very tame and readable. That being said, theres a very optional gear shift you can do for reading the last 4 or so seconds of the chart. Gear shift up by 1 anywhere inside the purple circles.\n\n![AsiaN distractive GS](Ad.png \"Optional AsiaN distractive Gear Shift spot\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "4cf1616c-3bc8-48bd-a066-e7ee67774262": {
+        "approved": true,
+        "chart_id": "24081_3",
+        "title": "First float",
+        "difficulty": 1,
+        "body": "Beat Juggling Mix has 2 very serious BPM changes as well as a slowdown at the end that can easily break your combo and tank your score if you're unfamiliar with it.\n\nThe first BPM change comes towards the early side of the chart. Just float when you hear the sample \"Let's get ready to rumble\" or any time after the bar-line preceding this sample (circled in purple).\n\n![Beat Juggling Mix Float 1](BJM1.png \"Beat Juggling Mix Float 1\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "7037b0ea-30ca-4f46-804c-549fee88d112": {
+        "approved": true,
+        "chart_id": "24081_3",
+        "title": "Second Float",
+        "difficulty": 3,
+        "body": "The second float comes when you hear the turntable spinning out in the song. There are 5 total BPM changes here. Your aim is to float after the third one (186BPM, optimal spot circled in purple).\n\n-  If you are too early, the chart will scroll a bit too slow\n-  If you are too late, the chart will scroll a bit too fast\n\nIf you happen to miss this float, your run isn't over. Right before the drop there is a solo scratch section (circled in green). You can easily float again during this section to fix your Green Number back to normal.\n\n![Beat Juggling Mix Float 2](BJM2.png \"Beat Juggling Mix Float 2\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ecaf2177-aca0-45a0-89d9-95b33f0d8ca5": {
+        "approved": true,
+        "chart_id": "24063_3",
+        "title": "Single float",
+        "difficulty": 2,
+        "body": "Unlike its successor [Hella Deep](../iidx25/HD.md), BREAK OVER has an abrupt BPM change, without anywhere to float it for absolutely free. That being said, there are very large gaps where you can easily fit a float in without breaking combo before the song picks back up again (any purple line).\n\nThis is the only BPM change in the song.\n\n![BREAK OVER float spots](BO.png \"BREAK OVER easy float spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "1497393f-8094-438e-84da-403555bb4f4b": {
+        "approved": true,
+        "chart_id": "24083_3",
+        "title": "Set for 138BPM or set for 144BPM",
+        "difficulty": 2,
+        "body": "This chart has too many BPM changes in awkward places to really do anything about, as well as a gradual slowdown at the end.\n\nFor this reason, I would recommend centering your GN around either 138BPM or 144BPM.\n\n-  If you center around 138BPM, you'll need to read most of the chart around 4.3% faster than normal, but the beginning will be less slow\n   -  Set Base GN to `138/128 * regular GN` for this strategy\n-  If you center around 144BPM, most of the chart will be at your usual scroll speed other than the beginning\n   -  Set minimum GN to regular GN, or `use 144/128 * regular GN` for older styles\n\nFor both of these strategies the ending will still scroll quite slowly, so reading slow is a must for this song.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ebeb409d-06a7-490b-96d0-18cb4ef549e3": {
+        "approved": true,
+        "chart_id": "24083_3",
+        "title": "Optional non-ran gear shift",
+        "difficulty": 3,
+        "body": "During the ending on non-ran/mirror, there is a guaranteed single black key that is fairly easy to gear shift up on. If you really struggle with reading slow, considering trying this chart on non-ran and Gear Shifting up by holding start and hitting the circled note like normal.\n\n![nostos shift](no.png \"Optional nostos Gear Shift\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "23dc14b1-94fc-41a2-bdeb-0ef609d3d117": {
+        "approved": true,
+        "chart_id": "24030_3",
+        "title": "Gear Shift",
+        "difficulty": 4,
+        "body": "During the simple section of the chart, you can get away with sneaking in a Gear Shift down by 1 or 2, depending on which is closer to your Base GN and is more comfortable to read. You'll need to read the notes after you gear shift down fairly slowly, but you'll be prepared for the speedup without having to monkey around after.\n\nEasier spots noted with a purple line, hell difficulty spot with a green line.\n\n![sarutobi champion is annoying to float](SC.png \"Sarutobi Soflan Tech Spots\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "0d48138d-5a7f-44ea-baa4-e31c9a5a4a7d": {
+        "approved": true,
+        "chart_id": "24030_3",
+        "title": "Lane cover off",
+        "difficulty": 2,
+        "body": "With a SUDDEN+ lane cover of 333 (lift users can use `333 * (1000 - Lift) / 1000` to find the WN for them), you can just turn this off at anytime, and after the slowdown you'll have your pristine Green Number back.\n\nIf reading without a lane cover is difficult for you, you may need a higher WN than 333. Experiment and see what you can read.\n\nOptimal lane cover off spots are the same as Method 1.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "132c0cb7-871c-452d-a976-2eca12dc1304": {
+        "approved": true,
+        "chart_id": "24030_3",
+        "title": "Pre-floating",
+        "difficulty": 5,
+        "body": "Set your Base GN to `195/130 * current GN`. Gear shift back to your regular GN so that the beginning of the chart is readable (might take some fiddling with WN to get a clean Gear Shift).\n\nFloat at the green line in the image above and read the calm section slowly. This is essentially the same strategy as method 1, but...\n\n1. It guarantees that after the speedup, you'll be at perfect Regular GN\n2. You can float easily using the note before the green line\n3. **This can be a pain** if you don't understand [Pre-Floating](../../prefloating.md) well enough\n4. **This can also be a pain** if you can't find a comfortable gear shift at the beginning\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "a56c2b14-5b45-4635-b77f-a348f6bfa308": {
+        "approved": true,
+        "chart_id": "24030_3",
+        "title": "Float",
+        "difficulty": 1,
+        "body": "Worst comes to worst, if none of this tech works for you just float the BPM change and tank the score loss. IIDXtom does this in the chart preview and still holds an extra-hard clear, so it's clearly viable.\n\nFloat on the 195BPM line shown in Method 1. You'll want to float as soon as the BPM change happens as the change in GN is very severe and hard to read fast.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "e35f816c-6f2a-42eb-8334-0af54262d5ed": {
+        "approved": true,
+        "chart_id": "24088_3",
+        "title": "No tech (optional gear shift)",
+        "difficulty": 2,
+        "body": "This chart just has a slowdown at the end, meaning no Base GN tech required.\n\nAs the chart gradually lowers from 160BPM to 60BPM (less than half speed), if you can read fast for \"7ish seconds\" a Gear Shift in the purple circle is heavily advised.\n\nOtherwise, reading this ending slow is completely fine.\n\n![Surf on the Light gear shift](SotL.png \"Surf on the Light slowdown with gear shift circled\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "c17d46e7-4434-4240-bf2d-db402c3ba88c": {
+        "approved": true,
+        "chart_id": "24025_3",
+        "title": "Memorisation",
+        "difficulty": 3,
+        "body": "This chart has various, but repetitive, bursts of slow reading. The easiest way around this is to just recognise these patterns and learn how to react to them.\n\n**Pattern 1: Pauses**\n\nThis chart has many stops akin to those in [SABER WING](../iidx18/SW.md), where the BPM will become very slow and the chart will make you react to an oncoming note slowly before jumping back up to normal speed.\n\nBoth of these are at the beginning of the chart. The signal for these is a 1/2 beat sized gap at 130BPM. The gap is actually a whole beat.\n\nBoth of these are circled on the image below.\n\n![TINTA pause](TINTA1.png \"(This Is Not) The Angels pause locations\")\n\n**Pattern 2: 75% scroll slow sections**\n\nWhile these might seem like they are at random spots, there is actually a signal that one of these is oncoming, and a way to remember when the chart speeds back up.\n\nThe signal is that the upcoming notes are just about all 1 density (single notes). This happens at BOTH 75% scroll sections.\n\nThe way to remember when to stop reading slow is that the chart is only slow for 4 beats at 130BPM. While this is trivial for the second slow reading section as there is a large gap for you to adjust to the chart speeding back up, it can be helpful for the first section.\n\n![TINTA slow](TINTA2.png \"(This Is Not) The Angels slow reading sections\")\n\n**Pattern 3: Quadruple scratches**\n\nWhenever you see 4 scratch notes closely grouped together it is the exact same rhythm. | | | - | - - -\n\nIf you are unsure of how fast this is, [here](https://youtu.be/NIUmriWlhm8?t=103) at 1:45 in the preview video you can see the pattern in action. The chart always has a gap after these scratches, so you have time to readjust back to the regular scroll speed.\n\n![TINTA scratch](TINTA3.png \"(This Is Not) The Angels slow reading scratches\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "7a1b4097-c53f-43f6-b1bb-27f861359ac1": {
+        "approved": true,
+        "chart_id": "24074_3",
+        "title": "Float",
+        "difficulty": 5,
+        "body": "This chart has a single BPM change at the beginning from 70BPM to 125BPM with a giant gap for you to float at. Once you see the first lone scratch in the chart, float on or after it for a smooth transition.\n\nThis is a really nice chart to float by turning your lane cover off and back on (pressing start 4 times), as this will leave your WN unaffected.\n\n![Tnm float spot](Tnm.png \"月雪に舞う花のように Float window\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "1d97cc55-6d80-4654-80fc-d400c07253d0": {
+        "approved": true,
+        "chart_id": "25064_3",
+        "title": "Read slow + float",
+        "difficulty": 2,
+        "body": "2 player features a pretty tame slowdown towards the end. While it might take you a couple of attempts to score well on the ending, it is definitely something that you can get a feel for and consistently hit.\n\nWhy should you float? To put it simply, after the CNs there are a couple of short note bursts that you're going to want to be at full Green Number to read.\n\nYou can float by turning your lane cover on and then back off during the second last long CNs. DOLCE does this in the chart preview video, so if you're not sure how this method works give the preview a watch.\n\nFloat CN circled in image.\n\n![2 player](2P.png \"2 player float spot\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "b028e74f-5658-43bd-a643-6c7073c46802": {
+        "approved": true,
+        "chart_id": "25064_3",
+        "title": "No tech (lazy)",
+        "difficulty": 4,
+        "body": "You can honestly just read the whole ending slow and mash it a bit and you will probably still clear.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ee8311d0-dd1b-4971-9435-4d70ba67ab50": {
+        "approved": true,
+        "chart_id": "25093_3",
+        "title": "Read Slow + Memorise",
+        "difficulty": 4,
+        "body": "DropZ-Line- dropz from 200BPM to 100BPM, back to 200BPM briefly, to 400BPM briefly, to 50BPM briefly then back to 200BPM for the chorus and subsequently the rest of the chart.\n\nThe key thing to note here is that the 200BPM chunk, 400BPM chunk, 100BPM chunk and 50BPM chunk are all the same length in the song, so with some practice you can get a feel for the BPM increases. Take a note from [1:16](https://youtu.be/ekb0pYPz_lc?t=76) in the preview video.\n\n1. Read the initial 100BPM section slow\n2. Recognise that the 200BPM section is just a stream\n3. Memorise that the 400BPM section is just a single backspin note, but ** the length of the backspin is the same as the length of the 200BPM section!**\n4. Memorise that the final 50BPM section is just 2 scratch notes, and that the chart speeds back up to 200BPM afterwards!\n\nThis is an image of all of the sections stretched to show the patterns if they all ran at 200BPM. You can see how they change with the BPM changes.\n\n![DropZ-Line-](DZL1.png \"DropZLine\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "1b2fae86-a7eb-495f-9ff6-124299820c04": {
+        "approved": true,
+        "chart_id": "25007_3",
+        "title": "No tech",
+        "difficulty": 3,
+        "body": "Especially for clearing (HC, EXHC), being able to read the Soflan in this chart well saves you the gauge you would lose from floating after it. As with other half BPM semi-forced soflan, if you're struggling to read it the non-ran might help. Otherwise, putting some practice into reading slow will go a long with with this chart.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "c1559f22-6e2f-44ce-9daf-824fead9208b": {
+        "approved": true,
+        "chart_id": "25007_3",
+        "title": "Floating",
+        "difficulty": 1,
+        "body": "Floating EMERALDAS is actually a good technique for scoring depending on how well you can read slow, so I'll list good float spots here. Try to avoid floating when there are large amounts of notes to minimise score loss. (float at blue to speedup, float at purple (miss the note) to slowdown)\n\n![EMERALDAS](EME.png \"EMERALDAS float spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "0ad1c5df-c0e6-4312-bfa3-87572ab66964": {
+        "approved": true,
+        "chart_id": "25043_3",
+        "title": "Pre-Float + Gear Shift (optional)",
+        "difficulty": 5,
+        "body": "Method 1 is more of a set and forget, and as so requires reading slow. If you want a more active method that doesn't require reading slow at the end of the chart, check out Method 2.\n\nTo [pre-float](../../prefloating.md) this chart,\n\n1. Set your Base GN to double what it usually is and gear shift back to your regular GN. This allows you to store the GN for the drop and float before the song speeds up\n2. Float at the final lone scratch before the BPM increases\n3. Take note of the slowdown in the middle of the 220BPM section, as it's quite brief and speeds back up\n\n![pre-float](FiD1.png \"FUTURE is Dead float spot\")\n\nAfter you get through the 220BPM section the chart will be back to 110BPM. Remember that because your Base GN is doubled, **floating will not fix your scroll speed**. Instead, you can either read it slow or look for notes to gear shift on. On mirror (picture below) there are a lot of stray notes on 2, but this chart is definitely manageable on most randoms. You can hold start as you hit these black keys to shift up so that the stream at the end is readable. You want to gear shift up by about **3 or 4**.\n\n![method 1 shifts](FiD2.png \"FUTURE is Dead float method 1 shifts\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "ef553016-48a7-487c-9726-259e613d9506": {
+        "approved": true,
+        "chart_id": "25043_3",
+        "title": "DOLCE. (lane cover off + gear shift)",
+        "difficulty": 3,
+        "body": "This method is more active than Method 1 and will require a bit more fiddling with lane covers and what not, but allows you to easily switch your lane cover back on at the end for a nice float.\n\nBefore the initial speedup, there is a section where the density almost comes to a halt giving you time to work out some gear shifting and turn off your lane cover.\n\n![drop](FiD3.png \"FUTURE is Dead Gear Shift spot\")\n\nYou're aiming for the result of turning off your lane cover and gear shifting by about 3 or 4 to be your GN being DOUBLED. You can experiment by gear shifting while holding start before the song starts and seeing how your Green Number changes. Aim to get within 15 of your regular Green Number.\n\nAfter playing the 220BPM section, look for a comfortable spot to float. If you turned your lane cover off, remember that turning it back on will automatically float. Recommended spots marked with a blue line.\n\n![slowdown](FiD4.png \"FUTURE is Dead float spot 2\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "29a72904-8c72-453d-8b5d-cced235accd6": {
+        "approved": true,
+        "chart_id": "25043_3",
+        "title": "LIFT Substitute (optimal)",
+        "difficulty": 4,
+        "body": "1. Combine your sudden+ and any LIFT you have into your LIFT value\n2. Set your SUDDEN+ lane cover to half way down the lane\n3. Double tap start to turn off your lane cover before the drop\n4. Read the drop with 0 SUDDEN+\n5. Double tap start to turn it back on after the drop\n\nThe float spots shown in the image above are good places to turn your lane cover back on after the final slowdown.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "b989fa43-475b-44c4-b107-caa1e68509b6": {
+        "approved": true,
+        "chart_id": "25054_3",
+        "title": "Float after slowdown",
+        "difficulty": 2,
+        "body": "Hella Deep, much like almost every other MASAYOSHI IIMORI chart, has a gradual slowdown into an easy float. For Hella Deep, you can safely float any time after the backspin scratch, but I'll put some recommended float spots here. Keep in mind that you can **float while hitting a scratch note** simply by holding start.\n\n![HELLa deep](HD.png \"Hella Deep float spots\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "9656092d-b4e4-4f2a-9bbf-d9204d635621": {
+        "approved": true,
+        "chart_id": "26090_3",
+        "title": "2 Floats and some speed",
+        "difficulty": 4,
+        "body": "This chart starts at 175BPM, drops to 135BPM, jumps to 143BPM and then back to 175BPM.\n\nThe beginning BPM change is extremely floatable, the middle one not so much. While there is a gap to do a gear shift, its only an 8BPM difference and you can get away with just reading it a bit fast. The final BPM change is also very floatable, so just noting down where the song changes BPM and floating the beginning and end changes should net you a free score.\n\n![god i hate this chart](50M.png \"50th Memorial soflan\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "d3aba0f3-a7e1-49ad-a55c-e8dfb627a3be": {
+        "approved": true,
+        "chart_id": "26079_3",
+        "title": "Set for 165 (optional) + reading slow",
+        "difficulty": 2,
+        "body": "While the second half of the chart is at 165BPM, the chart starts at 161BPM. If this slight increase bothers you, you can adjust your Base GN to `165/161 * current GN`. Do note that this will make the slow section a little bit slower.\n\nThis chart has a light slowdown but quickly returns to 161BPM, and then raises to 165BPM. If the patterns are too abstract to hit, they are definitely easier on non-ran. The short slow reading section isn't really worth floating over, nor does the chart give you any good sections to gear shift, so no-tech is fine for this chart.\n\nYou can see just how short the soflan section is on the image below, and also in the chart preview.\n\n![EVANESCENT](EV.png \"EVANESCENT soflan\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "aef67555-d860-460c-aec8-bc7aaf36ee61": {
+        "approved": true,
+        "chart_id": "26085_3",
+        "title": "No tech/nonran",
+        "difficulty": 4,
+        "body": "Lethal weapon's soflan section comes right after the first chorus, and isn't too dense as long as you can make out the rhythm. If you're struggling to read it, it's a lot more spread out on non-ran/mirror. I **recommend against floating** this section as floating back to normal afterwards is difficult during the dense streams.\n\n![Lethal weapon](LW.png \"Lethal Weapon Soflan\")\n\nIf floating is is mandatory, it is viable on this chart.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "f80027f1-066e-444e-a9bb-23af9c690db7": {
+        "approved": true,
+        "chart_id": "26057_3",
+        "title": "LIFT Substitute",
+        "difficulty": 2,
+        "body": "Combine your LIFT and SUDDEN+ together into your LIFT value, and then set your SUDDEN+ to `1000 - LIFT \\* 74`. Turn off your SUDDEN+ just before the speedup or as the speedup is beginning and you're set for the whole chart.\n\n[![particle arts speedup](PArts.png \"Particle Arts Speedup\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "c0cfb701-0962-421b-97ca-7504a7cc632e": {
+        "approved": true,
+        "chart_id": "26057_3",
+        "title": "Set for 175",
+        "difficulty": 1,
+        "body": "As Particle Arts starts at 165BPM and gradually increases to 178BPM, then back down to 175BPM. Set your Base GN to `175/162 * Current GN` and just read the start slow. The speedup section is too dense to easily do Soflan stuff there.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "b688c3fe-8684-477c-b3d9-84e7be05a5fd": {
+        "approved": true,
+        "chart_id": "26093_3",
+        "title": "Put up your GN a bit",
+        "difficulty": 2,
+        "body": "Although ruin of opals has some wacky soflan at the beginning and end, the majority of the chart is at 360BPM, and the chart starts at 355BPM. A perfect Base GN adjustment would be `360/355 * your regular GN`, but I personally just shift it up by about 5.\n\nThe speedup to 390BPM is quite short and extremely manageable (even moreso if you shift your GN up a bit).\n\nWatch out for the slowdowns during the streams at the start, as well as the abrupt speedup. In the second slowdown following this, once you see the chords thats the signal to slow down. Once the chords stop, you'll be at 360BPM for almost the rest of the chart.\n\n![ruinofopals](ruinofopals1.png \"First 2 slowdowns of ruin of opals\")\n\nAs for the ending, its similar to the second slowdown. Once you see chords, you know that the chart is about to slow down. Watch out for the notes during the CNs, and this chart is pretty chill with no active tech required. All in the reading.\n\n![ruinofopals](ruinofopals2.png \"Last slowdown of ruin of opals\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482431
+    },
+    "cb6527b0-2200-47ab-bd4d-766bfb1deaea": {
+        "approved": true,
+        "chart_id": "26097_3",
+        "title": "No tech required",
+        "difficulty": 1,
+        "body": "This chart has consistent BPM up until the very end, where it slows down while you're hitting the notes similar to opal of ruins. I wouldn't really recommend any tech for this chart, just take note of the slow down and be ready to take the ending a bit slower.\n\n![ToyCube](ToyC.png \"ToyCube Soflan\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "a64f92ff-2879-49e0-80e1-153fd6b23b95": {
+        "approved": true,
+        "chart_id": "27073_3",
+        "title": "NO TECH REQUIRED!",
+        "difficulty": 1,
+        "body": "No tech required as the song has 2 slowdowns at the start. Watch out for both of these, and you should be home free!",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "2f37aee2-28b5-4468-927b-7486b83af15c": {
+        "approved": true,
+        "chart_id": "27036_3",
+        "title": "NO TECH REQUIRED!",
+        "difficulty": 1,
+        "body": "As the song starts at 180BPM for the first note, dips down to 150BPM and then speeds up back to 180BPM, no techniques are required or recommended for this chart. Just read the first 15 seconds slow.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "2cd0d6af-1291-4008-a6b1-28d78a8ec34d": {
+        "approved": true,
+        "chart_id": "27018_3",
+        "title": "NO TECH REQUIRED!",
+        "difficulty": 3,
+        "body": "This chart has a very severe slowdown with jacks as well. There is no tech you can really do here, other than learning which notes the bpm changes are on.\n\n![Wiktoria lol](wiktoria.png \"big dog 2\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "8ca54be7-eea0-49f0-b486-ed8bf4d34cb7": {
+        "approved": true,
+        "chart_id": "27071_3",
+        "title": "(OPTIONAL) Float after slowdown",
+        "difficulty": 1,
+        "body": "Honestly teching this chart isn't necessary but if you need a tech for it, float in the blue circle.\n\n![ora tokyo](ora_tokyo.png \"Ora Tokyo Float Instructions\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "172dc571-ea2b-404c-b3cc-8c3c32cb9880": {
+        "approved": true,
+        "chart_id": "27098_3",
+        "title": "Float after slowdown",
+        "difficulty": 2,
+        "body": "Read the slowdown slow and float on the first empty scratch after the chart slows to 128BPM (the scratch at 199 combo in the video). This is the only speed change in the chart.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "d6a6acf2-48f3-4257-beba-8d4713ece0d9": {
+        "approved": true,
+        "chart_id": "27083_3",
+        "title": "NO TECH REQUIRED!",
+        "difficulty": 1,
+        "body": "Watch out for the song abruptly changing to 124BPM. The small break before the BPM change is a good warning that its coming up. Memorise where it speeds up again and this chart shouldn't give you any problems.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "84235e56-812f-4c77-90d3-bf4d8fa7babc": {
+        "approved": true,
+        "chart_id": "27113_3",
+        "title": "Adjust scroll speed for max",
+        "difficulty": 1,
+        "body": "The song starts at 100BPM, abruptly jumps to 155BPM near the start and then gradually decreases back to 134BPM at the end. It's recommended to adjust your Base GN so that the max speed of the chart is when it is at 155BPM and just leave it (adjust the GN so that the number circled is your Base GN). This is effectively like no-tech, so make sure your slow reading is up to scratch!\n\n![Shamsir tech](shamsir.png \"Shamsir Instructions\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "2871f3a7-2d7e-4fc4-94bb-5c3a6fca07a9": {
+        "approved": true,
+        "chart_id": "27077_3",
+        "title": " Float + Lane cover off (optimal)",
+        "difficulty": 6,
+        "body": "Play with lane cover at about 306 (+- 100 is fine). If you use Lift, use the formula `(1000 - Lift) * (45/147)` to find your optimal SUDDEN+ WN instead of using 306.\n\nFloat at blue so that the scratch section is at correct speed, turn off lane cover at purple so that the speedup isn't too fast and turn lane cover back on at pink to refloat for a nice ending. This method is by far the most difficult but most rewarding.\n\n![Optimal Theory](theory_optimal.png \"Optimal Theory Instructions\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "2a81e54c-7e71-410e-b617-2ababb46fbc8": {
+        "approved": true,
+        "chart_id": "27077_3",
+        "title": "No tech",
+        "difficulty": 4,
+        "body": "If you can read scratch decently well and read slow decently well you can get away with no-teching Theory. If you're less comfortable with reading slow, try non-ran or mirror. This will give you a comfortable 13 57 roll every time.\n\nWhile a **click track** (listed above) helps with all methods, it helps the most with no tech because of the 24th and 32nd scratch patterns weaved in with the rest of the 16ths. These can be tricky to read at low scroll.\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "2948abf7-e1c6-4790-a716-bee347e5be35": {
+        "approved": true,
+        "chart_id": "27077_3",
+        "title": "Gear shift",
+        "difficulty": 3,
+        "body": "Gear shift up by 2 at the blue circle and down by 2 at the purple circle. Don't be afraid to miss notes to hit the gear shift accurately. You'll make it up with your accuracy during the scratch section.\n\n![Gear Shifting Theory](theory_gear_shift.png \"Theory Gear Shift Instructions\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "4218cfa4-3114-43ee-9706-31c0fdb1f0dd": {
+        "approved": true,
+        "chart_id": "27077_3",
+        "title": "Recurring Float",
+        "difficulty": 4,
+        "body": "Less serious version of method 1.\n\nSet your lane cover as high as it goes (41wn) but **leave it on**. Float at the blue circle and at least every 2 purple circles with the last purple circle being a mandatory float. allows you to almost always have the chart at a speed you like but requires way more effort than other methods.\n\nEasier to pull off on mirror.\n\n![Floating Theory](theory_float.png \"Theory Float Instructions\")",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "94b2cae8-092e-45db-b4c8-123fdfc7f982": {
+        "approved": true,
+        "chart_id": "28064_3",
+        "title": "Lane cover halfway (LIFT Substitute optional)",
+        "difficulty": 2,
+        "body": "As Ah Hah Yeah just goes from 115BPM -> 230BPM -> 115BPM -> 230BPM, you can put a lane cover halfway down your playfield, disable it for the speedup and just do that again.\n\n1. (optional) Combine your regular LIFT and SUDDEN+ into just a LIFT (see [LIFT Substitution](../../tech\\LIFTSub.md))\n2. Use regular hi-speed (NOT FLOATING!)\n3. Put your SUDDEN+ halfway between the top of the playfield and your LIFT\n4. Disable it before the first speedup\n5. Re-enable it after the speedup ends\n\nRepeat steps 3 and 4 for the second speedup as it is identical.\n\nYou may need to adjust your LIFT a small amount if you want your GN to be perfect.\n\nGood spots to disable lane cover are circled. If you're unsure of where to switch your lane cover on and off, DOLCE actually uses this method without a LIFT substition in the preview video.\n\n![Ah Hah Yeah SUDDEN+ off](AHY.png \"Ah Hah Yeah SUDDEN+ off\")\n",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    },
+    "b0b63794-0a10-47b2-8b6a-aed9a1dd89c6": {
+        "approved": true,
+        "chart_id": "28064_3",
+        "title": "Pre-Float",
+        "difficulty": 5,
+        "body": "This is similar to method 1, however is more difficult and requires more setup.\n\n1. Set your GN to double what it normally is\n2. Move your SUDDEN+ around so that your hi-speed multiplier is (or is close to) a multiple of 0.5x\n3. Gear shift so that you double your hi-speed multiplier and are back at your normal GN\n4. Read the start of the chart normally\n5. Float on the scratch before the gap (under the purple circle in the image above)\n6. Gear shift back up the same amount after the speedup\n7. Float again on the last drop\n\nThis is a lot more in depth, but can be helpful for people who dont like reading in tight playfields.",
+        "author": "Hethan",
+        "rating": 0,
+        "timestamp": 1675482435
+    }
+}

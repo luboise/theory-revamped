@@ -11,58 +11,10 @@
         "diff": 2,
         "methods": []
     },
-    "01207_3": {
-        "chart_id": "01207_3",
-        "song_id": "01207",
-        "diff": 3,
-        "methods": []
-    },
-    "01217_3": {
-        "chart_id": "01217_3",
-        "song_id": "01217",
-        "diff": 3,
-        "methods": []
-    },
-    "01401_2": {
-        "chart_id": "01401_2",
-        "song_id": "01401",
-        "diff": 2,
-        "methods": []
-    },
     "02000_3": {
         "chart_id": "02000_3",
         "song_id": "02000",
         "diff": 3,
-        "methods": []
-    },
-    "02009_2": {
-        "chart_id": "02009_2",
-        "song_id": "02009",
-        "diff": 2,
-        "methods": []
-    },
-    "02206_2": {
-        "chart_id": "02206_2",
-        "song_id": "02206",
-        "diff": 2,
-        "methods": []
-    },
-    "02209_2": {
-        "chart_id": "02209_2",
-        "song_id": "02209",
-        "diff": 2,
-        "methods": []
-    },
-    "02209_1": {
-        "chart_id": "02209_1",
-        "song_id": "02209",
-        "diff": 1,
-        "methods": []
-    },
-    "02210_2": {
-        "chart_id": "02210_2",
-        "song_id": "02210",
-        "diff": 2,
         "methods": []
     },
     "03004_3": {
@@ -113,70 +65,10 @@
         "diff": 2,
         "methods": []
     },
-    "04206_3": {
-        "chart_id": "04206_3",
-        "song_id": "04206",
-        "diff": 3,
-        "methods": []
-    },
-    "04210_3": {
-        "chart_id": "04210_3",
-        "song_id": "04210",
-        "diff": 3,
-        "methods": []
-    },
-    "04211_3": {
-        "chart_id": "04211_3",
-        "song_id": "04211",
-        "diff": 3,
-        "methods": []
-    },
-    "04214_3": {
-        "chart_id": "04214_3",
-        "song_id": "04214",
-        "diff": 3,
-        "methods": []
-    },
-    "04216_2": {
-        "chart_id": "04216_2",
-        "song_id": "04216",
-        "diff": 2,
-        "methods": []
-    },
-    "05008_3": {
-        "chart_id": "05008_3",
-        "song_id": "05008",
-        "diff": 3,
-        "methods": []
-    },
     "05012_3": {
         "chart_id": "05012_3",
         "song_id": "05012",
         "diff": 3,
-        "methods": []
-    },
-    "05013_2": {
-        "chart_id": "05013_2",
-        "song_id": "05013",
-        "diff": 2,
-        "methods": []
-    },
-    "05020_3": {
-        "chart_id": "05020_3",
-        "song_id": "05020",
-        "diff": 3,
-        "methods": []
-    },
-    "05029_3": {
-        "chart_id": "05029_3",
-        "song_id": "05029",
-        "diff": 3,
-        "methods": []
-    },
-    "06014_2": {
-        "chart_id": "06014_2",
-        "song_id": "06014",
-        "diff": 2,
         "methods": []
     },
     "06015_3": {
@@ -188,12 +80,6 @@
     "06023_3": {
         "chart_id": "06023_3",
         "song_id": "06023",
-        "diff": 3,
-        "methods": []
-    },
-    "06207_3": {
-        "chart_id": "06207_3",
-        "song_id": "06207",
         "diff": 3,
         "methods": []
     },
@@ -209,24 +95,6 @@
         "diff": 3,
         "methods": []
     },
-    "07026_3": {
-        "chart_id": "07026_3",
-        "song_id": "07026",
-        "diff": 3,
-        "methods": []
-    },
-    "07026_2": {
-        "chart_id": "07026_2",
-        "song_id": "07026",
-        "diff": 2,
-        "methods": []
-    },
-    "07033_3": {
-        "chart_id": "07033_3",
-        "song_id": "07033",
-        "diff": 3,
-        "methods": []
-    },
     "07039_3": {
         "chart_id": "07039_3",
         "song_id": "07039",
@@ -239,51 +107,15 @@
         "diff": 3,
         "methods": []
     },
-    "08010_3": {
-        "chart_id": "08010_3",
-        "song_id": "08010",
-        "diff": 3,
-        "methods": []
-    },
     "08013_3": {
         "chart_id": "08013_3",
         "song_id": "08013",
         "diff": 3,
         "methods": []
     },
-    "08047_3": {
-        "chart_id": "08047_3",
-        "song_id": "08047",
-        "diff": 3,
-        "methods": []
-    },
     "08048_3": {
         "chart_id": "08048_3",
         "song_id": "08048",
-        "diff": 3,
-        "methods": []
-    },
-    "08202_3": {
-        "chart_id": "08202_3",
-        "song_id": "08202",
-        "diff": 3,
-        "methods": []
-    },
-    "08204_3": {
-        "chart_id": "08204_3",
-        "song_id": "08204",
-        "diff": 3,
-        "methods": []
-    },
-    "09003_3": {
-        "chart_id": "09003_3",
-        "song_id": "09003",
-        "diff": 3,
-        "methods": []
-    },
-    "09005_3": {
-        "chart_id": "09005_3",
-        "song_id": "09005",
         "diff": 3,
         "methods": []
     },
@@ -299,24 +131,6 @@
         "diff": 3,
         "methods": []
     },
-    "09043_3": {
-        "chart_id": "09043_3",
-        "song_id": "09043",
-        "diff": 3,
-        "methods": []
-    },
-    "09401_3": {
-        "chart_id": "09401_3",
-        "song_id": "09401",
-        "diff": 3,
-        "methods": []
-    },
-    "10003_3": {
-        "chart_id": "10003_3",
-        "song_id": "10003",
-        "diff": 3,
-        "methods": []
-    },
     "10040_3": {
         "chart_id": "10040_3",
         "song_id": "10040",
@@ -329,21 +143,9 @@
         "diff": 3,
         "methods": []
     },
-    "10054_3": {
-        "chart_id": "10054_3",
-        "song_id": "10054",
-        "diff": 3,
-        "methods": []
-    },
     "11015_3": {
         "chart_id": "11015_3",
         "song_id": "11015",
-        "diff": 3,
-        "methods": []
-    },
-    "11017_3": {
-        "chart_id": "11017_3",
-        "song_id": "11017",
         "diff": 3,
         "methods": []
     },
@@ -365,21 +167,9 @@
         "diff": 3,
         "methods": []
     },
-    "11049_3": {
-        "chart_id": "11049_3",
-        "song_id": "11049",
-        "diff": 3,
-        "methods": []
-    },
     "11050_3": {
         "chart_id": "11050_3",
         "song_id": "11050",
-        "diff": 3,
-        "methods": []
-    },
-    "12001_3": {
-        "chart_id": "12001_3",
-        "song_id": "12001",
         "diff": 3,
         "methods": []
     },
@@ -419,12 +209,6 @@
         "diff": 3,
         "methods": []
     },
-    "12047_3": {
-        "chart_id": "12047_3",
-        "song_id": "12047",
-        "diff": 3,
-        "methods": []
-    },
     "12050_3": {
         "chart_id": "12050_3",
         "song_id": "12050",
@@ -443,99 +227,21 @@
         "diff": 0,
         "methods": []
     },
-    "12202_3": {
-        "chart_id": "12202_3",
-        "song_id": "12202",
-        "diff": 3,
-        "methods": []
-    },
-    "12205_3": {
-        "chart_id": "12205_3",
-        "song_id": "12205",
-        "diff": 3,
-        "methods": []
-    },
     "13026_4": {
         "chart_id": "13026_4",
         "song_id": "13026",
         "diff": 4,
-        "methods": [
-            "c0f5d507-ac17-4033-97ab-d4d8ff2c0730"
-        ]
+        "methods": []
     },
     "13031_3": {
         "chart_id": "13031_3",
         "song_id": "13031",
         "diff": 3,
-        "methods": [
-            "07429b3e-d277-4084-bb1c-b79e9abb2e9d"
-        ]
+        "methods": []
     },
     "13054_3": {
         "chart_id": "13054_3",
         "song_id": "13054",
-        "diff": 3,
-        "methods": [
-            "cef6fcf7-fc21-4dd4-99d3-0a0972db8e74"
-        ]
-    },
-    "13202_3": {
-        "chart_id": "13202_3",
-        "song_id": "13202",
-        "diff": 3,
-        "methods": []
-    },
-    "13202_2": {
-        "chart_id": "13202_2",
-        "song_id": "13202",
-        "diff": 2,
-        "methods": []
-    },
-    "13203_3": {
-        "chart_id": "13203_3",
-        "song_id": "13203",
-        "diff": 3,
-        "methods": []
-    },
-    "13205_3": {
-        "chart_id": "13205_3",
-        "song_id": "13205",
-        "diff": 3,
-        "methods": []
-    },
-    "13206_3": {
-        "chart_id": "13206_3",
-        "song_id": "13206",
-        "diff": 3,
-        "methods": []
-    },
-    "13208_3": {
-        "chart_id": "13208_3",
-        "song_id": "13208",
-        "diff": 3,
-        "methods": []
-    },
-    "13209_3": {
-        "chart_id": "13209_3",
-        "song_id": "13209",
-        "diff": 3,
-        "methods": []
-    },
-    "13211_3": {
-        "chart_id": "13211_3",
-        "song_id": "13211",
-        "diff": 3,
-        "methods": []
-    },
-    "13212_3": {
-        "chart_id": "13212_3",
-        "song_id": "13212",
-        "diff": 3,
-        "methods": []
-    },
-    "13214_3": {
-        "chart_id": "13214_3",
-        "song_id": "13214",
         "diff": 3,
         "methods": []
     },
@@ -549,18 +255,13 @@
         "chart_id": "14014_3",
         "song_id": "14014",
         "diff": 3,
-        "methods": [
-            "330501e6-02e4-4f7b-8bf2-b47ad0884889"
-        ]
+        "methods": []
     },
     "14036_3": {
         "chart_id": "14036_3",
         "song_id": "14036",
         "diff": 3,
-        "methods": [
-            "f4a42260-4b2d-48fc-9505-3081bffcbc66",
-            "99f1cf2e-06c9-4d23-bce7-379767ee362e"
-        ]
+        "methods": []
     },
     "14044_3": {
         "chart_id": "14044_3",
@@ -571,15 +272,6 @@
     "14052_3": {
         "chart_id": "14052_3",
         "song_id": "14052",
-        "diff": 3,
-        "methods": [
-            "658ba817-395f-45a5-b84c-8cb939f947ab",
-            "c7f9345a-b6b9-425e-903a-9b6f9118862f"
-        ]
-    },
-    "14206_3": {
-        "chart_id": "14206_3",
-        "song_id": "14206",
         "diff": 3,
         "methods": []
     },
@@ -631,46 +323,23 @@
         "diff": 3,
         "methods": []
     },
-    "15206_3": {
-        "chart_id": "15206_3",
-        "song_id": "15206",
-        "diff": 3,
-        "methods": []
-    },
-    "15210_3": {
-        "chart_id": "15210_3",
-        "song_id": "15210",
-        "diff": 3,
-        "methods": []
-    },
     "16018_4": {
         "chart_id": "16018_4",
         "song_id": "16018",
         "diff": 4,
-        "methods": [
-            "9f03c3c4-b710-4e63-a542-4cd487d2d623",
-            "b2736d05-f777-45e2-b59f-84ec179f1252",
-            "3e0537ac-57be-47b2-812e-c525c2c8b5d0",
-            "17f299f0-a896-4900-834f-4e89547396b5"
-        ]
+        "methods": []
     },
     "16020_3": {
         "chart_id": "16020_3",
         "song_id": "16020",
         "diff": 3,
-        "methods": [
-            "458ea769-e5e5-4166-9b05-bf2c2a84600c",
-            "aa1cd95c-98c4-458e-951d-3743f908703c"
-        ]
+        "methods": []
     },
     "16028_3": {
         "chart_id": "16028_3",
         "song_id": "16028",
         "diff": 3,
-        "methods": [
-            "d8b03177-a20c-4130-8dab-900aeb71c6c3",
-            "a21cad7f-c1cd-4272-9c4c-9fc07d722df9"
-        ]
+        "methods": []
     },
     "16038_4": {
         "chart_id": "16038_4",
@@ -694,12 +363,6 @@
         "chart_id": "16047_4",
         "song_id": "16047",
         "diff": 4,
-        "methods": []
-    },
-    "16048_3": {
-        "chart_id": "16048_3",
-        "song_id": "16048",
-        "diff": 3,
         "methods": []
     },
     "17013_3": {
@@ -736,9 +399,7 @@
         "chart_id": "17024_3",
         "song_id": "17024",
         "diff": 3,
-        "methods": [
-            "807f55be-d152-4e96-bfc3-1a60a24e2cbe"
-        ]
+        "methods": []
     },
     "17041_3": {
         "chart_id": "17041_3",
@@ -756,80 +417,41 @@
         "chart_id": "18014_3",
         "song_id": "18014",
         "diff": 3,
-        "methods": [
-            "33b58c84-5e99-4544-bf2d-12c7de77f854"
-        ]
+        "methods": []
     },
     "18026_3": {
         "chart_id": "18026_3",
         "song_id": "18026",
         "diff": 3,
-        "methods": [
-            "7f14c4ae-c980-46fb-b798-115167b2371c",
-            "428e7fa7-6815-49c4-8da4-b4913baa1f29",
-            "bf1feae2-877b-4b96-8ae5-5c3e340c0afd"
-        ]
+        "methods": []
     },
     "18039_3": {
         "chart_id": "18039_3",
         "song_id": "18039",
         "diff": 3,
-        "methods": [
-            "25028593-1fe4-471b-9752-efd1bedce042"
-        ]
-    },
-    "18041_3": {
-        "chart_id": "18041_3",
-        "song_id": "18041",
-        "diff": 3,
-        "methods": [
-            "d16c04b6-c4de-4ef1-8404-77ce71cc4acc"
-        ]
+        "methods": []
     },
     "18056_3": {
         "chart_id": "18056_3",
         "song_id": "18056",
         "diff": 3,
-        "methods": [
-            "d01ce32e-0a2a-49bc-aee2-7c4692b5ad9c"
-        ]
+        "methods": []
     },
     "19014_3": {
         "chart_id": "19014_3",
         "song_id": "19014",
         "diff": 3,
-        "methods": [
-            "f47b8bd4-a8a4-4ce6-87b7-baa66b11831c",
-            "7c7bc585-cda7-4712-8eb7-ce215c324be0"
-        ]
+        "methods": []
     },
     "19030_3": {
         "chart_id": "19030_3",
         "song_id": "19030",
         "diff": 3,
-        "methods": [
-            "624ff19c-2e43-4ec8-95c2-162f1df72bcc"
-        ]
-    },
-    "19041_3": {
-        "chart_id": "19041_3",
-        "song_id": "19041",
-        "diff": 3,
-        "methods": [
-            "e6032078-8477-4c89-90c9-3390538c2bf3"
-        ]
+        "methods": []
     },
     "19042_3": {
         "chart_id": "19042_3",
         "song_id": "19042",
-        "diff": 3,
-        "methods": [
-            "6c307751-0224-43e1-8ab6-98e8fa17c059"
-        ]
-    },
-    "19066_3": {
-        "chart_id": "19066_3",
-        "song_id": "19066",
         "diff": 3,
         "methods": []
     },
@@ -837,18 +459,13 @@
         "chart_id": "19071_3",
         "song_id": "19071",
         "diff": 3,
-        "methods": [
-            "b8ce3fde-ac34-425d-a015-20235009c0d7"
-        ]
+        "methods": []
     },
     "19074_4": {
         "chart_id": "19074_4",
         "song_id": "19074",
         "diff": 4,
-        "methods": [
-            "104d0c85-e7cc-42f0-ae4e-f7c46472675a",
-            "0083dcbf-1b57-483c-aa4f-7e0a16362b98"
-        ]
+        "methods": []
     },
     "20006_3": {
         "chart_id": "20006_3",
@@ -860,60 +477,37 @@
         "chart_id": "20041_3",
         "song_id": "20041",
         "diff": 3,
-        "methods": [
-            "c838ce86-531e-4c8c-8e0e-38a0e8abd72e"
-        ]
+        "methods": []
     },
     "20051_3": {
         "chart_id": "20051_3",
         "song_id": "20051",
         "diff": 3,
-        "methods": [
-            "440fc135-ecf3-4bfa-9122-1c7879b4ea2e",
-            "ba1fc28b-2766-45e2-9de8-83ca026362aa"
-        ]
-    },
-    "20057_3": {
-        "chart_id": "20057_3",
-        "song_id": "20057",
-        "diff": 3,
-        "methods": [
-            "61e1e255-adcf-4421-8c72-28ee3c157c04"
-        ]
+        "methods": []
     },
     "20062_3": {
         "chart_id": "20062_3",
         "song_id": "20062",
         "diff": 3,
-        "methods": [
-            "e827bc1d-2263-4f2e-ae93-95754179542b"
-        ]
+        "methods": []
     },
     "20070_3": {
         "chart_id": "20070_3",
         "song_id": "20070",
         "diff": 3,
-        "methods": [
-            "0a6e6044-de62-4835-94ef-007c0f1fad02"
-        ]
+        "methods": []
     },
     "20071_3": {
         "chart_id": "20071_3",
         "song_id": "20071",
         "diff": 3,
-        "methods": [
-            "1693c5bc-fbf4-413f-9c7b-8c3e10f6cc1b",
-            "ba3412a7-7ae3-47f2-852b-b8b1f9cb5206"
-        ]
+        "methods": []
     },
     "20099_3": {
         "chart_id": "20099_3",
         "song_id": "20099",
         "diff": 3,
-        "methods": [
-            "8ff007e4-71ed-463e-b997-843fecd5dacb",
-            "b9f50b44-5d8d-4e2d-b559-23bb508ec8f6"
-        ]
+        "methods": []
     },
     "20099_1": {
         "chart_id": "20099_1",
@@ -939,45 +533,9 @@
         "diff": 3,
         "methods": []
     },
-    "21070_3": {
-        "chart_id": "21070_3",
-        "song_id": "21070",
-        "diff": 3,
-        "methods": []
-    },
-    "21074_3": {
-        "chart_id": "21074_3",
-        "song_id": "21074",
-        "diff": 3,
-        "methods": []
-    },
-    "21086_3": {
-        "chart_id": "21086_3",
-        "song_id": "21086",
-        "diff": 3,
-        "methods": []
-    },
-    "21201_3": {
-        "chart_id": "21201_3",
-        "song_id": "21201",
-        "diff": 3,
-        "methods": []
-    },
-    "22023_3": {
-        "chart_id": "22023_3",
-        "song_id": "22023",
-        "diff": 3,
-        "methods": []
-    },
     "22049_3": {
         "chart_id": "22049_3",
         "song_id": "22049",
-        "diff": 3,
-        "methods": []
-    },
-    "22051_3": {
-        "chart_id": "22051_3",
-        "song_id": "22051",
         "diff": 3,
         "methods": []
     },
@@ -1021,26 +579,13 @@
         "chart_id": "23022_3",
         "song_id": "23022",
         "diff": 3,
-        "methods": [
-            "da6ae8e5-f683-40d4-bce6-eb3283f7b80c"
-        ]
-    },
-    "23024_3": {
-        "chart_id": "23024_3",
-        "song_id": "23024",
-        "diff": 3,
-        "methods": [
-            "123600a5-cc5f-4e23-b039-0c66428e07b8",
-            "bc2e0ffd-2741-4ca3-b933-844473a64dd5"
-        ]
+        "methods": []
     },
     "23050_3": {
         "chart_id": "23050_3",
         "song_id": "23050",
         "diff": 3,
-        "methods": [
-            "0d045caf-4ba8-4665-b206-2217e8a7b64c"
-        ]
+        "methods": []
     },
     "23060_3": {
         "chart_id": "23060_3",
@@ -1052,70 +597,49 @@
         "chart_id": "23074_3",
         "song_id": "23074",
         "diff": 3,
-        "methods": [
-            "71e9c4b1-17eb-4d05-b86e-900f57a7665d"
-        ]
+        "methods": []
     },
     "23079_3": {
         "chart_id": "23079_3",
         "song_id": "23079",
         "diff": 3,
-        "methods": [
-            "35fc2c16-eff4-49d3-8f25-ba2535d910fc",
-            "f1cf6825-39bd-4ee8-81b8-b1fe790bcb8c"
-        ]
+        "methods": []
     },
     "24004_3": {
         "chart_id": "24004_3",
         "song_id": "24004",
         "diff": 3,
-        "methods": [
-            "3a2a5fc5-e0ed-4cfc-b09d-aca8d45708ed"
-        ]
+        "methods": []
     },
     "24025_3": {
         "chart_id": "24025_3",
         "song_id": "24025",
         "diff": 3,
-        "methods": [
-            "c17d46e7-4434-4240-bf2d-db402c3ba88c"
-        ]
+        "methods": []
     },
     "24030_3": {
         "chart_id": "24030_3",
         "song_id": "24030",
         "diff": 3,
-        "methods": [
-            "23dc14b1-94fc-41a2-bdeb-0ef609d3d117",
-            "0d48138d-5a7f-44ea-baa4-e31c9a5a4a7d",
-            "132c0cb7-871c-452d-a976-2eca12dc1304",
-            "a56c2b14-5b45-4635-b77f-a348f6bfa308"
-        ]
+        "methods": []
     },
     "24063_3": {
         "chart_id": "24063_3",
         "song_id": "24063",
         "diff": 3,
-        "methods": [
-            "ecaf2177-aca0-45a0-89d9-95b33f0d8ca5"
-        ]
+        "methods": []
     },
     "24074_3": {
         "chart_id": "24074_3",
         "song_id": "24074",
         "diff": 3,
-        "methods": [
-            "7a1b4097-c53f-43f6-b1bb-27f861359ac1"
-        ]
+        "methods": []
     },
     "24081_3": {
         "chart_id": "24081_3",
         "song_id": "24081",
         "diff": 3,
-        "methods": [
-            "4cf1616c-3bc8-48bd-a066-e7ee67774262",
-            "7037b0ea-30ca-4f46-804c-549fee88d112"
-        ]
+        "methods": []
     },
     "24082_3": {
         "chart_id": "24082_3",
@@ -1127,77 +651,49 @@
         "chart_id": "24083_3",
         "song_id": "24083",
         "diff": 3,
-        "methods": [
-            "1497393f-8094-438e-84da-403555bb4f4b",
-            "ebeb409d-06a7-490b-96d0-18cb4ef549e3"
-        ]
+        "methods": []
     },
     "24088_3": {
         "chart_id": "24088_3",
         "song_id": "24088",
         "diff": 3,
-        "methods": [
-            "e35f816c-6f2a-42eb-8334-0af54262d5ed"
-        ]
+        "methods": []
     },
     "25007_3": {
         "chart_id": "25007_3",
         "song_id": "25007",
         "diff": 3,
-        "methods": [
-            "1b2fae86-a7eb-495f-9ff6-124299820c04",
-            "c1559f22-6e2f-44ce-9daf-824fead9208b"
-        ]
+        "methods": []
     },
     "25043_3": {
         "chart_id": "25043_3",
         "song_id": "25043",
         "diff": 3,
-        "methods": [
-            "0ad1c5df-c0e6-4312-bfa3-87572ab66964",
-            "ef553016-48a7-487c-9726-259e613d9506",
-            "29a72904-8c72-453d-8b5d-cced235accd6"
-        ]
+        "methods": []
     },
     "25054_3": {
         "chart_id": "25054_3",
         "song_id": "25054",
         "diff": 3,
-        "methods": [
-            "b989fa43-475b-44c4-b107-caa1e68509b6"
-        ]
+        "methods": []
     },
     "25064_3": {
         "chart_id": "25064_3",
         "song_id": "25064",
         "diff": 3,
-        "methods": [
-            "1d97cc55-6d80-4654-80fc-d400c07253d0",
-            "b028e74f-5658-43bd-a643-6c7073c46802"
-        ]
+        "methods": []
     },
     "25093_3": {
         "chart_id": "25093_3",
         "song_id": "25093",
         "diff": 3,
-        "methods": [
-            "ee8311d0-dd1b-4971-9435-4d70ba67ab50"
-        ]
+        "methods": []
     },
     "26041_3": {
         "chart_id": "26041_3",
         "song_id": "26041",
         "diff": 3,
         "methods": []
-    },
-    "26057_3": {
-        "chart_id": "26057_3",
-        "song_id": "26057",
-        "diff": 3,
-        "methods": [
-            "f80027f1-066e-444e-a9bb-23af9c690db7",
-            "c0cfb701-0962-421b-97ca-7504a7cc632e"
-        ]
     },
     "26062_3": {
         "chart_id": "26062_3",
@@ -1209,108 +705,73 @@
         "chart_id": "26079_3",
         "song_id": "26079",
         "diff": 3,
-        "methods": [
-            "d3aba0f3-a7e1-49ad-a55c-e8dfb627a3be"
-        ]
+        "methods": []
     },
     "26085_3": {
         "chart_id": "26085_3",
         "song_id": "26085",
         "diff": 3,
-        "methods": [
-            "aef67555-d860-460c-aec8-bc7aaf36ee61"
-        ]
+        "methods": []
     },
     "26090_3": {
         "chart_id": "26090_3",
         "song_id": "26090",
         "diff": 3,
-        "methods": [
-            "9656092d-b4e4-4f2a-9bbf-d9204d635621"
-        ]
+        "methods": []
     },
     "26093_3": {
         "chart_id": "26093_3",
         "song_id": "26093",
         "diff": 3,
-        "methods": [
-            "b688c3fe-8684-477c-b3d9-84e7be05a5fd"
-        ]
+        "methods": []
     },
     "26097_3": {
         "chart_id": "26097_3",
         "song_id": "26097",
         "diff": 3,
-        "methods": [
-            "cb6527b0-2200-47ab-bd4d-766bfb1deaea"
-        ]
+        "methods": []
     },
     "27018_3": {
         "chart_id": "27018_3",
         "song_id": "27018",
         "diff": 3,
-        "methods": [
-            "2cd0d6af-1291-4008-a6b1-28d78a8ec34d"
-        ]
+        "methods": []
     },
     "27036_3": {
         "chart_id": "27036_3",
         "song_id": "27036",
         "diff": 3,
-        "methods": [
-            "2f37aee2-28b5-4468-927b-7486b83af15c"
-        ]
+        "methods": []
     },
     "27071_3": {
         "chart_id": "27071_3",
         "song_id": "27071",
         "diff": 3,
-        "methods": [
-            "8ca54be7-eea0-49f0-b486-ed8bf4d34cb7"
-        ]
+        "methods": []
     },
     "27073_3": {
         "chart_id": "27073_3",
         "song_id": "27073",
         "diff": 3,
-        "methods": [
-            "a64f92ff-2879-49e0-80e1-153fd6b23b95"
-        ]
+        "methods": []
     },
     "27077_3": {
         "chart_id": "27077_3",
         "song_id": "27077",
         "diff": 3,
-        "methods": [
-            "2871f3a7-2d7e-4fc4-94bb-5c3a6fca07a9",
-            "2a81e54c-7e71-410e-b617-2ababb46fbc8",
-            "2948abf7-e1c6-4790-a716-bee347e5be35",
-            "4218cfa4-3114-43ee-9706-31c0fdb1f0dd"
-        ]
+        "methods": []
     },
     "27083_3": {
         "chart_id": "27083_3",
         "song_id": "27083",
         "diff": 3,
-        "methods": [
-            "d6a6acf2-48f3-4257-beba-8d4713ece0d9"
-        ]
-    },
-    "27098_3": {
-        "chart_id": "27098_3",
-        "song_id": "27098",
-        "diff": 3,
-        "methods": [
-            "172dc571-ea2b-404c-b3cc-8c3c32cb9880"
-        ]
+        "methods": []
     },
     "27113_3": {
         "chart_id": "27113_3",
         "song_id": "27113",
         "diff": 3,
-        "methods": [
-            "84235e56-812f-4c77-90d3-bf4d8fa7babc"
-        ]
+        "methods": []
     },
     "28008_3": {
         "chart_id": "28008_3",
@@ -1340,10 +801,7 @@
         "chart_id": "28064_3",
         "song_id": "28064",
         "diff": 3,
-        "methods": [
-            "94b2cae8-092e-45db-b4c8-123fdfc7f982",
-            "b0b63794-0a10-47b2-8b6a-aed9a1dd89c6"
-        ]
+        "methods": []
     },
     "28078_3": {
         "chart_id": "28078_3",
@@ -1372,12 +830,6 @@
     "28100_3": {
         "chart_id": "28100_3",
         "song_id": "28100",
-        "diff": 3,
-        "methods": []
-    },
-    "28208_3": {
-        "chart_id": "28208_3",
-        "song_id": "28208",
         "diff": 3,
         "methods": []
     },
@@ -1438,12 +890,6 @@
     "29098_3": {
         "chart_id": "29098_3",
         "song_id": "29098",
-        "diff": 3,
-        "methods": []
-    },
-    "29912_3": {
-        "chart_id": "29912_3",
-        "song_id": "29912",
         "diff": 3,
         "methods": []
     },

@@ -13,19 +13,40 @@ async function fetchJSONResource(jsonFilename, array, index) {
 	} else console.error(`Unable to fetch ${jsonFilename}`);
 }
 
-function GameVersionFolder({ versionTitle, versionSongData }) {
+// function groupArray(arrayIn, key) {
+// 	return arrayIn.reduce(function (groupedIDs, chartID) {
+// 		const strippedChartID = chartID.slice(0, chartID.index("_"));
+// 		const chartDiff
+// 		(groupedIDs[strippedChartID] = groupedIDs[strippedChartID] || []).push(
+// 			chartID.slice(chartID.index("_") + 1)
+// 		);
+// 		return groupedIDs;
+// 	}, {});
+// }
+
+function GameVersionFolder({ versionTitle, versionSongData, chartDiffGroups }) {
 	const [folderIsActive, setFolderIsActive] = useState(false);
 
 	const songButtonArray = useMemo(() => {
 		let songButtonArray = [];
+
 		for (const song in versionSongData) {
 			const currentSong = versionSongData[song];
+
+			let maxDiff;
+			const songID = currentSong.song_id;
+
+			if (currentSong.song_id in chartDiffGroups) {
+				maxDiff = Math.max(chartDiffGroups[currentSong.song_id]);
+			} else {
+				maxDiff = -1;
+			}
 
 			songButtonArray.push(
 				<div className="song-dropdown-container">
 					<a
 						className="song-dropdown-anchor"
-						href={`/song/${currentSong.song_id}/3`}
+						href={`/song/${songID}/${maxDiff}`}
 					>
 						<button className="btn-song-dropdown">
 							{currentSong.title}
@@ -37,10 +58,6 @@ function GameVersionFolder({ versionTitle, versionSongData }) {
 
 		return songButtonArray;
 	}, [versionSongData]);
-
-	useEffect(() => {
-		console.log(`${versionTitle} set to ${folderIsActive}`);
-	}, [folderIsActive]);
 
 	return (
 		<div className="game-version-container">
@@ -71,8 +88,17 @@ function GameVersionFolder({ versionTitle, versionSongData }) {
 
 // function groupSongsByVersion(songObjects) {}
 
-function getGameVersionDropdowns(GAME_VERSION_GROUPS) {
-	if (!GAME_VERSION_GROUPS) return [];
+function getGameVersionDropdowns(GAME_VERSION_GROUPS, chartObjects) {
+	if (!GAME_VERSION_GROUPS || !chartObjects) return [];
+
+	const chartDiffGroups = Object.values(chartObjects).reduce(
+		(groups, item) => {
+			const group = groups[item.song_id] || [];
+			group.push(item.diff);
+			groups[item.song_id] = group;
+			return groups;
+		}
+	);
 
 	let gameVersionDropdowns = [];
 	for (const key in GAME_VERSION_GROUPS) {
@@ -84,6 +110,7 @@ function getGameVersionDropdowns(GAME_VERSION_GROUPS) {
 						: `${key}: IIDX ${key}`
 				}
 				versionSongData={GAME_VERSION_GROUPS[key]}
+				chartDiffGroups={chartDiffGroups}
 			/>
 		);
 	}
@@ -113,7 +140,10 @@ export default function ChartNavigator() {
 		return groupedObject;
 	}, [songAndChartObjects]);
 
-	const gameVersionDropdowns = getGameVersionDropdowns(GAME_VERSION_GROUPS);
+	const gameVersionDropdowns = getGameVersionDropdowns(
+		GAME_VERSION_GROUPS,
+		chartObjects
+	);
 
 	const handleData = async () => {
 		const arrayCopy = songAndChartObjects.slice();

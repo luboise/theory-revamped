@@ -34,6 +34,22 @@ let params = {
 	},
 };
 
+async function readResource(filename) {
+	try {
+		// Using the filehandle method
+		filehandle = await fs.promises.open(`./resources/${filename}`, "r");
+		const data = await filehandle.readFile("utf-8");
+
+		filehandle.close();
+
+		return data;
+	} catch (e) {
+		console.log("Error", e);
+
+		return {};
+	}
+}
+
 app.get("/api", async function (req, res) {
 	res.send("please work");
 });
@@ -43,6 +59,10 @@ app.post("/api/postman", async function (req, res) {
 });
 
 app.get("/api/song/:song_id", async function (req, res) {
+	const song_objects = await readResource("song_objects.json");
+	const chart_objects = await readResource("chart_objects.json");
+	const method_objects = await readResource("method_objects.json");
+
 	const testSong = {
 		song_id: 28064,
 		version: 28,
@@ -59,39 +79,14 @@ app.get("/api/song/:song_id", async function (req, res) {
 	};
 
 	res.send(testSong);
-	// res.send({
-	// 	song_id: parseInt(req.params["song_id"]),
-	// 	title: "penis",
-	// 	ascii_title: "penis2",
-	// });
 });
 
 // For offline use
 const fs = require("fs");
 
 app.get("/api/get_resource/:filename", async (req, res) => {
-	let filehandle = null;
-	try {
-		// Using the filehandle method
-		filehandle = await fs.promises.open(
-			`./resources/${req.params.filename}`,
-			"r"
-		);
-		const data = await filehandle.readFile("utf-8");
-
-		filehandle.close();
-
-		res.json(data);
-	} catch (e) {
-		console.log("Error", e);
-
-		res.json({});
-	}
-
-	// fs.readFile("./resources/:filename", (err, json) => {
-	// 	let obj = JSON.parse(json);
-	// 	res.json(obj);
-	// });
+	const data = await readResource(req.params.filename);
+	res.json(data);
 });
 
 module.exports.handler = serverless(app);
