@@ -5,6 +5,10 @@ const logger = require("morgan");
 const bodyParser = require("body-parser");
 const { response } = require("express");
 
+const request = require("request");
+
+const proxy = require("express-http-proxy");
+
 const app = express();
 
 app.use(logger("dev"));
@@ -67,6 +71,24 @@ app.get("/api", async function (req, res) {
 app.post("/api/postman", async function (req, res) {
 	res.send(JSON.stringify(req.body) + " was returned.");
 });
+
+app.get("/api/textagescraper/:version/:urlend"),
+	async function (req, res) {
+		let scrapedData;
+
+		try {
+			const requestURL = `http://textage.cc/score/${req.params.version}/${req.params.urlend}`;
+			await request(requestURL, (error, response, html) => {
+				if (!error) {
+					res.send(html);
+				}
+			});
+		} catch (e) {
+			console.log(e);
+		}
+	};
+
+res.send(scrapedData);
 
 app.get("/api/song/:song_id/:diff", async function (req, res) {
 	try {

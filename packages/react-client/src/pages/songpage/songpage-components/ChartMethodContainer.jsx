@@ -57,7 +57,7 @@ function ChartMethodContainer({ apiReturn }) {
 		return (
 			<div className="chart-method-container">
 				<TextageEmbed
-					url={"https://textage.cc/score/22/_sennen.html?1N600"}
+					fetchUrl={"https://textage.cc/score/22/_sennen.html?1N600"}
 				/>
 				{methodsToRender.length ? (
 					((
