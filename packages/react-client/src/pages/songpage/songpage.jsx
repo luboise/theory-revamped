@@ -25,7 +25,6 @@ const Songpage = () => {
 	const handleData = async () => {
 		const song = await callAPI(`/api/song/${song_id}/${diff}`);
 		if (song.data) {
-			console.log("New song obtained: ", song.data);
 			setsongObject(song.data);
 		} else console.error(`Could not fetch data for id: ${song_id}`);
 	};
@@ -35,8 +34,6 @@ const Songpage = () => {
 	}, []);
 
 	useEffect(() => {}, [songObject]);
-
-	// console.log(songObject);
 
 	return (
 		<div className="song-page">

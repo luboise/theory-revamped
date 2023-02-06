@@ -27,7 +27,6 @@ const ChartDifficulty = (methodDifficulty) => {
 };
 
 const ChartMethod = ({ methodObject, listIndex }) => {
-	console.log(methodObject);
 	if (
 		!(
 			methodObject.title &&
