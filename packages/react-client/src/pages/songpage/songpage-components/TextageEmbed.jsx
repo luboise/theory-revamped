@@ -1,32 +1,31 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState, useRef } from "react";
 
 export default function TextageEmbed({ fetchUrl }) {
-	fetchUrl = "https://crossorigin.me/" + fetchUrl;
-	const [htmlData, sethtmlData] = useState();
+	fetchUrl = "https://textage.cc/score/30/dicadica.html?1AC00";
 
-	const handleData = async () => {
-		if (!htmlData) {
-			try {
-				const fetchedPromise = await axios({
-					url: fetchUrl,
-					method: "GET",
-					responseType: "document",
-				});
+	const [renderStatus, setRenderStatus] = useState("loading");
 
-				console.log("What i got: ", fetchedPromise);
-				sethtmlData(fetchedPromise);
+	const baseIFrame = (
+		<iframe
+			src={fetchUrl}
+			onLoad={() => {
+				setRenderStatus("loaded");
+			}}
+		/>
+	);
 
-				return fetchedPromise;
-			} catch (error) {
-				console.log(error);
-			}
-		}
-	};
+	const htmlData = useRef(baseIFrame);
 
 	useEffect(() => {
-		handleData();
-	}, []);
+		const iframe = document.querySelector("iframe");
+		const table = (
+			<table>
+				<td>TEST TABLE</td>
+			</table>
+		);
+		// const table = document.getElementsByTagName("table")[0];
+		htmlData.current = table;
+	}, [renderStatus]);
 
-	return <div>TextageEmbed</div>;
+	return <div class="textage-embed">{htmlData.current}</div>;
 }
