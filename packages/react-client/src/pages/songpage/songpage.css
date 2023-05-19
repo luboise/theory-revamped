@@ -67,13 +67,14 @@ div.chart-method {
 	width: 100%;
 } */
 
-.textage-embed {
+div.textage-embed {
+	margin: 0.2em auto;
 	width: 95%;
 	border: 0.2em solid white;
-	margin: 0.2em;
+	
 }
 
 .textage-embed iframe {
-	height: 100vh;
+	height: 28em;
 	width: 100%;
 }
