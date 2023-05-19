@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import ChartMethod from "./ChartMethod";
-import TextageEmbed from "./TextageEmbed";
 
 import { SORT_TYPES } from "./utils";
 
@@ -56,9 +55,6 @@ function ChartMethodContainer({ apiReturn }) {
 	} else {
 		return (
 			<div className="chart-method-container">
-				<TextageEmbed
-					fetchUrl={"https://textage.cc/score/22/_sennen.html?1N600"}
-				/>
 				{methodsToRender.length ? (
 					((
 						<div id="method-sorting-buttons">

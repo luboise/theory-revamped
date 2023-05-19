@@ -5,8 +5,6 @@ const logger = require("morgan");
 const bodyParser = require("body-parser");
 const { response } = require("express");
 
-const proxy = require("express-http-proxy");
-
 const app = express();
 
 app.use(logger("dev"));
@@ -73,7 +71,9 @@ app.post("/api/postman", async function (req, res) {
 app.get("/api/song/:song_id/:diff", async function (req, res) {
 	try {
 		const songObjects = JSON.parse(await readResource("song_objects.json"));
-		const chartObjects = JSON.parse(await readResource("chart_objects.json"));
+		const chartObjects = JSON.parse(
+			await readResource("chart_objects.json")
+		);
 		const methodObjects = JSON.parse(
 			await readResource("method_objects.json")
 		);
@@ -89,7 +89,8 @@ app.get("/api/song/:song_id/:diff", async function (req, res) {
 		const methodsList = chartObjects[wantedChartID]["methods"] || [];
 
 		methodsList.forEach((methodKey) => {
-			if (methodKey in methodObjects) methods.push(methodObjects[methodKey]);
+			if (methodKey in methodObjects)
+				methods.push(methodObjects[methodKey]);
 		});
 
 		const returnObj = {
