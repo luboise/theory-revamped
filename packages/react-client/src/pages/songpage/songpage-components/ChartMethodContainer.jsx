@@ -44,8 +44,6 @@ function ChartMethodContainer({ apiReturn }) {
 		apiReturn.methods || []
 	);
 
-	console.log(methodsToRender);
-
 	if (apiReturn.errorStatus) {
 		return (
 			<p>

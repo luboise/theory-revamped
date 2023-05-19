@@ -8,6 +8,7 @@ import {
 	SVG_STAR_HOLLOW,
 	STAR_MAX_DIFFICULTY,
 } from "./utils";
+import ChartMethodBody from "./ChartMethodBody";
 
 const DateFromUNIXTimestamp = (timestamp) => {
 	const dateObject = new Date(timestamp);
@@ -27,7 +28,6 @@ const ChartDifficulty = (methodDifficulty) => {
 };
 
 const ChartMethod = ({ methodObject, listIndex }) => {
-	console.log(methodObject);
 	if (
 		!(
 			methodObject.title &&
@@ -50,9 +50,7 @@ const ChartMethod = ({ methodObject, listIndex }) => {
 				{ChartDifficulty(methodObject.difficulty)}
 			</div>
 
-			<div className="chart-method-body">
-				<ReactMarkdown children={methodObject.body}></ReactMarkdown>
-			</div>
+			<ChartMethodBody methodBody={methodObject.body} />
 
 			<div className="chart-method-footer">
 				<p>
