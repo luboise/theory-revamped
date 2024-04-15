@@ -37,10 +37,25 @@ function GameVersionFolder({ versionTitle, versionSongData, chartDiffGroups }) {
 			const songID = currentSong.song_id;
 
 			if (currentSong.song_id in chartDiffGroups) {
-				maxDiff = Math.max(chartDiffGroups[currentSong.song_id]);
+				// console.debug(currentSong, currentSong.song_id)
+				// console.debug(chartDiffGroups);
+				// console.debug(Math.max(chartDiffGroups[currentSong.song_id]));
+				// console.debug(chartDiffGroups[Number(currentSong.song_id)]);
+				const diffs: Array<number> = chartDiffGroups[currentSong.song_id];
+				if (!diffs) {
+					console.debug(currentSong.song_id, Array.from(Object.keys(chartDiffGroups)).filter((obj) =>
+						obj === currentSong.song_id));
+					console.debug("Skipping");
+					continue;
+				}
+
+				maxDiff = Math.max(...diffs);
 			} else {
 				maxDiff = -1;
 			}
+
+			// console.debug(maxDiff);
+			// break;
 
 			songButtonArray.push(
 				<div className="song-dropdown-container">
@@ -87,7 +102,17 @@ function GameVersionFolder({ versionTitle, versionSongData, chartDiffGroups }) {
 
 // function groupSongsByVersion(songObjects) {}
 
-function getGameVersionDropdowns(GAME_VERSION_GROUPS, chartObjects) {
+type ChartDiff = 0 | 1 | 2 | 3 | 4;
+
+type ChartObject =
+	{
+		chart_id: string;
+		song_id: string;
+		diff: ChartDiff;
+		methods: Array<string>;
+	}
+
+function getGameVersionDropdowns(GAME_VERSION_GROUPS, chartObjects: { [key: string]: ChartObject; }) {
 	if (!GAME_VERSION_GROUPS || !chartObjects) return [];
 
 	const chartDiffGroups = Object.values(chartObjects).reduce(
@@ -129,17 +154,20 @@ export default function ChartNavigator() {
 	const GAME_VERSION_GROUPS = useMemo(() => {
 		if (!songObjects) return {};
 
-		const groupedObject = Object.values(songObjects).reduce(
-			(groups, item) => {
-				const group = groups[item.game_version] || [];
-				group.push(item);
-				groups[item.game_version] = group;
-				return groups;
-			},
-			{}
-		);
+		const groups: { [key: string]: Array<ChartObject> } = {};
 
-		return groupedObject;
+		for (const key in songObjects) {
+			const item = songObjects[key];
+
+			// Check that game version exists
+			groups[item.game_version] = groups[item.game_version] || [];
+
+			console.debug("Pushing ", item);
+			groups[item.game_version].push(item);
+		}
+
+		// console.debug(groups);
+		return groups;
 	}, [songAndChartObjects]);
 
 	const gameVersionDropdowns = getGameVersionDropdowns(

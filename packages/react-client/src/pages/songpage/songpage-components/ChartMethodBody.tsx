@@ -5,8 +5,6 @@ function ChartMethodBody({ methodBody }) {
 	const re = /(<TEXTAGE[^>]+\/>)/;
 	const splitString = methodBody.split(re);
 
-	console.log(splitString);
-
 	return (
 		<div className="chart-method-body">
 			{splitString.map((methodPiece) => {
