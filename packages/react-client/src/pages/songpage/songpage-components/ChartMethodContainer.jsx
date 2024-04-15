@@ -35,7 +35,9 @@ function ChartMethodContainer({ apiReturn }) {
 			alert(`Invalid sort type given: ${sortType}`);
 			return false;
 		} else {
-			const sortedArray = methodsToRender.slice().sort(SORT_TYPES[sortType]);
+			const sortedArray = methodsToRender
+				.slice()
+				.sort(SORT_TYPES[sortType]);
 			setMethodsToRender(sortedArray);
 		}
 	}
@@ -58,7 +60,10 @@ function ChartMethodContainer({ apiReturn }) {
 				{methodsToRender.length ? (
 					((
 						<div id="method-sorting-buttons">
-							{MakeSortButtons(Object.keys(SORT_TYPES), SortMethods)}
+							{MakeSortButtons(
+								Object.keys(SORT_TYPES),
+								SortMethods
+							)}
 						</div>
 					),
 					methodsToRender.map((methodObject, index) => {

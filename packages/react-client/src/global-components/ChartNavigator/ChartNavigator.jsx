@@ -119,7 +119,10 @@ function getGameVersionDropdowns(GAME_VERSION_GROUPS, chartObjects) {
 }
 
 export default function ChartNavigator() {
-	const [songAndChartObjects, setSongAndChartObjects] = useState([null, null]);
+	const [songAndChartObjects, setSongAndChartObjects] = useState([
+		null,
+		null,
+	]);
 
 	const songObjects = songAndChartObjects[0];
 	const chartObjects = songAndChartObjects[1];

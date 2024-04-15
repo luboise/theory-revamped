@@ -23,7 +23,9 @@ const ChartDifficulty = (methodDifficulty) => {
 		SVGArray.push(SVG_STAR_HOLLOW);
 
 	return (
-		<div className="chart-method-difficulty-container">{SVGArray.flat()}</div>
+		<div className="chart-method-difficulty-container">
+			{SVGArray.flat()}
+		</div>
 	);
 };
 

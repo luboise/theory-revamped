@@ -7,7 +7,9 @@ const ChartTitle = ({ songObject = {} }) => {
 
 	return (
 		<div className="chart-header">
-			<h1>{objKeys.includes("title") ? songObject.title : "NULL TITLE"}</h1>
+			<h1>
+				{objKeys.includes("title") ? songObject.title : "NULL TITLE"}
+			</h1>
 
 			{objKeys.includes("url") ? (
 				<LinkButton url={songObject} text="Chart Preview" />
