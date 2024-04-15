@@ -1,6 +1,3 @@
-import React from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
 import {
 	SVG_THUMBS_UP,
 	SVG_THUMBS_DOWN,

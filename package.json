@@ -1,7 +1,6 @@
 {
 	"name": "theory-revamped",
 	"version": "1.0.0",
-	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"sls": "serverless offline start --httpPort 9000 --lambdaPort 9002 --reloadHandler"
@@ -18,10 +17,6 @@
 	},
 	"homepage": "https://github.com/playtime881/theory-revamped#readme",
 	"description": "",
-	"workspaces": [
-		"packages/react-client",
-		"packages/express-server"
-	],
 	"dependencies": {
 		"axios": "^1.2.2",
 		"dotenv": "^16.0.3",
@@ -31,7 +26,6 @@
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.20",
-		"react-router-dom": "^6.6.2",
 		"serverless-offline": "^12.0.4"
 	}
 }

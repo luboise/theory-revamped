@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState, useMemo } from "react";
 
-import { callAPI, GAME_VERSION_TITLES } from "../../utils";
+import { callAPI, GAME_VERSION_TITLES } from "/src/utils.js";
 
 import "./ChartNavigator.css";
 
@@ -71,9 +71,8 @@ function GameVersionFolder({ versionTitle, versionSongData, chartDiffGroups }) {
 			</button>
 			{
 				<div
-					className={`version-song-container dropdown-${
-						!folderIsActive ? "in" : ""
-					}active`}
+					className={`version-song-container dropdown-${!folderIsActive ? "in" : ""
+						}active`}
 				>
 					{songButtonArray}
 				</div>
@@ -163,7 +162,7 @@ export default function ChartNavigator() {
 		handleData();
 	}, []);
 
-	useEffect(() => {}, [songAndChartObjects]);
+	useEffect(() => { }, [songAndChartObjects]);
 
 	return (
 		<div className="chart-navigator">

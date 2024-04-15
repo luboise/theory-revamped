@@ -1,6 +1,5 @@
-import React from "react";
 import TextageEmbed from "./TextageEmbed";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Markdown from "react-markdown";
 
 function ChartMethodBody({ methodBody }) {
 	const re = /(<TEXTAGE[^>]+\/>)/;
@@ -14,7 +13,7 @@ function ChartMethodBody({ methodBody }) {
 				if (methodPiece.startsWith("<TEXTAGE")) {
 					return <TextageEmbed textageString={methodPiece} />;
 				} else {
-					return <ReactMarkdown>{methodPiece}</ReactMarkdown>;
+					return <Markdown>{methodPiece}</Markdown>;
 				}
 			})}
 		</div>

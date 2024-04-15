@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { callAPI as callAPI } from "../../utils.js";
+import { callAPI as callAPI } from "/src/utils.js";
 
 import {
 	ChartTitle,
