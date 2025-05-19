@@ -11,7 +11,7 @@
 		2: { text: "SPH", color: "#CFA240" },
 		3: { text: "SPA", color: "#A0424D" },
 		4: { text: "SPL", color: "#CC49CC" },
-		6: { text: "DPB", color: "#840E82" },
+		6: { text: "DPB", color: "#009900" },
 		7: { text: "DPN", color: "#4A7DB9" },
 		8: { text: "DPH", color: "#CFA240" },
 		9: { text: "DPA", color: "#A0424D" },
