@@ -1,7 +1,7 @@
 <script lang="ts">
-	import ChartObject from '$lib/types';
+	// import ChartObject from "$lib/types";
 
-	const [songAndChartObjects, setSongAndChartObjects] = useState([null, null]);
+	// const [songAndChartObjects, setSongAndChartObjects] = useState([null, null]);
 
 	/*
 	function getGameVersionDropdowns(
@@ -33,11 +33,9 @@
 		return gameVersionDropdowns;
 	}*/
 
-	let searchValue = $state('');
+	let searchValue = $state("");
 
-for 
-
-
+	/*
 	const GAME_VERSION_GROUPS = useMemo(() => {
 		if (!songObjects) return {};
 
@@ -49,7 +47,7 @@ for
 			// Check that game version exists
 			groups[item.game_version] = groups[item.game_version] || [];
 
-			console.debug('Pushing ', item);
+			console.debug("Pushing ", item);
 			groups[item.game_version].push(item);
 		}
 
@@ -62,8 +60,8 @@ for
 	const handleData = async () => {
 		const arrayCopy = songAndChartObjects.slice();
 
-		await fetchJSONResource('song_objects.json', arrayCopy, 0);
-		await fetchJSONResource('chart_objects.json', arrayCopy, 1);
+		await fetchJSONResource("song_objects.json", arrayCopy, 0);
+		await fetchJSONResource("chart_objects.json", arrayCopy, 1);
 
 		setSongAndChartObjects(arrayCopy);
 
@@ -75,10 +73,11 @@ for
 	}, []);
 
 	useEffect(() => {}, [songAndChartObjects]);
+*/
 </script>
 
-<div class="chart-navigator">
-	<div class="chart-navigator-header">
+<div id="chart-navigator">
+	<div>
 		<h2>Chart navigator</h2>
 		<form>
 			<input
@@ -92,11 +91,11 @@ for
 		</form>
 	</div>
 
-	<div className="game-version-dropdowns">{gameVersionDropdowns}</div>
+	<!-- <div className="game-version-dropdowns">{gameVersionDropdowns}</div> -->
 </div>
 
 <style>
-	div.chart-navigator {
+	#chart-navigator {
 		width: 20%;
 		height: 100%;
 		float: left;

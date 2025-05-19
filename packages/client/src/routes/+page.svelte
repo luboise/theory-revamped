@@ -1,14 +1,9 @@
 <script lang="ts">
+	import Navbar from "$lib/Navbar.svelte";
+	import ChartNavigator from "$lib/ChartNavigator.svelte";
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<Navbar />
-
-<div style:display="flex">
+<div>
+	<Navbar />
 	<ChartNavigator />
-	<div className="page-contents">
-		<RouterProvider {router} />
-	</div>
 </div>
-
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
