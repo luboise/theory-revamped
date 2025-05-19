@@ -39,6 +39,8 @@
 		z-index: 20;
 
 		margin-bottom: 1rem;
+
+		border-collapse: collapse;
 	}
 
 	nav > * {

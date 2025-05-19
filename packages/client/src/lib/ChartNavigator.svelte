@@ -1,79 +1,8 @@
 <script lang="ts">
-	// import ChartObject from "$lib/types";
-
-	// const [songAndChartObjects, setSongAndChartObjects] = useState([null, null]);
-
-	/*
-	function getGameVersionDropdowns(
-		GAME_VERSION_GROUPS,
-		chartObjects: { [key: string]: ChartData }
-	) {
-		if (!GAME_VERSION_GROUPS || !chartObjects) return [];
-
-		const chartDiffGroups = Object.values(chartObjects).reduce((groups, item) => {
-			const group = groups[item.song_id] || [];
-			group.push(item.diff);
-			groups[item.song_id] = group;npm create svelte@latest my-app
-			return groups;
-		});
-
-		let gameVersionDropdowns = [];
-		for (const key in GAME_VERSION_GROUPS) {
-			gameVersionDropdowns.push(
-				<GameVersionFolder
-					versionTitle={
-						key in GAME_VERSION_TITLES ? GAME_VERSION_TITLES[key] : `${key}: IIDX ${key}`
-					}
-					versionSongData={GAME_VERSION_GROUPS[key]}
-					chartDiffGroups={chartDiffGroups}
-				/>
-			);
-		}
-
-		return gameVersionDropdowns;
-	}*/
+	import SONG_FOLDERS from "./folders";
+	import NavigatorList from "./NavigatorList.svelte";
 
 	let searchValue = $state("");
-
-	/*
-	const GAME_VERSION_GROUPS = useMemo(() => {
-		if (!songObjects) return {};
-
-		const groups: { [key: string]: Array<ChartObject> } = {};
-
-		for (const key in songObjects) {
-			const item = songObjects[key];
-
-			// Check that game version exists
-			groups[item.game_version] = groups[item.game_version] || [];
-
-			console.debug("Pushing ", item);
-			groups[item.game_version].push(item);
-		}
-
-		// console.debug(groups);
-		return groups;
-	}, [songAndChartObjects]);
-
-	const gameVersionDropdowns = getGameVersionDropdowns(GAME_VERSION_GROUPS, chartObjects);
-
-	const handleData = async () => {
-		const arrayCopy = songAndChartObjects.slice();
-
-		await fetchJSONResource("song_objects.json", arrayCopy, 0);
-		await fetchJSONResource("chart_objects.json", arrayCopy, 1);
-
-		setSongAndChartObjects(arrayCopy);
-
-		// console.log(songAndChartObjects);
-	};
-
-	useEffect(() => {
-		handleData();
-	}, []);
-
-	useEffect(() => {}, [songAndChartObjects]);
-*/
 </script>
 
 <div id="chart-navigator">
@@ -90,6 +19,19 @@
 			/>
 		</form>
 	</div>
+
+	{#each Object.values(SONG_FOLDERS) as folder}
+		<h4>{folder.title}</h4>
+
+		{#each folder.songs as song}
+			<div>
+				{song.title}
+
+				<NavigatorList {song} playmode="SP" />
+				<NavigatorList {song} playmode="DP" />
+			</div>
+		{/each}
+	{/each}
 
 	<!-- <div className="game-version-dropdowns">{gameVersionDropdowns}</div> -->
 </div>
