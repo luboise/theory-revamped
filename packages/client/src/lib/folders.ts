@@ -1,3 +1,4 @@
+import type { SongFolder } from "./apitypes";
 import { GAME_VERSION_TITLES } from "./constants";
 import songs from "./songs";
 
@@ -22,7 +23,8 @@ const SONG_FOLDERS = (() => {
 				songs: []
 			};
 		}
-		folders[item.gameVersion].songs.push(item);
+
+		folders[item.gameVersion].songs.push({ ...item, chartIds: [...item.chartIds].sort() });
 	}
 
 	// console.debug(groups);

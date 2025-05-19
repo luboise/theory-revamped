@@ -24,7 +24,7 @@
 		<h4>{folder.title}</h4>
 
 		{#each folder.songs as song}
-			<div>
+			<div class="song">
 				{song.title}
 
 				<NavigatorList {song} playmode="SP" />
@@ -37,9 +37,13 @@
 </div>
 
 <style>
+	.song {
+		margin-bottom: 1em;
+	}
+
 	#chart-navigator {
 		width: 20%;
-		height: 100%;
+		max-height: 100vh;
 		float: left;
 
 		background-color: aliceblue;
@@ -48,5 +52,7 @@
 
 		position: sticky;
 		top: 0px;
+
+		overflow: scroll;
 	}
 </style>

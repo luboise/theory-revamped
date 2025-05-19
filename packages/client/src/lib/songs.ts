@@ -1,3 +1,5 @@
+import type { SongData } from "./apitypes";
+
 const songs: { [key: string]: SongData } = {
 	"01001": {
 		songId: 1001,
