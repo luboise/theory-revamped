@@ -1,47 +1,34 @@
-div.chart-navigator {
-	width: 20%;
-	height: 100%;
-	float: left;
-
-	background-color: aliceblue;
-
-	text-align: center;
-
-	position: sticky;
-	top: 0px;
-}
-
 .btn-toggle-version {
-	height: 2em;
+  height: 2em;
 }
 
 div.game-version-dropdowns,
 div.version-song-container {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .game-version-dropdowns {
-	overflow: auto;
+  overflow: auto;
 }
 
 .btn-toggle-version,
 .version-song-container,
 .song-dropdown-container,
 .btn-song-dropdown {
-	width: 100%;
+  width: 100%;
 }
 
 .dropdown-inactive a {
-	display: none;
+  display: none;
 }
 
 .song-dropdown-anchor {
-	width: 90%;
-	float: right;
-	background-color: lightblue;
+  width: 90%;
+  float: right;
+  background-color: lightblue;
 }
 
 .btn-song-dropdown {
-	background-color: transparent;
+  background-color: transparent;
 }
