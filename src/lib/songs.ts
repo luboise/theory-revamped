@@ -1,11 +1,11 @@
-import type { SongData } from "@api/types";
+import type { SongData } from "./database/types";
 
 const songs: { [key: string]: SongData } = {
 	"01001": {
 		songId: 1001,
 		gameVersion: 0,
 		title: "GRADIUSIC CYBER",
-		title_ascii: "GRADIUSIC CYBER",
+		titleAscii: "GRADIUSIC CYBER",
 		genre: "DIGI-ROCK",
 		artist: "TAKA",
 		chartIds: [3, 2]
@@ -14,7 +14,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 2000,
 		gameVersion: 2,
 		title: ".59",
-		title_ascii: ".59",
+		titleAscii: ".59",
 		genre: "CHILL OUT",
 		artist: "dj TAKA",
 		chartIds: [3]
@@ -23,7 +23,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 3004,
 		gameVersion: 3,
 		title: "era (nostalmix)",
-		title_ascii: "era (nostalmix)",
+		titleAscii: "era (nostalmix)",
 		genre: "DRUM'N'BASS",
 		artist: "TaQ",
 		chartIds: [3, 2]
@@ -32,7 +32,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4001,
 		gameVersion: 4,
 		title: "ABSOLUTE",
-		title_ascii: "ABSOLUTE",
+		titleAscii: "ABSOLUTE",
 		genre: "EPIC TRANCE",
 		artist: "dj TAKA",
 		chartIds: [4]
@@ -41,7 +41,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4004,
 		gameVersion: 4,
 		title: "CHECKING YOU OUT",
-		title_ascii: "CHECKING YOU OUT",
+		titleAscii: "CHECKING YOU OUT",
 		genre: "HIP HOP",
 		artist: "good-cool feat. JP Miles",
 		chartIds: [3]
@@ -50,7 +50,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4007,
 		gameVersion: 4,
 		title: "empathy",
-		title_ascii: "empathy",
+		titleAscii: "empathy",
 		genre: "DRUM'N'BASS",
 		artist: "TaQ",
 		chartIds: [3]
@@ -59,7 +59,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4008,
 		gameVersion: 4,
 		title: "era (step mix)",
-		title_ascii: "era (step mix)",
+		titleAscii: "era (step mix)",
 		genre: "DRUM'N'BASS",
 		artist: "TaQ",
 		chartIds: [3]
@@ -68,7 +68,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4021,
 		gameVersion: 4,
 		title: "Voltage (feat. Hidemaru)",
-		title_ascii: "Voltage (feat. Hidemaru)",
+		titleAscii: "Voltage (feat. Hidemaru)",
 		genre: "BIG BEAT",
 		artist: "TaQ",
 		chartIds: [3]
@@ -77,7 +77,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 4032,
 		gameVersion: 4,
 		title: "FLOWERS for ALBION",
-		title_ascii: "FLOWERS for ALBION",
+		titleAscii: "FLOWERS for ALBION",
 		genre: "AMBIENT",
 		artist: "dj TAKA",
 		chartIds: [2]
@@ -86,7 +86,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 5012,
 		gameVersion: 5,
 		title: "Regulus",
-		title_ascii: "Regulus",
+		titleAscii: "Regulus",
 		genre: "INSTRUMENTAL",
 		artist: "DJ.W",
 		chartIds: [3]
@@ -95,7 +95,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 6015,
 		gameVersion: 6,
 		title: "Linus",
-		title_ascii: "Linus",
+		titleAscii: "Linus",
 		genre: "LOUNGE POP",
 		artist: "LEGO STUDIO",
 		chartIds: [3]
@@ -104,7 +104,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 6023,
 		gameVersion: 6,
 		title: "VJ ARMY",
-		title_ascii: "VJ ARMY",
+		titleAscii: "VJ ARMY",
 		genre: "ALL MIX",
 		artist: "good-cool",
 		chartIds: [3]
@@ -113,7 +113,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 7002,
 		gameVersion: 7,
 		title: "A",
-		title_ascii: "A",
+		titleAscii: "A",
 		genre: "RENAISSANCE",
 		artist: "D.J.Amuro",
 		chartIds: [3]
@@ -122,7 +122,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 7016,
 		gameVersion: 7,
 		title: "Glorious Days",
-		title_ascii: "Glorious Days",
+		titleAscii: "Glorious Days",
 		genre: "HIP HOP&SOUL",
 		artist: "Noria",
 		chartIds: [3]
@@ -131,7 +131,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 7039,
 		gameVersion: 7,
 		title: "v½",
-		title_ascii: "KAKUMEI",
+		titleAscii: "KAKUMEI",
 		genre: "ORCHESTRAL",
 		artist: "dj TAKA with NAOKI",
 		chartIds: [3]
@@ -140,7 +140,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 8001,
 		gameVersion: 8,
 		title: "airflow",
-		title_ascii: "airflow",
+		titleAscii: "airflow",
 		genre: "INSTRUMENTAL",
 		artist: "Mr.T",
 		chartIds: [3]
@@ -149,7 +149,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 8013,
 		gameVersion: 8,
 		title: "dual control",
-		title_ascii: "dual control",
+		titleAscii: "dual control",
 		genre: "GARAGE HOUSE",
 		artist: "Mr.T",
 		chartIds: [3]
@@ -158,7 +158,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 8048,
 		gameVersion: 8,
 		title: "÷",
-		title_ascii: "SAKURA",
+		titleAscii: "SAKURA",
 		genre: "SPIRITUAL",
 		artist: "Reven-G",
 		chartIds: [3]
@@ -167,7 +167,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 9010,
 		gameVersion: 9,
 		title: "Cradle",
-		title_ascii: "Cradle",
+		titleAscii: "Cradle",
 		genre: "HEALIN' HARDCORE",
 		artist: "positive MA feat.akino",
 		chartIds: [3]
@@ -176,7 +176,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 9012,
 		gameVersion: 9,
 		title: "moon_child",
-		title_ascii: "moon_child",
+		titleAscii: "moon_child",
 		genre: "POST ROCK",
 		artist: "­NWI",
 		chartIds: [3]
@@ -185,7 +185,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 10040,
 		gameVersion: 10,
 		title: "1st Samurai",
-		title_ascii: "1st Samurai",
+		titleAscii: "1st Samurai",
 		genre: "¨]ËeNm",
 		artist: "sampling masters MEGA",
 		chartIds: [3]
@@ -194,7 +194,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 10053,
 		gameVersion: 10,
 		title: "GRADIUS -FULL SPEED-",
-		title_ascii: "GRADIUS -FULL SPEED-",
+		titleAscii: "GRADIUS -FULL SPEED-",
 		genre: "GAME MUSIC",
 		artist: "Mr.T",
 		chartIds: [3]
@@ -203,7 +203,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 11015,
 		gameVersion: 11,
 		title: "earth scape",
-		title_ascii: "earth scape",
+		titleAscii: "earth scape",
 		genre: "PIANO BALLAD",
 		artist: "dj TAKA",
 		chartIds: [3]
@@ -212,7 +212,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 11018,
 		gameVersion: 11,
 		title: "Close my Eyes for Me",
-		title_ascii: "Close my Eyes for Me",
+		titleAscii: "Close my Eyes for Me",
 		genre: "AMERICA",
 		artist: "D-crew feat.DENNIS GUNN(DJ Yoshitaka SCRATCHING)",
 		chartIds: [3]
@@ -221,7 +221,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 11019,
 		gameVersion: 11,
 		title: "åV´",
-		title_ascii: "OOSANBASHI",
+		titleAscii: "OOSANBASHI",
 		genre: "JAPAN",
 		artist: "Eb`[Y",
 		chartIds: [3]
@@ -230,7 +230,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 11026,
 		gameVersion: 11,
 		title: "sAm¦tÈæPÔhå¶Îh",
-		title_ascii: "PF CONCERTO ANTI-ARES",
+		titleAscii: "PF CONCERTO ANTI-ARES",
 		genre: "DIRGE",
 		artist: "virkato",
 		chartIds: [3]
@@ -239,7 +239,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 11050,
 		gameVersion: 11,
 		title: "NEBULA GRASPER",
-		title_ascii: "NEBULA GRASPER",
+		titleAscii: "NEBULA GRASPER",
 		genre: "PSYCHEDELIC TRANCE",
 		artist: "L.E.D.",
 		chartIds: [3]
@@ -248,7 +248,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12002,
 		gameVersion: 12,
 		title: "Little Little Princess",
-		title_ascii: "Little Little Princess",
+		titleAscii: "Little Little Princess",
 		genre: "PUNK OPERA",
 		artist: "SHRINE 418",
 		chartIds: [4]
@@ -257,7 +257,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12004,
 		gameVersion: 12,
 		title: "»",
-		title_ascii: "MEI(TAKASH)",
+		titleAscii: "MEI(TAKASH)",
 		genre: "HUMAN SEQUENCER",
 		artist: "Amuro vs Killer",
 		chartIds: [3]
@@ -266,7 +266,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12021,
 		gameVersion: 12,
 		title: "Agnus Dei",
-		title_ascii: "Agnus Dei",
+		titleAscii: "Agnus Dei",
 		genre: "GOTHIC METAL",
 		artist: " ³«",
 		chartIds: [3]
@@ -275,7 +275,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12029,
 		gameVersion: 12,
 		title: "NG",
-		title_ascii: "RAKUEN",
+		titleAscii: "RAKUEN",
 		genre: "REGGAE",
 		artist: "Chonan Chiharu",
 		chartIds: [3]
@@ -284,7 +284,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12040,
 		gameVersion: 12,
 		title: "vault of heaven",
-		title_ascii: "vault of heaven",
+		titleAscii: "vault of heaven",
 		genre: "ELECTROSHOCK",
 		artist: "Mr.T",
 		chartIds: [3]
@@ -293,7 +293,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12046,
 		gameVersion: 12,
 		title: "mind the gap",
-		title_ascii: "mind the gap",
+		titleAscii: "mind the gap",
 		genre: "UK PROGRESSIVE",
 		artist: "Osamu Kubota",
 		chartIds: [3]
@@ -302,7 +302,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12050,
 		gameVersion: 12,
 		title: "Votum stellarum",
-		title_ascii: "Votum stellarum",
+		titleAscii: "Votum stellarum",
 		genre: "ANTHEM TRANCE",
 		artist: "iconoclasm",
 		chartIds: [3]
@@ -311,7 +311,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12051,
 		gameVersion: 12,
 		title: "Pink Rose",
-		title_ascii: "Pink Rose",
+		titleAscii: "Pink Rose",
 		genre: "HEART",
 		artist: "Kiyommy+Seiya",
 		chartIds: [3, 0]
@@ -320,7 +320,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 12054,
 		gameVersion: 12,
 		title: "Scripted ConnectionË A mix",
-		title_ascii: "SCRIPTED CONNECTION-> A MIX",
+		titleAscii: "SCRIPTED CONNECTION-> A MIX",
 		genre: "TECHNO",
 		artist: "DJ MURASAME",
 		chartIds: []
@@ -329,7 +329,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 13026,
 		gameVersion: 13,
 		title: "Ganymede",
-		title_ascii: "Ganymede",
+		titleAscii: "Ganymede",
 		genre: "ESOTERIC SLOWCORE",
 		artist: "º",
 		chartIds: [4]
@@ -338,7 +338,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 13031,
 		gameVersion: 13,
 		title: "DUE TOMORROW",
-		title_ascii: "DUE TOMORROW",
+		titleAscii: "DUE TOMORROW",
 		genre: "TECHNO",
 		artist: "Mr.T",
 		chartIds: [3]
@@ -347,7 +347,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 13054,
 		gameVersion: 13,
 		title: "Concertino in Blue",
-		title_ascii: "Concertino in Blue",
+		titleAscii: "Concertino in Blue",
 		genre: "PROGRESSIVE",
 		artist: "²XØj",
 		chartIds: [3]
@@ -356,7 +356,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14001,
 		gameVersion: 14,
 		title: "INORI",
-		title_ascii: "INORI",
+		titleAscii: "INORI",
 		genre: "MILLENNIUM TRANCE",
 		artist: "dj TAKA feat.HAL",
 		chartIds: []
@@ -365,7 +365,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14004,
 		gameVersion: 14,
 		title: "TRANOID",
-		title_ascii: "TRANOID",
+		titleAscii: "TRANOID",
 		genre: "PSG WORKS",
 		artist: "T&S seq. factory",
 		chartIds: [4]
@@ -374,7 +374,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14014,
 		gameVersion: 14,
 		title: "Blind Justice `Torn souls, Hurt Faiths `",
-		title_ascii: "Blind Justice",
+		titleAscii: "Blind Justice",
 		genre: "EPIC POETRY",
 		artist: "Zektbach",
 		chartIds: [3]
@@ -383,7 +383,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14036,
 		gameVersion: 14,
 		title: "2hot2eat",
-		title_ascii: "2hot2eat",
+		titleAscii: "2hot2eat",
 		genre: "HINDU SALSA",
 		artist: "Osamu Kubota",
 		chartIds: [3]
@@ -392,7 +392,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14044,
 		gameVersion: 14,
 		title: "op.31 î",
-		title_ascii: "OP.31 JOJOU",
+		titleAscii: "OP.31 JOJOU",
 		genre: "PIANO CONCERTO",
 		artist: "akiko",
 		chartIds: [3]
@@ -401,7 +401,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 14052,
 		gameVersion: 14,
 		title: "Fascination MAXX",
-		title_ascii: "Fascination MAXX",
+		titleAscii: "Fascination MAXX",
 		genre: "SuperNOVA BEAT",
 		artist: "100-200-400",
 		chartIds: [3]
@@ -410,7 +410,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15005,
 		gameVersion: 15,
 		title: "four pieces of heaven",
-		title_ascii: "four pieces of heaven",
+		titleAscii: "four pieces of heaven",
 		genre: "JUNGLE",
 		artist: "Lion",
 		chartIds: [3]
@@ -419,7 +419,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15006,
 		gameVersion: 15,
 		title: "n -The Last Song-",
-		title_ascii: "The Last Song",
+		titleAscii: "The Last Song",
 		genre: "SOLDIER'S BALLAD",
 		artist: "TAKA",
 		chartIds: [3]
@@ -428,7 +428,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15020,
 		gameVersion: 15,
 		title: "State Of The Art",
-		title_ascii: "State Of The Art",
+		titleAscii: "State Of The Art",
 		genre: "TECHNOTRONICA",
 		artist: "Sota Fujimori feat. cyborg AKEMI",
 		chartIds: []
@@ -437,7 +437,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15023,
 		gameVersion: 15,
 		title: "ICARUS",
-		title_ascii: "ICARUS",
+		titleAscii: "ICARUS",
 		genre: "NU-SKOOL BREAKBEATS HARDCORE",
 		artist: "Eagle",
 		chartIds: [4]
@@ -446,7 +446,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15027,
 		gameVersion: 15,
 		title: "avant-guerre",
-		title_ascii: "avant-guerre",
+		titleAscii: "avant-guerre",
 		genre: "CLASSICAL PIANO SOLO",
 		artist: "Osamu Kubota",
 		chartIds: [3]
@@ -455,7 +455,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15039,
 		gameVersion: 15,
 		title: "­NA",
-		title_ascii: "KID A",
+		titleAscii: "KID A",
 		genre: "POST RENAISSANCE",
 		artist: "Remixed by ­NWI",
 		chartIds: [3]
@@ -464,7 +464,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15041,
 		gameVersion: 15,
 		title: "Be OK",
-		title_ascii: "Be OK",
+		titleAscii: "Be OK",
 		genre: "EUROBEAT",
 		artist: "good-cool ft. Florence",
 		chartIds: [4]
@@ -473,7 +473,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15049,
 		gameVersion: 15,
 		title: "PARANOiA `HADES`",
-		title_ascii: "PARANOIA -HADES-",
+		titleAscii: "PARANOIA -HADES-",
 		genre: "SUPERNOVA2 BEAT #1",
 		artist: "¿TYPE-300",
 		chartIds: [3]
@@ -482,7 +482,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 15050,
 		gameVersion: 15,
 		title: "TRIP MACHINE PhoeniX",
-		title_ascii: "TRIP MACHINE PhoeniX",
+		titleAscii: "TRIP MACHINE PhoeniX",
 		genre: "SUPERNOVA2 BEAT #2",
 		artist: "DE-SIREü",
 		chartIds: [3]
@@ -491,7 +491,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16018,
 		gameVersion: 16,
 		title: "Marie Antoinette",
-		title_ascii: "Marie Antoinette",
+		titleAscii: "Marie Antoinette",
 		genre: "{ì~È",
 		artist: "Marguerite du Pr&eacute;",
 		chartIds: [4]
@@ -500,7 +500,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16020,
 		gameVersion: 16,
 		title: "ÚíÄ",
-		title_ascii: "HIMIKO",
+		titleAscii: "HIMIKO",
 		genre: "ESOTERIC SPEEDCORE",
 		artist: "é VS º",
 		chartIds: [3]
@@ -509,7 +509,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16028,
 		gameVersion: 16,
 		title: "Y&Co. is dead or alive",
-		title_ascii: "Y&Co. is dead or alive",
+		titleAscii: "Y&Co. is dead or alive",
 		genre: "90's RAVE",
 		artist: "Y&Co.",
 		chartIds: [3]
@@ -518,7 +518,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16038,
 		gameVersion: 16,
 		title: "Secrets",
-		title_ascii: "Secrets",
+		titleAscii: "Secrets",
 		genre: "TECH-PARA",
 		artist: "good-cool ft. CHiCO",
 		chartIds: [4]
@@ -527,7 +527,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16045,
 		gameVersion: 16,
 		title: "THANK YOU FOR PLAYING",
-		title_ascii: "THANK YOU FOR PLAYING",
+		titleAscii: "THANK YOU FOR PLAYING",
 		genre: "ONLY ONE EPILOGUE",
 		artist: "SUPER STAR -MITSURU-",
 		chartIds: [4, 3]
@@ -536,7 +536,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 16047,
 		gameVersion: 16,
 		title: "thunder HOUSE NATION Remix",
-		title_ascii: "thunder HOUSE NATION Remix",
+		titleAscii: "thunder HOUSE NATION Remix",
 		genre: "HOUSE",
 		artist: "Remix by Sunset In Ibiza (SII)",
 		chartIds: [4]
@@ -545,7 +545,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17013,
 		gameVersion: 17,
 		title: "She is my wife",
-		title_ascii: "She is my wife",
+		titleAscii: "She is my wife",
 		genre: "ONLY ONE BALLAD",
 		artist: "SUPER STAR -MITSURU-",
 		chartIds: [3]
@@ -554,7 +554,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17015,
 		gameVersion: 17,
 		title: "Raison d'&ecirc;tre`ð··éh½`",
-		title_ascii: "RAISON D'ETRE-MALCHUT AND L'ERISIA-",
+		titleAscii: "RAISON D'ETRE-MALCHUT AND L'ERISIA-",
 		genre: "ASTRAL CHOIR",
 		artist: "Zektbach",
 		chartIds: [3]
@@ -563,7 +563,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17017,
 		gameVersion: 17,
 		title: "cæ17Ô gZ²hå¢Ìch",
-		title_ascii: "VALSE DU GRANDE CHIEN",
+		titleAscii: "VALSE DU GRANDE CHIEN",
 		genre: "VALSE",
 		artist: "virkato",
 		chartIds: [3, 2, 1]
@@ -572,7 +572,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17024,
 		gameVersion: 17,
 		title: "D",
-		title_ascii: "D",
+		titleAscii: "D",
 		genre: "NEXT SKOOL BREAKBEATS HARDCORE",
 		artist: "Eagle",
 		chartIds: [3]
@@ -581,7 +581,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17041,
 		gameVersion: 17,
 		title: "Session 1 -Genesis-",
-		title_ascii: "Session 1 -Genesis-",
+		titleAscii: "Session 1 -Genesis-",
 		genre: "ELECTRIC FUSION",
 		artist: "PRASTIK DANCEFLOOR",
 		chartIds: [3]
@@ -590,7 +590,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 17056,
 		gameVersion: 17,
 		title: "eRAseRmOToRpHAntOM",
-		title_ascii: "eRAseRmOToRpHAntOM",
+		titleAscii: "eRAseRmOToRpHAntOM",
 		genre: "HARDCORE",
 		artist: "L.E.D.-G VS GUHROOVY",
 		chartIds: [3]
@@ -599,7 +599,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 18014,
 		gameVersion: 18,
 		title: "ZETA`fÌ¢EÆ´zÒ`",
-		title_ascii: "ZETA",
+		titleAscii: "ZETA",
 		genre: "IDM",
 		artist: "Zektbach",
 		chartIds: [3]
@@ -608,7 +608,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 18026,
 		gameVersion: 18,
 		title: "New Castle Legions",
-		title_ascii: "New Castle Legions",
+		titleAscii: "New Castle Legions",
 		genre: "DYSTOPIA",
 		artist: "Dirty Androids",
 		chartIds: [3]
@@ -617,7 +617,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 18039,
 		gameVersion: 18,
 		title: "Session 9 -Chronicles-",
-		title_ascii: "Session 9 -Chronicles-",
+		titleAscii: "Session 9 -Chronicles-",
 		genre: "ROCKIN' DRUM'N'BASS",
 		artist: "PRASTIK DANCEFLOOR",
 		chartIds: [3]
@@ -626,7 +626,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 18056,
 		gameVersion: 18,
 		title: "SABER WING",
-		title_ascii: "SABER WING",
+		titleAscii: "SABER WING",
 		genre: "SHOOTING WALTZ",
 		artist: "TAG",
 		chartIds: [3]
@@ -635,7 +635,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 19014,
 		gameVersion: 19,
 		title: "SA.YO.NA.RA. SUPER STAR",
-		title_ascii: "SA.YO.NA.RA. SUPER STAR",
+		titleAscii: "SA.YO.NA.RA. SUPER STAR",
 		genre: "ONLY ONE FINALE",
 		artist: "SUPER STAR -MITSURU-",
 		chartIds: [3]
@@ -644,7 +644,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 19030,
 		gameVersion: 19,
 		title: "NNRT",
-		title_ascii: "NNRT",
+		titleAscii: "NNRT",
 		genre: "ELECTRO GOTHIC",
 		artist: "Levaslater",
 		chartIds: [3]
@@ -653,7 +653,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 19042,
 		gameVersion: 19,
 		title: "¹lÌ",
-		title_ascii: "SEIJIN NO TOU",
+		titleAscii: "SEIJIN NO TOU",
 		genre: "BATTLE TRACK",
 		artist: "Beridzebeth",
 		chartIds: [3]
@@ -662,7 +662,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 19071,
 		gameVersion: 19,
 		title: "quaverô",
-		title_ascii: "quaver",
+		titleAscii: "quaver",
 		genre: "HAPPY",
 		artist: "Risk Junk",
 		chartIds: [3]
@@ -671,7 +671,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 19074,
 		gameVersion: 19,
 		title: "TITANS RETURN",
-		title_ascii: "TITANS RETURN",
+		titleAscii: "TITANS RETURN",
 		genre: "DRUMSTEP",
 		artist: "L.E.D.",
 		chartIds: [4]
@@ -680,7 +680,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20006,
 		gameVersion: 20,
 		title: "gJSmP",
-		title_ascii: "TORIKAGONO HOUOH",
+		titleAscii: "TORIKAGONO HOUOH",
 		genre: "Ìw DRUM & BASS",
 		artist: "L.E.D. Vs. HÂTeCg",
 		chartIds: [3]
@@ -689,7 +689,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20041,
 		gameVersion: 20,
 		title: "SYNC-ANTHEM",
-		title_ascii: "SYNC-ANTHEM",
+		titleAscii: "SYNC-ANTHEM",
 		genre: "LATIN EURO",
 		artist: "Tatsh feat. ¯ìtq",
 		chartIds: [3]
@@ -698,7 +698,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20051,
 		gameVersion: 20,
 		title: "Sol Cosine Job 2",
-		title_ascii: "Sol Cosine Job 2",
+		titleAscii: "Sol Cosine Job 2",
 		genre: "FREEFORM HARDCORE",
 		artist: "DJ TECHNORCH",
 		chartIds: [3]
@@ -707,7 +707,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20062,
 		gameVersion: 20,
 		title: "STULTI",
-		title_ascii: "STULTI",
+		titleAscii: "STULTI",
 		genre: "GRAVIOL",
 		artist: "MAX MAXIMIZER VS DJ TOTTO",
 		chartIds: [3]
@@ -716,7 +716,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20070,
 		gameVersion: 20,
 		title: "DAY DREAM",
-		title_ascii: "DAY DREAM",
+		titleAscii: "DAY DREAM",
 		genre: "DARK PROGRESSIVE",
 		artist: "Mutsuhiko Izumi",
 		chartIds: [3]
@@ -725,7 +725,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20071,
 		gameVersion: 20,
 		title: "JOMANDA",
-		title_ascii: "JOMANDA",
+		titleAscii: "JOMANDA",
 		genre: "HARD RENAISSANCE",
 		artist: "DJ YOSHITAKA",
 		chartIds: [3]
@@ -734,7 +734,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 20099,
 		gameVersion: 20,
 		title: "¹y",
-		title_ascii: "ONGAKU",
+		titleAscii: "ONGAKU",
 		genre: "SILENT",
 		artist: "ÙmJ^rI",
 		chartIds: [3, 1]
@@ -743,7 +743,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 21021,
 		gameVersion: 21,
 		title: "Odin",
-		title_ascii: "Odin",
+		titleAscii: "Odin",
 		genre: "GABBER",
 		artist: "Noizenecio",
 		chartIds: [3]
@@ -752,7 +752,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 21029,
 		gameVersion: 21,
 		title: "ù",
-		title_ascii: "TWENTY",
+		titleAscii: "TWENTY",
 		genre: "V¢IiàIHîq¹y",
 		artist: "DJ TECHNORCH",
 		chartIds: [4]
@@ -761,7 +761,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 21047,
 		gameVersion: 21,
 		title: "ra'am",
-		title_ascii: "ra'am",
+		titleAscii: "ra'am",
 		genre: "RAVERS DANCE SPEED",
 		artist: "´",
 		chartIds: [3]
@@ -770,7 +770,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22049,
 		gameVersion: 22,
 		title: "HELL SCAPER -Last Escape Remix-",
-		title_ascii: "HELL SCAPER -Last Escape Remix-",
+		titleAscii: "HELL SCAPER -Last Escape Remix-",
 		genre: "GABBAH",
 		artist: "Remixed by DJ TECHNORCH fw.GUHROOVY",
 		chartIds: [3]
@@ -779,7 +779,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22052,
 		gameVersion: 22,
 		title: "IXION",
-		title_ascii: "IXION",
+		titleAscii: "IXION",
 		genre: "PSYCHEDELIC TRANCE",
 		artist: "L.E.D.",
 		chartIds: [3]
@@ -788,7 +788,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22069,
 		gameVersion: 22,
 		title: "The Least 100sec",
-		title_ascii: "The Least 100sec",
+		titleAscii: "The Least 100sec",
 		genre: "PROGRESSIVE",
 		artist: "Sasaki Hirofumi",
 		chartIds: [3]
@@ -797,7 +797,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22089,
 		gameVersion: 22,
 		title: "EBONY & IVORY",
-		title_ascii: "EBONY & IVORY",
+		titleAscii: "EBONY & IVORY",
 		genre: "RAGTIME CHIPTUNE",
 		artist: "OSTER project",
 		chartIds: [4]
@@ -806,7 +806,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22090,
 		gameVersion: 22,
 		title: "In The Breeze",
-		title_ascii: "In The Breeze",
+		titleAscii: "In The Breeze",
 		genre: "HYBRID",
 		artist: "96 & Sota ft. Mayumi Morinaga",
 		chartIds: [3]
@@ -815,7 +815,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22098,
 		gameVersion: 22,
 		title: "Discloze",
-		title_ascii: "Discloze",
+		titleAscii: "Discloze",
 		genre: "Hi-TECH PSYTRANCE",
 		artist: "lapix",
 		chartIds: [3]
@@ -824,7 +824,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 22100,
 		gameVersion: 22,
 		title: "PENDUAL TALISMAN",
-		title_ascii: "PENDUAL TALISMAN",
+		titleAscii: "PENDUAL TALISMAN",
 		genre: "SYSTEM BGM",
 		artist: "L³L.E.D.Master",
 		chartIds: [3]
@@ -833,7 +833,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 23022,
 		gameVersion: 23,
 		title: "¾¾~",
-		title_ascii: "meikyoushisui",
+		titleAscii: "meikyoushisui",
 		genre: "TWY",
 		artist: "TOMOSUKE feat.  ³«",
 		chartIds: [3]
@@ -842,7 +842,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 23050,
 		gameVersion: 23,
 		title: "©Ä¯©çnÜé{NçÌ¬³È·",
-		title_ascii: "asayakekarahajimaru bokuranotiisanatabi",
+		titleAscii: "asayakekarahajimaru bokuranotiisanatabi",
 		genre: "ARTCORE ROCK",
 		artist: "cosMo\P",
 		chartIds: [3]
@@ -851,7 +851,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 23060,
 		gameVersion: 23,
 		title: "quick master (reform version)",
-		title_ascii: "quick master (reform version)",
+		titleAscii: "quick master (reform version)",
 		genre: "J-TEKNO",
 		artist: "youhei shimizu",
 		chartIds: [3]
@@ -860,7 +860,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 23074,
 		gameVersion: 23,
 		title: "POSSESSION",
-		title_ascii: "POSSESSION",
+		titleAscii: "POSSESSION",
 		genre: "PSYCHIC FLASH",
 		artist: "TAG underground",
 		chartIds: [3]
@@ -869,7 +869,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 23079,
 		gameVersion: 23,
 		title: "NINJA IS DEAD IIDX ver.",
-		title_ascii: "NINJA IS DEAD IIDX ver.",
+		titleAscii: "NINJA IS DEAD IIDX ver.",
 		genre: "SHINOBI SPEED",
 		artist: "P*Light",
 		chartIds: [3]
@@ -878,7 +878,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24004,
 		gameVersion: 24,
 		title: "AsiaN distractive",
-		title_ascii: "AsiaN distractive",
+		titleAscii: "AsiaN distractive",
 		genre: "WORLD",
 		artist: "L³c",
 		chartIds: [3]
@@ -887,7 +887,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24025,
 		gameVersion: 24,
 		title: "(This Is Not) The Angels",
-		title_ascii: "This Is Not The Angels",
+		titleAscii: "This Is Not The Angels",
 		genre: "BIG BEAT/BREAKBEATS",
 		artist: "Hommarju",
 		chartIds: [3]
@@ -896,7 +896,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24030,
 		gameVersion: 24,
 		title: "Sarutobi Champion is ÙÒ",
-		title_ascii: "Sarutobi Champion is Sessha",
+		titleAscii: "Sarutobi Champion is Sessha",
 		genre: "PIECED MAKIBISHI",
 		artist: "Project B-",
 		chartIds: [3]
@@ -905,7 +905,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24063,
 		gameVersion: 24,
 		title: "BREAK OVER",
-		title_ascii: "BREAK OVER",
+		titleAscii: "BREAK OVER",
 		genre: "FESTIVAL SOUND",
 		artist: "MASAYOSHI IIMORI",
 		chartIds: [3]
@@ -914,7 +914,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24074,
 		gameVersion: 24,
 		title: "áÉ¤ØÌæ¤É",
-		title_ascii: "Tsukiyuki ni mau hananoyouni",
+		titleAscii: "Tsukiyuki ni mau hananoyouni",
 		genre: "FOREST SNOW",
 		artist: "L³Master",
 		chartIds: [3]
@@ -923,7 +923,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24081,
 		gameVersion: 24,
 		title: "Beat Juggling Mix",
-		title_ascii: "Beat Juggling Mix",
+		titleAscii: "Beat Juggling Mix",
 		genre: "DJ BATTLE",
 		artist: "Hommarju",
 		chartIds: [3]
@@ -932,7 +932,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24082,
 		gameVersion: 24,
 		title: "SEQUENCE CAT",
-		title_ascii: "SEQUENCE CAT",
+		titleAscii: "SEQUENCE CAT",
 		genre: "TECHNO",
 		artist: "SLEDLAKE (SLAKE & L.E.D.)",
 		chartIds: [3]
@@ -941,7 +941,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24083,
 		gameVersion: 24,
 		title: "nostos",
-		title_ascii: "nostos",
+		titleAscii: "nostos",
 		genre: "NOSTALGIA",
 		artist: "Setaria Virtuoso",
 		chartIds: [3]
@@ -950,7 +950,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 24088,
 		gameVersion: 24,
 		title: "Surf on the Light",
-		title_ascii: "Surf on the Light",
+		titleAscii: "Surf on the Light",
 		genre: "ELECTRO FUSION",
 		artist: "Tomoyuki Uchida",
 		chartIds: [3]
@@ -959,7 +959,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 25007,
 		gameVersion: 25,
 		title: "EMERALDAS",
-		title_ascii: "EMERALDAS",
+		titleAscii: "EMERALDAS",
 		genre: "IRREGULAR DJENT STEP",
 		artist: 'BEMANI Sound Team "Hu°eR vs dj Hellix"',
 		chartIds: [3]
@@ -968,7 +968,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 25043,
 		gameVersion: 25,
 		title: "FUTURE is Dead",
-		title_ascii: "FUTURE is Dead",
+		titleAscii: "FUTURE is Dead",
 		genre: "HOLIC",
 		artist: "C-Show",
 		chartIds: [3]
@@ -977,7 +977,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 25054,
 		gameVersion: 25,
 		title: "Hella Deep",
-		title_ascii: "Hella Deep",
+		titleAscii: "Hella Deep",
 		genre: "FREESTYLE",
 		artist: "MASAYOSHI IIMORI",
 		chartIds: [3]
@@ -986,7 +986,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 25064,
 		gameVersion: 25,
 		title: "2 Player",
-		title_ascii: "2 Player",
+		titleAscii: "2 Player",
 		genre: "BEAT PIANO MUSIC",
 		artist: "maras k/marasy~kors k",
 		chartIds: [3]
@@ -995,7 +995,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 25093,
 		gameVersion: 25,
 		title: "DropZ-Line-",
-		title_ascii: "DropZ-Line-",
+		titleAscii: "DropZ-Line-",
 		genre: "PUMPCORE",
 		artist: "Getty vs. DJ DiA",
 		chartIds: [3]
@@ -1004,7 +1004,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26041,
 		gameVersion: 26,
 		title: "Ô¥ feat.Aikapin",
-		title_ascii: "Hanakanmuri feat.Aikapin",
+		titleAscii: "Hanakanmuri feat.Aikapin",
 		genre: "SOCA",
 		artist: "RoughSkreamZ",
 		chartIds: [3]
@@ -1013,7 +1013,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26062,
 		gameVersion: 26,
 		title: "The Sealer `AE~AÆ~AÌ¯`",
-		title_ascii: "The Sealer",
+		titleAscii: "The Sealer",
 		genre: "ELEMENTAL JIG",
 		artist: "Zektbach",
 		chartIds: [3]
@@ -1022,7 +1022,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26079,
 		gameVersion: 26,
 		title: "EVANESCENT",
-		title_ascii: "EVANESCENT",
+		titleAscii: "EVANESCENT",
 		genre: "PROGRESSIVE ROCK",
 		artist: "SOUND HOLIC feat. Nana Takahashi",
 		chartIds: [3]
@@ -1031,7 +1031,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26085,
 		gameVersion: 26,
 		title: "Lethal Weapon",
-		title_ascii: "Lethal Weapon",
+		titleAscii: "Lethal Weapon",
 		genre: "RECKLESS HARDCORE",
 		artist: 'BEMANI Sound Team "Hu°eR"',
 		chartIds: [3]
@@ -1040,7 +1040,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26090,
 		gameVersion: 26,
 		title: "50th Memorial Songs -Flagship medley-",
-		title_ascii: "50th Memorial Songs -Flagship medley-",
+		titleAscii: "50th Memorial Songs -Flagship medley-",
 		genre: "ANNIVERSARY",
 		artist: "BEMANI Sound Team",
 		chartIds: [3]
@@ -1049,7 +1049,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26093,
 		gameVersion: 26,
 		title: "ruin of opals",
-		title_ascii: "ruin of opals",
+		titleAscii: "ruin of opals",
 		genre: "IRIDESCENCE JAZZ ETUDE",
 		artist: "ãm£Â©³",
 		chartIds: [3]
@@ -1058,7 +1058,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 26097,
 		gameVersion: 26,
 		title: "ToyCube Pf.(RX-Ver.S.P.L.)",
-		title_ascii: "ToyCube Pf.(RX-Ver.S.P.L.)",
+		titleAscii: "ToyCube Pf.(RX-Ver.S.P.L.)",
 		genre: "NEW AGE",
 		artist: "cëj",
 		chartIds: [3]
@@ -1067,7 +1067,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27018,
 		gameVersion: 27,
 		title: "ØíÈéå¢~È",
-		title_ascii: "Valse Brillante du Grand Chien",
+		titleAscii: "Valse Brillante du Grand Chien",
 		genre: "CINEMATIC VALSE",
 		artist: "Wiktoria",
 		chartIds: [3]
@@ -1076,7 +1076,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27036,
 		gameVersion: 27,
 		title: "GHOST",
-		title_ascii: "GHOST",
+		titleAscii: "GHOST",
 		genre: "FREEFORM HARDCORE",
 		artist: "Hommarju",
 		chartIds: [3]
@@ -1085,7 +1085,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27071,
 		gameVersion: 27,
 		title: "´ç³s®¾",
-		title_ascii: "ora tokyo sa iguda",
+		titleAscii: "ora tokyo sa iguda",
 		genre: "IIDX EDITION",
 		artist: "Remixed by ·íÐÅ¨ & uno(IOSYS)",
 		chartIds: [3]
@@ -1094,7 +1094,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27073,
 		gameVersion: 27,
 		title: "K[hbvLbN",
-		title_ascii: "Gabriel DropKick",
+		titleAscii: "Gabriel DropKick",
 		genre: "IIDX EDITION",
 		artist: "Remixed by ©ßè ",
 		chartIds: [3]
@@ -1103,7 +1103,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27077,
 		gameVersion: 27,
 		title: "Theory",
-		title_ascii: "Theory",
+		titleAscii: "Theory",
 		genre: "TRAP",
 		artist: "YUTO",
 		chartIds: [3]
@@ -1112,7 +1112,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27083,
 		gameVersion: 27,
 		title: "Silly Love",
-		title_ascii: "Silly Love",
+		titleAscii: "Silly Love",
 		genre: "ELECTRO NU DISCO",
 		artist: "D? D? MOUSE",
 		chartIds: [3]
@@ -1121,7 +1121,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 27113,
 		gameVersion: 27,
 		title: "VV[Ì",
-		title_ascii: "shamshir dance",
+		titleAscii: "shamshir dance",
 		genre: "og_X",
 		artist: "Zektbach",
 		chartIds: [3]
@@ -1130,7 +1130,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28008,
 		gameVersion: 28,
 		title: "fBXRfBA",
-		title_ascii: "Discordia",
+		titleAscii: "Discordia",
 		genre: "CROSSOVER",
 		artist: 'ØÌêè vs. BEMANI Sound Team "Hu°eR"',
 		chartIds: [3]
@@ -1139,7 +1139,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28024,
 		gameVersion: 28,
 		title: "Sinus Iridum",
-		title_ascii: "Sinus Iridum",
+		titleAscii: "Sinus Iridum",
 		genre: "KAMIKURA",
 		artist: "_yü",
 		chartIds: [3]
@@ -1148,7 +1148,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28031,
 		gameVersion: 28,
 		title: "Midnight Drive",
-		title_ascii: "Midnight Drive",
+		titleAscii: "Midnight Drive",
 		genre: "HIP HOP",
 		artist: "çÁÕÑÆ Prod. by uno",
 		chartIds: [3]
@@ -1157,7 +1157,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28043,
 		gameVersion: 28,
 		title: "@Ì©­êñÚ",
-		title_ascii: "magical hide&seek",
+		titleAscii: "magical hide&seek",
 		genre: "FANTASY TOYPOP",
 		artist: "Snail's House",
 		chartIds: [3]
@@ -1166,7 +1166,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28064,
 		gameVersion: 28,
 		title: "Ah Hah Yeah",
-		title_ascii: "Ah Hah Yeah",
+		titleAscii: "Ah Hah Yeah",
 		genre: "UPTEMPO RAW",
 		artist: "Masayoshi Iimori",
 		chartIds: [3]
@@ -1175,7 +1175,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28078,
 		gameVersion: 28,
 		title: "3!dolon Forc3",
-		title_ascii: "3!dolon Forc3",
+		titleAscii: "3!dolon Forc3",
 		genre: "THE 4TH",
 		artist: "Â´~Eagle",
 		chartIds: [3]
@@ -1184,7 +1184,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28081,
 		gameVersion: 28,
 		title: "ñlmpéHx",
-		title_ascii: "A Revenant Ball For Two In An Abandoned Castle",
+		titleAscii: "A Revenant Ball For Two In An Abandoned Castle",
 		genre: "SPUKWALZER",
 		artist: "ãm£Â©³",
 		chartIds: [3]
@@ -1193,7 +1193,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28084,
 		gameVersion: 28,
 		title: "IgnisõIr?",
-		title_ascii: "Ignis+Irae",
+		titleAscii: "Ignis+Irae",
 		genre: "X",
 		artist: 'BEMANI Sound Team "_"',
 		chartIds: [3]
@@ -1202,7 +1202,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28095,
 		gameVersion: 28,
 		title: "Scandal",
-		title_ascii: "Scandal",
+		titleAscii: "Scandal",
 		genre: "PROGRESSIVE SWING",
 		artist: "Osamu Kubota",
 		chartIds: [3]
@@ -1211,7 +1211,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 28100,
 		gameVersion: 28,
 		title: "Fire Beat",
-		title_ascii: "Fire Beat",
+		titleAscii: "Fire Beat",
 		genre: "EXPERIMENTAL EUROBEAT",
 		artist: "kors k",
 		chartIds: [3]
@@ -1220,7 +1220,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29006,
 		gameVersion: 29,
 		title: "Onyx",
-		title_ascii: "Onyx",
+		titleAscii: "Onyx",
 		genre: "STYLISH COLOUR",
 		artist: 'BEMANI Sound Team "Hu°eR"',
 		chartIds: [3]
@@ -1229,7 +1229,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29017,
 		gameVersion: 29,
 		title: 'sAmÆt³¾Ì "Dà"',
-		title_ascii: 'Lied ohne Worte "Asche-Traum"',
+		titleAscii: 'Lied ohne Worte "Asche-Traum"',
 		genre: "THRENODY",
 		artist: 'BEMANI Sound Team "Virkato Wakhmaninov"',
 		chartIds: [3, 1]
@@ -1238,7 +1238,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29026,
 		gameVersion: 29,
 		title: "kors k's How to make OTOGE CORE",
-		title_ascii: "kors k's How to make OTOGE CORE",
+		titleAscii: "kors k's How to make OTOGE CORE",
 		genre: "CHANNEL K",
 		artist: "kors k",
 		chartIds: [3]
@@ -1247,7 +1247,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29061,
 		gameVersion: 29,
 		title: "n/a",
-		title_ascii: "n/a",
+		titleAscii: "n/a",
 		genre: "SYMPHONIC DUBSTEP",
 		artist: "Blacklolita",
 		chartIds: [3]
@@ -1256,7 +1256,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29068,
 		gameVersion: 29,
 		title: "áãfÎ",
-		title_ascii: "Burn out beyond determination on snowy",
+		titleAscii: "Burn out beyond determination on snowy",
 		genre: "HIP ROCK3",
 		artist: "Des-ROWEg",
 		chartIds: [3]
@@ -1265,7 +1265,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29072,
 		gameVersion: 29,
 		title: "f[jbV",
-		title_ascii: "damonisch",
+		titleAscii: "damonisch",
 		genre: "J-POP",
 		artist: "c",
 		chartIds: [3]
@@ -1274,7 +1274,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29084,
 		gameVersion: 29,
 		title: "Silver Bullet",
-		title_ascii: "Silver Bullet",
+		titleAscii: "Silver Bullet",
 		genre: "PIANO CONCERTINO + JAZZ FUSION",
 		artist: "xi",
 		chartIds: [3]
@@ -1283,7 +1283,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29087,
 		gameVersion: 29,
 		title: "Game Changers",
-		title_ascii: "Game Changers",
+		titleAscii: "Game Changers",
 		genre: "HARD MIXTURE",
 		artist: "Yuta Imai",
 		chartIds: [3]
@@ -1292,7 +1292,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 29098,
 		gameVersion: 29,
 		title: "Push on Beats!`¹QÌÌeX-Xg[}[`",
-		title_ascii: "Push on Beats!Otoge no Kuni no eX-Streamer",
+		titleAscii: "Push on Beats!Otoge no Kuni no eX-Streamer",
 		genre: "AKIBA-POP",
 		artist: "MOSAIC.WAV",
 		chartIds: [3]
@@ -1301,7 +1301,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 30020,
 		gameVersion: 30,
 		title: "Meissa",
-		title_ascii: "Meissa",
+		titleAscii: "Meissa",
 		genre: "PROGRESSIVE DRUM'N'BASS",
 		artist: 'BEMANI Sound Team "Yvya"',
 		chartIds: [3]
@@ -1310,7 +1310,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 30033,
 		gameVersion: 30,
 		title: "C-C-C-N-N-N",
-		title_ascii: "C-C-C-N-N-N",
+		titleAscii: "C-C-C-N-N-N",
 		genre: "ELECTRONICORE",
 		artist: "RoughSkreamZ feat. Aikapin",
 		chartIds: [3]
@@ -1319,7 +1319,7 @@ const songs: { [key: string]: SongData } = {
 		songId: 30053,
 		gameVersion: 30,
 		title: "ßßÌ¹°",
-		title_ascii: "Cathedral of sin",
+		titleAscii: "Cathedral of sin",
 		genre: "PIANO CONCERTO",
 		artist: "OSTER project",
 		chartIds: [3]

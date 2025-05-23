@@ -1,7 +1,8 @@
 import { GAME_VERSION_TITLES } from "./constants";
-import songs from "./songs";
 
-import { type SongFolder } from "@api/types";
+import type { SongFolder } from "./database/types";
+
+import songs from "./songs";
 
 const SONG_FOLDERS = (() => {
 	if (!songs) return songs;

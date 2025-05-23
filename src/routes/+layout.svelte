@@ -1,4 +1,8 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import ChartNavigator from "$lib/ChartNavigator.svelte";
+
+	let { children } = $props();
+</script>
 
 <nav>
 	<a href="/" id="logo">Theory</a>
@@ -17,6 +21,10 @@
 	<!-- 	<CustomLink href="songpage">Song Page</CustomLink> -->
 	<!-- </ul> -->
 </nav>
+
+<ChartNavigator />
+
+{@render children()}
 
 <style>
 	nav {

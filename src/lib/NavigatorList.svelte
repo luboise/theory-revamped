@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { type PlayMode, type SongData, type ChartDiff } from "@api/types";
+	import type { ChartDiff, PlayMode, SongData } from "./database/types";
 
 	const { song, playmode }: { song: SongData; playmode: PlayMode } = $props();
 
