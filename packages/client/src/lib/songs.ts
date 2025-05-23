@@ -1,4 +1,4 @@
-import type { SongData } from "./apitypes";
+import type { SongData } from "@api/types";
 
 const songs: { [key: string]: SongData } = {
 	"01001": {
