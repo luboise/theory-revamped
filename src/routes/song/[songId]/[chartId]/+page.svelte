@@ -111,3 +111,15 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 		{/if}
 	</div>
 </div>
+
+<style>
+	.chart-method-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.chart-method {
+		border: 1px solid black;
+	}
+</style>

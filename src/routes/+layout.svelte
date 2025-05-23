@@ -22,9 +22,13 @@
 	<!-- </ul> -->
 </nav>
 
-<ChartNavigator />
+<div style:display="flex">
+	<ChartNavigator />
 
-{@render children()}
+	<main style:flex="1">
+		{@render children()}
+	</main>
+</div>
 
 <style>
 	nav {

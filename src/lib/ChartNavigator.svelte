@@ -20,7 +20,7 @@
 		</form>
 	</div>
 
-	{#each Object.values(SONG_FOLDERS) as folder}
+	{#each Object.values(SONG_FOLDERS).toReversed() as folder}
 		<h4>{folder.title}</h4>
 
 		{#each folder.songs as song}
@@ -43,7 +43,7 @@
 
 	#chart-navigator {
 		width: 20%;
-		max-height: 100vh;
+		max-height: 90vh;
 		float: left;
 
 		background-color: aliceblue;
