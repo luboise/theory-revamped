@@ -84,24 +84,19 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 
 			{#each data.methods as method, i (i)}
 				<div class="chart-method">
-					<div class="chart-method-header">
-						<div id="chart-method-rating-container">
-							<button class="btn-vote">\/</button>
-							<p>{method.rating}</p>
-							<button class="btn-vote">/\</button>
-						</div>
-						<h2>{method.title}</h2>
-						Difficulty: ${method.difficulty}
-					</div>
+					<h2 style:grid-area="title">{method.title}</h2>
+					<p style:grid-area="author">Submitted by {method.authorName}</p>
+					<!-- <div class="chart-method-header"> -->
+					<!-- <div id="chart-method-rating-container"> -->
+					<!-- <button class="btn-vote">\/</button> -->
+					<!-- <p>{method.rating}</p> -->
+					<!-- <button class="btn-vote">/\</button> -->
+					<!-- </div> -->
+					<!-- </div> -->
 
-					<p class="method-body">{method.body}</p>
-					<div class="chart-method-footer">
-						<p>
-							Author: {method.authorName}
-							{""}
-							Timestamp: {String(method.timestamp)}
-						</p>
-					</div>
+					<p style:grid-area="rating">{method.rating}</p>
+					<p style:grid-area="difficulty">Difficulty: {method.difficulty}</p>
+					<p style:grid-area="method">{method.body}</p>
 				</div>
 			{/each}
 		{:else}
@@ -114,12 +109,24 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 
 <style>
 	.chart-method-container {
-		width: 100%;
 		display: flex;
 		flex-direction: column;
+
+		padding: 20px;
+
+		gap: 20px;
 	}
 
 	.chart-method {
+		padding: 1em;
+
+		border-radius: 1em;
+
 		border: 1px solid black;
+		display: grid;
+		grid-template-areas:
+			"title author difficulty difficulty"
+			"method method method rating";
+		grid-template-columns: 4fr 2fr 1fr 0.5fr;
 	}
 </style>
