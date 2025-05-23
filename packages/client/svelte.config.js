@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter(),
 
 		alias: {
-			"@api/types": "../express-server/src/types/shared/"
+			"@api": "../express-server/src/shared/"
 		}
 	}
 };

@@ -1,0 +1,1 @@
+interface APIEndpoint<ResBody, ReqBody> {}
