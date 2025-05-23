@@ -1,0 +1,36 @@
+session_name: theory-revamped
+
+windows:
+  - window_name: git
+    panes:
+      - shell_command:
+          - lazygit
+
+  - window_name: all
+    panes:
+      - shell_command:
+          - nvim .
+
+  - window_name: client
+    focus: true
+    layout: main-vertical
+    options:
+      main-pane-width: 70%
+    panes:
+      - shell_command:
+          - cd ./packages/client
+          - nvim .
+        focus: true
+      - shell_command:
+          - cd ./packages/client
+          - npm run dev
+
+  - window_name: server
+    layout: main-vertical
+    options:
+      main-pane-width: 70%
+    panes:
+      - shell_command:
+          - cd ./packages/express-server
+          - nvim .
+      - pwd
