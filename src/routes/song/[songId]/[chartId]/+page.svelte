@@ -120,7 +120,7 @@ const MakeSortButtons = (TextArray, onclickFunction) => {
 	.chart-method {
 		padding: 1em;
 
-		border-radius: 1em;
+		border-radius: 0.5em;
 
 		border: 1px solid black;
 		display: grid;

@@ -1,13 +1,32 @@
 <script lang="ts">
 	import ChartNavigator from "$lib/ChartNavigator.svelte";
+	import LinkTree from "$lib/LinkTree.svelte";
+	import type { LinkTreeData } from "$lib/types";
 
 	let { children } = $props();
+
+	const tree: LinkTreeData = {
+		url: "info/",
+		label: "Info",
+		links: [
+			{
+				url: "soflan/",
+				label: "Soflan",
+				links: [{ url: "basics", label: "Soflan Basics" }]
+			}
+		]
+	};
 </script>
 
 <nav>
-	<a href="/" id="logo">Theory</a>
-	<a href="/tech">Techniques/Info</a>
-	<a href="/charts">Chart Directory</a>
+	<a href="/" id="logo" class="navitem">Theory</a>
+	<a href="/tech" class="navitem">Techniques/Info</a>
+
+	<LinkTree {tree} class="navitem" />
+	<a href="/info" class="navitem">Info</a>
+	<a href="/info/glossary">Glossary</a>
+	<a href="/info/soflan">Glossary</a>
+	<!-- <a href="/charts">Chart Directory</a> -->
 
 	<!---->
 	<!-- <ul class="navbar__link-wrapper"> -->
@@ -83,5 +102,9 @@
 		text-align: center;
 		padding-right: 5rem;
 		border-left: none;
+	}
+
+	main {
+		padding: 1em;
 	}
 </style>
