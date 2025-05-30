@@ -1,6 +1,6 @@
 import { GAME_VERSION_TITLES } from "./constants";
 
-import type { SongFolder } from "./database/types";
+import type { SongFolder } from "./types/midend";
 
 import songs from "./songs";
 

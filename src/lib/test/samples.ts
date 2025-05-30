@@ -1,4 +1,4 @@
-import type { SongData } from "$lib/database/types";
+import type { SongData } from "$lib/types/midend";
 
 export const SAMPLE_SONG: SongData = {
 	songId: 27077,

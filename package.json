@@ -4,7 +4,8 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "wrangler dev",
+		"vite-dev": "vite dev",
 		"build": "vite build",
 		"preview": "npm run build && wrangler dev",
 		"prepare": "svelte-kit sync || echo ''",
@@ -16,7 +17,6 @@
 		"cf-typegen": "wrangler types ./src/worker-configuration.d.ts"
 	},
 	"devDependencies": {
-		"@cloudflare/d1": "^1.4.1",
 		"@cloudflare/workers-types": "^4.20250529.0",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
