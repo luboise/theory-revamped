@@ -1,16 +1,18 @@
 import { error } from "@sveltejs/kit";
-import { isChartDiff, type ChartDiff, type SongData } from "$lib/database/types";
-import { SAMPLE_SONG } from "$lib/test/samples";
+import { isChartDiff, type ChartDiff, type SongData } from "$lib/types/midend";
+
 import type { PageServerLoad } from "./$types";
+import type { MethodRow, UserRow } from "$lib/types";
+import { getSong } from "$lib/database";
 
 interface ChartMethod {
 	title: string;
 
-	authorId: string;
+	authorId: number;
 	authorName: string;
 
 	rating: number;
-	difficulty: number;
+	difficulty: ChartDiff;
 	timestamp: Date;
 
 	body: string;
@@ -23,22 +25,61 @@ interface Data {
 	methods: ChartMethod[];
 }
 
-export const load: PageServerLoad = async ({ params }) => {
-	const id = Number(params.chartId);
+type MethodQueryRow = MethodRow & Omit<UserRow, "password_hashed">;
 
-	if (!isChartDiff(id)) {
+export const load: PageServerLoad = async ({ params, platform }) => {
+	if (!platform) {
+		throw Error("Platform undefined.");
+	}
+
+	if (!isChartDiff(Number(params.chartId))) {
 		error(403, `Invalid request for chart ID ${params.chartId}.`);
 	}
 
-	//TODO: Implement in database
-	const song = { ...SAMPLE_SONG };
+	const chartCount = await platform.env.DB.prepare(
+		"SELECT COUNT(*) AS count FROM chart c WHERE c.song_id = ? AND c.difficulty = ?;"
+	)
+		.bind(params.songId, params.chartId)
+		.first<{ count: number }>();
 
-	if (!song.chartIds.includes(id)) {
-		error(404, `Chart ID ${id} does not exist for this song.`);
+	if (!chartCount || !chartCount.count) {
+		error(404, `Song ${params.songId} has no chart ${params.chartId}.`);
 	}
 
-	const methods: ChartMethod[] = [];
+	const query = `
+	SELECT u.id, u.username, m.* FROM method m
+		JOIN user u
+		WHERE m.song_id = ?
+		AND m.difficulty = ?;
+	`;
 
+	const result = await platform.env.DB.prepare(query)
+		.bind(params.songId, params.chartId)
+		.all<MethodQueryRow>();
+
+	if (!result.success) {
+		error(500, "Unable to retrieve methods from the database.");
+	}
+
+	const song = await getSong(platform.env.DB, Number(params.songId));
+	if (!song) {
+		error(404, `No song available by ID ${params.songId}`);
+	}
+
+	const methods: ChartMethod[] = result.results.map((r): ChartMethod => {
+		const { username, author_id, title, timestamp, body, rating } = r;
+		return {
+			authorId: author_id,
+			authorName: username,
+			difficulty: Number(params.chartId) as ChartDiff,
+			title,
+			rating,
+			body,
+			timestamp: new Date(timestamp)
+		};
+	});
+
+	/*
 	methods.push(
 		{
 			title: "No tech",
@@ -64,10 +105,17 @@ While a click track (listed above) helps with all methods, it helps the most wit
 Gear shift up by 2 at the blue circle and down by 2 at the purple circle. Don't be afraid to miss notes to hit the gear shift accurately. You'll make it up with your accuracy during the scratch section.`
 		}
 	);
+	*/
 
 	const data: Data = {
-		song,
-		chartId: id,
+		song: {
+			...song,
+			songId: song.id,
+			gameVersion: song.game_version,
+			titleAscii: song.title_ascii,
+			chartIds: []
+		},
+		chartId: Number(params.chartId) as ChartDiff,
 		methods
 	};
 	return data;

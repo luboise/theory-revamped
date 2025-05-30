@@ -3,7 +3,9 @@
 	import LinkTree from "$lib/LinkTree.svelte";
 	import type { LinkTreeData } from "$lib/types";
 
-	let { children } = $props();
+	import type { LayoutProps } from "./$types";
+
+	let { children, data }: LayoutProps = $props();
 
 	const tree: LinkTreeData = {
 		url: "info/",
@@ -42,7 +44,9 @@
 </nav>
 
 <div style:display="flex">
-	<ChartNavigator />
+	{#if data.folders !== undefined}
+		<ChartNavigator songFolders={data.folders} />
+	{/if}
 
 	<main style:flex="1">
 		{@render children()}

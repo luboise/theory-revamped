@@ -29,5 +29,18 @@ export interface ChartData {
 export interface SongFolder {
 	style: number;
 	title: string;
-	songs: SongData[];
+	songs: { [key: string]: SongData };
 }
+
+export type SongObjectsUploadPayload = Record<
+	string,
+	{
+		song_id: string;
+		game_version: number;
+		title: string;
+		title_ascii: string;
+		genre: string;
+		artist: string;
+		chart_ids: number[];
+	}
+>;

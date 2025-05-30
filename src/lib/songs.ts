@@ -1,4 +1,4 @@
-import type { SongData } from "./database/types";
+import type { SongData } from "./types/midend";
 
 const songs: { [key: string]: SongData } = {
 	"01001": {
