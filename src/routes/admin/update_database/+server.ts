@@ -15,15 +15,22 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 
 		const statements: D1PreparedStatement[] = Object.entries(body).map(([songId, song]) => {
 			const statement = platform.env.DB.prepare(
-				`INSERT INTO song(id, game_version, title, title_ascii, artist, genre) VALUES (?, ?, ?, ?, ?, ?);`
+				`
+				INSERT INTO song(id, game_version, title, title_ascii, artist, genre) VALUES (?, ?, ?, ?, ?, ?)
+				ON CONFLICT (id) DO UPDATE
+				SET title = excluded.title,
+					title_ascii = excluded.title_ascii,
+					artist = excluded.artist,
+					genre = excluded.genre
+				;
+				`
 			).bind(songId, song.game_version, song.title, song.title_ascii, song.artist, song.genre);
 
 			song.chart_ids.forEach((difficulty) =>
 				chartStatements.push(
-					platform.env.DB.prepare(`INSERT INTO chart(song_id, difficulty) VALUES (?, ?);`).bind(
-						songId,
-						difficulty
-					)
+					platform.env.DB.prepare(
+						`INSERT OR IGNORE INTO chart(song_id, difficulty) VALUES (?, ?);`
+					).bind(songId, difficulty)
 				)
 			);
 
@@ -37,6 +44,10 @@ export const POST: RequestHandler = async ({ request, platform }) => {
 
 		return new Response("Success.");
 	} catch (e) {
-		error(500, (e as Error).message);
+		const message = (e as Error).message;
+
+		console.error("Error occurred during insertion: ", message);
+
+		error(500, message);
 	}
 };
