@@ -31,3 +31,16 @@ export interface SongFolder {
 	title: string;
 	songs: SongData[];
 }
+
+export type SongObjectsUploadPayload = Record<
+	string,
+	{
+		song_id: string;
+		game_version: number;
+		title: string;
+		title_ascii: string;
+		genre: string;
+		artist: string;
+		chart_ids: number[];
+	}
+>;

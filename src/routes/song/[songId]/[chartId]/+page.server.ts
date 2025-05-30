@@ -106,7 +106,7 @@ Gear shift up by 2 at the blue circle and down by 2 at the purple circle. Don't 
 
 	const data: Data = {
 		song,
-		chartId: params.chartId,
+		chartId: Number(params.chartId) as ChartDiff,
 		methods
 	};
 	return data;

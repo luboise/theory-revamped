@@ -1,6 +1,6 @@
 {
     "01001": {
-        "song_id": "01001",
+        "song_id": 1001,
         "game_version": 0,
         "title": "GRADIUSIC CYBER",
         "title_ascii": "GRADIUSIC CYBER",
@@ -11,41 +11,8 @@
             "01001_2"
         ]
     },
-    "01207": {
-        "song_id": "01207",
-        "game_version": 0,
-        "title": "e-motion",
-        "title_ascii": "e-motion",
-        "genre": "RAVE",
-        "artist": "e.o.s",
-        "chart_ids": [
-            "01207_3"
-        ]
-    },
-    "01217": {
-        "song_id": "01217",
-        "game_version": 0,
-        "title": "Ska a go go",
-        "title_ascii": "Ska a go go",
-        "genre": "SKA",
-        "artist": "THE BALD HEADS",
-        "chart_ids": [
-            "01217_3"
-        ]
-    },
-    "01401": {
-        "song_id": "01401",
-        "game_version": 1,
-        "title": "NaHaNaHa vs. Gattchoon Battle",
-        "title_ascii": "NaHaNaHa vs. Gattchoon Battle",
-        "genre": "DJ BATTLE",
-        "artist": "DJ Senda & Tiny-K",
-        "chart_ids": [
-            "01401_2"
-        ]
-    },
     "02000": {
-        "song_id": "02000",
+        "song_id": 2000,
         "game_version": 2,
         "title": ".59",
         "title_ascii": ".59",
@@ -55,53 +22,8 @@
             "02000_3"
         ]
     },
-    "02009": {
-        "song_id": "02009",
-        "game_version": 2,
-        "title": "SOFT LANDING ON THE BODY",
-        "title_ascii": "SOFT LANDING ON THE BODY",
-        "genre": "SPIRITUAL",
-        "artist": "DJ SIMON",
-        "chart_ids": [
-            "02009_2"
-        ]
-    },
-    "02206": {
-        "song_id": "02206",
-        "game_version": 2,
-        "title": "lovin' you",
-        "title_ascii": "lovin' you",
-        "genre": "JAZZ DRUM'N'BASS",
-        "artist": "MONDAY MICHIRU",
-        "chart_ids": [
-            "02206_2"
-        ]
-    },
-    "02209": {
-        "song_id": "02209",
-        "game_version": 2,
-        "title": "Panorama",
-        "title_ascii": "Panorama",
-        "genre": "SOUL CLASSIC",
-        "artist": "Hirofumi Asamoto (ram jam world)",
-        "chart_ids": [
-            "02209_2",
-            "02209_1"
-        ]
-    },
-    "02210": {
-        "song_id": "02210",
-        "game_version": 2,
-        "title": "S.O.S.",
-        "title_ascii": "S.O.S.",
-        "genre": "INDIE EURO/DANCE",
-        "artist": "DR.BOMBAY",
-        "chart_ids": [
-            "02210_2"
-        ]
-    },
     "03004": {
-        "song_id": "03004",
+        "song_id": 3004,
         "game_version": 3,
         "title": "era (nostalmix)",
         "title_ascii": "era (nostalmix)",
@@ -113,7 +35,7 @@
         ]
     },
     "04001": {
-        "song_id": "04001",
+        "song_id": 4001,
         "game_version": 4,
         "title": "ABSOLUTE",
         "title_ascii": "ABSOLUTE",
@@ -124,7 +46,7 @@
         ]
     },
     "04004": {
-        "song_id": "04004",
+        "song_id": 4004,
         "game_version": 4,
         "title": "CHECKING YOU OUT",
         "title_ascii": "CHECKING YOU OUT",
@@ -135,7 +57,7 @@
         ]
     },
     "04007": {
-        "song_id": "04007",
+        "song_id": 4007,
         "game_version": 4,
         "title": "empathy",
         "title_ascii": "empathy",
@@ -146,7 +68,7 @@
         ]
     },
     "04008": {
-        "song_id": "04008",
+        "song_id": 4008,
         "game_version": 4,
         "title": "era (step mix)",
         "title_ascii": "era (step mix)",
@@ -157,7 +79,7 @@
         ]
     },
     "04021": {
-        "song_id": "04021",
+        "song_id": 4021,
         "game_version": 4,
         "title": "Voltage (feat. Hidemaru)",
         "title_ascii": "Voltage (feat. Hidemaru)",
@@ -168,7 +90,7 @@
         ]
     },
     "04032": {
-        "song_id": "04032",
+        "song_id": 4032,
         "game_version": 4,
         "title": "FLOWERS for ALBION",
         "title_ascii": "FLOWERS for ALBION",
@@ -178,74 +100,8 @@
             "04032_2"
         ]
     },
-    "04206": {
-        "song_id": "04206",
-        "game_version": 4,
-        "title": "R壱萬",
-        "title_ascii": "R10K",
-        "genre": "RAVE",
-        "artist": "tiger YAMATO",
-        "chart_ids": [
-            "04206_3"
-        ]
-    },
-    "04210": {
-        "song_id": "04210",
-        "game_version": 4,
-        "title": "Twin Bee(Generation X)",
-        "title_ascii": "Twin Bee(Generation X)",
-        "genre": "EURO BEAT",
-        "artist": "FinalOffset",
-        "chart_ids": [
-            "04210_3"
-        ]
-    },
-    "04211": {
-        "song_id": "04211",
-        "game_version": 4,
-        "title": "サナ・モレッテ・ネ・エンテ",
-        "title_ascii": "SANA MOLETTE NE ENTE",
-        "genre": "CUBAN GROOVE",
-        "artist": "Togo Project feat.Sana",
-        "chart_ids": [
-            "04211_3"
-        ]
-    },
-    "04214": {
-        "song_id": "04214",
-        "game_version": 4,
-        "title": "INFINITE PRAYER -floating flock style-",
-        "title_ascii": "INFINITE PRAYER -floating flock style-",
-        "genre": "AMBIENT",
-        "artist": "L.E.D. feat.GORO",
-        "chart_ids": [
-            "04214_3"
-        ]
-    },
-    "04216": {
-        "song_id": "04216",
-        "game_version": 4,
-        "title": "サナ・モレッテ・ネ・エンテ(B.L.T.STYLE)",
-        "title_ascii": "SANA MOLETTE NE ENTE (B.L.T.STYLE)",
-        "genre": "MONDO-CUBAN",
-        "artist": "Togo Project feat.Sana",
-        "chart_ids": [
-            "04216_2"
-        ]
-    },
-    "05008": {
-        "song_id": "05008",
-        "game_version": 5,
-        "title": "OVER THE CLOUDS",
-        "title_ascii": "OVER THE CLOUDS",
-        "genre": "HOUSE",
-        "artist": "Lala Moore",
-        "chart_ids": [
-            "05008_3"
-        ]
-    },
     "05012": {
-        "song_id": "05012",
+        "song_id": 5012,
         "game_version": 5,
         "title": "Regulus",
         "title_ascii": "Regulus",
@@ -255,52 +111,8 @@
             "05012_3"
         ]
     },
-    "05013": {
-        "song_id": "05013",
-        "game_version": 5,
-        "title": "Remember You",
-        "title_ascii": "Remember You",
-        "genre": "BALLAD",
-        "artist": "NM feat. Julie",
-        "chart_ids": [
-            "05013_2"
-        ]
-    },
-    "05020": {
-        "song_id": "05020",
-        "game_version": 5,
-        "title": "tablets",
-        "title_ascii": "tablets",
-        "genre": "RAVE",
-        "artist": "sampling masters MEGA",
-        "chart_ids": [
-            "05020_3"
-        ]
-    },
-    "05029": {
-        "song_id": "05029",
-        "game_version": 5,
-        "title": "INSERTiON",
-        "title_ascii": "INSERTiON",
-        "genre": "EURO TRANCE",
-        "artist": "NAOKI underground",
-        "chart_ids": [
-            "05029_3"
-        ]
-    },
-    "06014": {
-        "song_id": "06014",
-        "game_version": 6,
-        "title": "L'amour et la liberte",
-        "title_ascii": "L'amour et la liberte",
-        "genre": "TRANCE",
-        "artist": "NAOKI underground",
-        "chart_ids": [
-            "06014_2"
-        ]
-    },
     "06015": {
-        "song_id": "06015",
+        "song_id": 6015,
         "game_version": 6,
         "title": "Linus",
         "title_ascii": "Linus",
@@ -311,7 +123,7 @@
         ]
     },
     "06023": {
-        "song_id": "06023",
+        "song_id": 6023,
         "game_version": 6,
         "title": "VJ ARMY",
         "title_ascii": "VJ ARMY",
@@ -321,19 +133,8 @@
             "06023_3"
         ]
     },
-    "06207": {
-        "song_id": "06207",
-        "game_version": 6,
-        "title": "NIGHT OF FIRE",
-        "title_ascii": "NIGHT OF FIRE",
-        "genre": "SUPER EUROBEAT",
-        "artist": "NIKO",
-        "chart_ids": [
-            "06207_3"
-        ]
-    },
     "07002": {
-        "song_id": "07002",
+        "song_id": 7002,
         "game_version": 7,
         "title": "A",
         "title_ascii": "A",
@@ -344,7 +145,7 @@
         ]
     },
     "07016": {
-        "song_id": "07016",
+        "song_id": 7016,
         "game_version": 7,
         "title": "Glorious Days",
         "title_ascii": "Glorious Days",
@@ -354,31 +155,8 @@
             "07016_3"
         ]
     },
-    "07026": {
-        "song_id": "07026",
-        "game_version": 7,
-        "title": "MAX 300",
-        "title_ascii": "MAX 300",
-        "genre": "HARDCORE TECHNO",
-        "artist": "Ω",
-        "chart_ids": [
-            "07026_3",
-            "07026_2"
-        ]
-    },
-    "07033": {
-        "song_id": "07033",
-        "game_version": 7,
-        "title": "Spooky",
-        "title_ascii": "Spooky",
-        "genre": "HARD HOUSE",
-        "artist": "good-cool",
-        "chart_ids": [
-            "07033_3"
-        ]
-    },
     "07039": {
-        "song_id": "07039",
+        "song_id": 7039,
         "game_version": 7,
         "title": "革命",
         "title_ascii": "KAKUMEI",
@@ -389,7 +167,7 @@
         ]
     },
     "08001": {
-        "song_id": "08001",
+        "song_id": 8001,
         "game_version": 8,
         "title": "airflow",
         "title_ascii": "airflow",
@@ -399,19 +177,8 @@
             "08001_3"
         ]
     },
-    "08010": {
-        "song_id": "08010",
-        "game_version": 8,
-        "title": "DANCER",
-        "title_ascii": "DANCER",
-        "genre": "NU SKOOL",
-        "artist": "DE VOL",
-        "chart_ids": [
-            "08010_3"
-        ]
-    },
     "08013": {
-        "song_id": "08013",
+        "song_id": 8013,
         "game_version": 8,
         "title": "dual control",
         "title_ascii": "dual control",
@@ -421,19 +188,8 @@
             "08013_3"
         ]
     },
-    "08047": {
-        "song_id": "08047",
-        "game_version": 8,
-        "title": "合体せよ！ストロングイェーガー！！",
-        "title_ascii": "THE STRONG JAEGER",
-        "genre": "NU-NRG",
-        "artist": "L.E.D.",
-        "chart_ids": [
-            "08047_3"
-        ]
-    },
     "08048": {
-        "song_id": "08048",
+        "song_id": 8048,
         "game_version": 8,
         "title": "桜",
         "title_ascii": "SAKURA",
@@ -443,52 +199,8 @@
             "08048_3"
         ]
     },
-    "08202": {
-        "song_id": "08202",
-        "game_version": 8,
-        "title": "STEP INTO THE NEW WORLD",
-        "title_ascii": "STEP INTO THE NEW WORLD",
-        "genre": "UK ASIAN",
-        "artist": "L.E.D.-G VS GUHROOVY fw NO+CHIN",
-        "chart_ids": [
-            "08202_3"
-        ]
-    },
-    "08204": {
-        "song_id": "08204",
-        "game_version": 8,
-        "title": "エブリデイ・ラブリデイ -L.E.D.STYLE MIX-",
-        "title_ascii": "EVERY DAY LOVELY DAY -L.E.D.STYLE MIX-",
-        "genre": "HOUSE REMIX",
-        "artist": "Togo-chef feat.Sana",
-        "chart_ids": [
-            "08204_3"
-        ]
-    },
-    "09003": {
-        "song_id": "09003",
-        "game_version": 9,
-        "title": "fun",
-        "title_ascii": "fun",
-        "genre": "FUNK SHUFFLE",
-        "artist": "Mr.T",
-        "chart_ids": [
-            "09003_3"
-        ]
-    },
-    "09005": {
-        "song_id": "09005",
-        "game_version": 9,
-        "title": "Prelude",
-        "title_ascii": "Prelude",
-        "genre": "TRANCE",
-        "artist": "NAOKI underground",
-        "chart_ids": [
-            "09005_3"
-        ]
-    },
     "09010": {
-        "song_id": "09010",
+        "song_id": 9010,
         "game_version": 9,
         "title": "Cradle",
         "title_ascii": "Cradle",
@@ -499,7 +211,7 @@
         ]
     },
     "09012": {
-        "song_id": "09012",
+        "song_id": 9012,
         "game_version": 9,
         "title": "moon_child",
         "title_ascii": "moon_child",
@@ -509,41 +221,8 @@
             "09012_3"
         ]
     },
-    "09043": {
-        "song_id": "09043",
-        "game_version": 9,
-        "title": "PARANOIA survivor MAX",
-        "title_ascii": "PARANOIA survivor MAX",
-        "genre": "JUNGLE MIXTURE",
-        "artist": "290",
-        "chart_ids": [
-            "09043_3"
-        ]
-    },
-    "09401": {
-        "song_id": "09401",
-        "game_version": 9,
-        "title": "Celebration",
-        "title_ascii": "Celebration",
-        "genre": "SOUL MIX",
-        "artist": "WaveGroup/DJ TK-ST",
-        "chart_ids": [
-            "09401_3"
-        ]
-    },
-    "10003": {
-        "song_id": "10003",
-        "game_version": 10,
-        "title": "JAM",
-        "title_ascii": "JAM",
-        "genre": "J-REVIVAL",
-        "artist": "TAKA with Junpei&三上",
-        "chart_ids": [
-            "10003_3"
-        ]
-    },
     "10040": {
-        "song_id": "10040",
+        "song_id": 10040,
         "game_version": 10,
         "title": "1st Samurai",
         "title_ascii": "1st Samurai",
@@ -554,7 +233,7 @@
         ]
     },
     "10053": {
-        "song_id": "10053",
+        "song_id": 10053,
         "game_version": 10,
         "title": "GRADIUS -FULL SPEED-",
         "title_ascii": "GRADIUS -FULL SPEED-",
@@ -564,19 +243,8 @@
             "10053_3"
         ]
     },
-    "10054": {
-        "song_id": "10054",
-        "game_version": 10,
-        "title": "A-JAX(3-WAY MIX)",
-        "title_ascii": "A-JAX(3-WAY MIX)",
-        "genre": "GAME MUSIC",
-        "artist": "Mr.T",
-        "chart_ids": [
-            "10054_3"
-        ]
-    },
     "11015": {
-        "song_id": "11015",
+        "song_id": 11015,
         "game_version": 11,
         "title": "earth scape",
         "title_ascii": "earth scape",
@@ -586,19 +254,8 @@
             "11015_3"
         ]
     },
-    "11017": {
-        "song_id": "11017",
-        "game_version": 11,
-        "title": "Move Me",
-        "title_ascii": "Move Me",
-        "genre": "AFRICA",
-        "artist": "good-cool feat. Raj Ramayya",
-        "chart_ids": [
-            "11017_3"
-        ]
-    },
     "11018": {
-        "song_id": "11018",
+        "song_id": 11018,
         "game_version": 11,
         "title": "Close my Eyes for Me",
         "title_ascii": "Close my Eyes for Me",
@@ -609,7 +266,7 @@
         ]
     },
     "11019": {
-        "song_id": "11019",
+        "song_id": 11019,
         "game_version": 11,
         "title": "大桟橋",
         "title_ascii": "OOSANBASHI",
@@ -620,7 +277,7 @@
         ]
     },
     "11026": {
-        "song_id": "11026",
+        "song_id": 11026,
         "game_version": 11,
         "title": "ピアノ協奏曲第１番”蠍火”",
         "title_ascii": "PF CONCERTO ANTI-ARES",
@@ -630,19 +287,8 @@
             "11026_3"
         ]
     },
-    "11049": {
-        "song_id": "11049",
-        "game_version": 11,
-        "title": "More Move",
-        "title_ascii": "More Move",
-        "genre": "CLUB BOSSA",
-        "artist": "T-Hirono feat.PAULINHO",
-        "chart_ids": [
-            "11049_3"
-        ]
-    },
     "11050": {
-        "song_id": "11050",
+        "song_id": 11050,
         "game_version": 11,
         "title": "NEBULA GRASPER",
         "title_ascii": "NEBULA GRASPER",
@@ -652,19 +298,8 @@
             "11050_3"
         ]
     },
-    "12001": {
-        "song_id": "12001",
-        "game_version": 12,
-        "title": "キャッシュレスは愛情消すティッシュ",
-        "title_ascii": "TISSUE",
-        "genre": "K-GROOVE",
-        "artist": "GINGER",
-        "chart_ids": [
-            "12001_3"
-        ]
-    },
     "12002": {
-        "song_id": "12002",
+        "song_id": 12002,
         "game_version": 12,
         "title": "Little Little Princess",
         "title_ascii": "Little Little Princess",
@@ -675,7 +310,7 @@
         ]
     },
     "12004": {
-        "song_id": "12004",
+        "song_id": 12004,
         "game_version": 12,
         "title": "冥",
         "title_ascii": "MEI(TAKASH)",
@@ -686,7 +321,7 @@
         ]
     },
     "12021": {
-        "song_id": "12021",
+        "song_id": 12021,
         "game_version": 12,
         "title": "Agnus Dei",
         "title_ascii": "Agnus Dei",
@@ -697,7 +332,7 @@
         ]
     },
     "12029": {
-        "song_id": "12029",
+        "song_id": 12029,
         "game_version": 12,
         "title": "ラクエン",
         "title_ascii": "RAKUEN",
@@ -708,7 +343,7 @@
         ]
     },
     "12040": {
-        "song_id": "12040",
+        "song_id": 12040,
         "game_version": 12,
         "title": "vault of heaven",
         "title_ascii": "vault of heaven",
@@ -719,7 +354,7 @@
         ]
     },
     "12046": {
-        "song_id": "12046",
+        "song_id": 12046,
         "game_version": 12,
         "title": "mind the gap",
         "title_ascii": "mind the gap",
@@ -729,19 +364,8 @@
             "12046_3"
         ]
     },
-    "12047": {
-        "song_id": "12047",
-        "game_version": 12,
-        "title": "TOE JAM",
-        "title_ascii": "TOE JAM",
-        "genre": "COUNTRY TECHNO",
-        "artist": "BIG IDEA",
-        "chart_ids": [
-            "12047_3"
-        ]
-    },
     "12050": {
-        "song_id": "12050",
+        "song_id": 12050,
         "game_version": 12,
         "title": "Votum stellarum",
         "title_ascii": "Votum stellarum",
@@ -752,7 +376,7 @@
         ]
     },
     "12051": {
-        "song_id": "12051",
+        "song_id": 12051,
         "game_version": 12,
         "title": "Pink Rose",
         "title_ascii": "Pink Rose",
@@ -764,7 +388,7 @@
         ]
     },
     "12054": {
-        "song_id": "12054",
+        "song_id": 12054,
         "game_version": 12,
         "title": "Scripted Connection⇒ A mix",
         "title_ascii": "SCRIPTED CONNECTION-> A MIX",
@@ -772,30 +396,8 @@
         "artist": "DJ MURASAME",
         "chart_ids": []
     },
-    "12202": {
-        "song_id": "12202",
-        "game_version": 12,
-        "title": "Endless Summer Story",
-        "title_ascii": "Endless Summer Story",
-        "genre": "JAPANESE REGGAE",
-        "artist": "DJ Yoshitaka feat.星野奏子",
-        "chart_ids": [
-            "12202_3"
-        ]
-    },
-    "12205": {
-        "song_id": "12205",
-        "game_version": 12,
-        "title": "風の谷のDREAM",
-        "title_ascii": "KAZE NO TANI NO DREAM",
-        "genre": "TRANCE",
-        "artist": "PINK PONG",
-        "chart_ids": [
-            "12205_3"
-        ]
-    },
     "13026": {
-        "song_id": "13026",
+        "song_id": 13026,
         "game_version": 13,
         "title": "Ganymede",
         "title_ascii": "Ganymede",
@@ -806,7 +408,7 @@
         ]
     },
     "13031": {
-        "song_id": "13031",
+        "song_id": 13031,
         "game_version": 13,
         "title": "DUE TOMORROW",
         "title_ascii": "DUE TOMORROW",
@@ -817,7 +419,7 @@
         ]
     },
     "13054": {
-        "song_id": "13054",
+        "song_id": 13054,
         "game_version": 13,
         "title": "Concertino in Blue",
         "title_ascii": "Concertino in Blue",
@@ -827,108 +429,8 @@
             "13054_3"
         ]
     },
-    "13202": {
-        "song_id": "13202",
-        "game_version": 13,
-        "title": "Attack the music",
-        "title_ascii": "Attack the music",
-        "genre": "HARD TECHNO",
-        "artist": "DJ FX",
-        "chart_ids": [
-            "13202_3",
-            "13202_2"
-        ]
-    },
-    "13203": {
-        "song_id": "13203",
-        "game_version": 13,
-        "title": "Back Into The Light (recut)",
-        "title_ascii": "Back Into The Light (recut)",
-        "genre": "2STEP POP TRANCE",
-        "artist": "Sota Fujimori",
-        "chart_ids": [
-            "13203_3"
-        ]
-    },
-    "13205": {
-        "song_id": "13205",
-        "game_version": 13,
-        "title": "breathless",
-        "title_ascii": "breathless",
-        "genre": "DIST.LOUNGE",
-        "artist": "Studio Bongo Mango feat.Tomoko Kataoka",
-        "chart_ids": [
-            "13205_3"
-        ]
-    },
-    "13206": {
-        "song_id": "13206",
-        "game_version": 13,
-        "title": "CALDERA",
-        "title_ascii": "CALDERA",
-        "genre": "HARDCORE",
-        "artist": "CALF",
-        "chart_ids": [
-            "13206_3"
-        ]
-    },
-    "13208": {
-        "song_id": "13208",
-        "game_version": 13,
-        "title": "Hybrid Landscape",
-        "title_ascii": "Hybrid Landscape",
-        "genre": "TEC-DRUM'N'BASS",
-        "artist": "Sota Fujimori",
-        "chart_ids": [
-            "13208_3"
-        ]
-    },
-    "13209": {
-        "song_id": "13209",
-        "game_version": 13,
-        "title": "LIGHT MOTION",
-        "title_ascii": "LIGHT MOTION",
-        "genre": "RAVE",
-        "artist": "RAM",
-        "chart_ids": [
-            "13209_3"
-        ]
-    },
-    "13211": {
-        "song_id": "13211",
-        "game_version": 13,
-        "title": "super highway",
-        "title_ascii": "super highway",
-        "genre": "DRUM'N BASS",
-        "artist": "nouvo nude",
-        "chart_ids": [
-            "13211_3"
-        ]
-    },
-    "13212": {
-        "song_id": "13212",
-        "game_version": 13,
-        "title": "The Hope of Tomorrow (recut)",
-        "title_ascii": "The Hope of Tomorrow (recut)",
-        "genre": "CYBORG TRANCE",
-        "artist": "Sota Fujimori",
-        "chart_ids": [
-            "13212_3"
-        ]
-    },
-    "13214": {
-        "song_id": "13214",
-        "game_version": 13,
-        "title": "WaterCube Pf.(RX-Ver.S.P.L.)",
-        "title_ascii": "WaterCube Pf.(RX-Ver.S.P.L.)",
-        "genre": "ETHNO POP",
-        "artist": "高田雅史",
-        "chart_ids": [
-            "13214_3"
-        ]
-    },
     "14001": {
-        "song_id": "14001",
+        "song_id": 14001,
         "game_version": 14,
         "title": "INORI",
         "title_ascii": "INORI",
@@ -937,7 +439,7 @@
         "chart_ids": []
     },
     "14004": {
-        "song_id": "14004",
+        "song_id": 14004,
         "game_version": 14,
         "title": "TRANOID",
         "title_ascii": "TRANOID",
@@ -948,7 +450,7 @@
         ]
     },
     "14014": {
-        "song_id": "14014",
+        "song_id": 14014,
         "game_version": 14,
         "title": "Blind Justice ～Torn souls, Hurt Faiths ～",
         "title_ascii": "Blind Justice",
@@ -959,7 +461,7 @@
         ]
     },
     "14036": {
-        "song_id": "14036",
+        "song_id": 14036,
         "game_version": 14,
         "title": "2hot2eat",
         "title_ascii": "2hot2eat",
@@ -970,7 +472,7 @@
         ]
     },
     "14044": {
-        "song_id": "14044",
+        "song_id": 14044,
         "game_version": 14,
         "title": "op.31 叙情",
         "title_ascii": "OP.31 JOJOU",
@@ -981,7 +483,7 @@
         ]
     },
     "14052": {
-        "song_id": "14052",
+        "song_id": 14052,
         "game_version": 14,
         "title": "Fascination MAXX",
         "title_ascii": "Fascination MAXX",
@@ -991,19 +493,8 @@
             "14052_3"
         ]
     },
-    "14206": {
-        "song_id": "14206",
-        "game_version": 14,
-        "title": "Guilt & Love",
-        "title_ascii": "Guilt & Love",
-        "genre": "SHINING RAVE",
-        "artist": "The Plastic Ambition（jun & DJ YOSHITAKA）",
-        "chart_ids": [
-            "14206_3"
-        ]
-    },
     "15005": {
-        "song_id": "15005",
+        "song_id": 15005,
         "game_version": 15,
         "title": "four pieces of heaven",
         "title_ascii": "four pieces of heaven",
@@ -1014,7 +505,7 @@
         ]
     },
     "15006": {
-        "song_id": "15006",
+        "song_id": 15006,
         "game_version": 15,
         "title": "走馬灯 -The Last Song-",
         "title_ascii": "The Last Song",
@@ -1025,7 +516,7 @@
         ]
     },
     "15020": {
-        "song_id": "15020",
+        "song_id": 15020,
         "game_version": 15,
         "title": "State Of The Art",
         "title_ascii": "State Of The Art",
@@ -1034,7 +525,7 @@
         "chart_ids": []
     },
     "15023": {
-        "song_id": "15023",
+        "song_id": 15023,
         "game_version": 15,
         "title": "ICARUS",
         "title_ascii": "ICARUS",
@@ -1045,7 +536,7 @@
         ]
     },
     "15027": {
-        "song_id": "15027",
+        "song_id": 15027,
         "game_version": 15,
         "title": "avant-guerre",
         "title_ascii": "avant-guerre",
@@ -1056,7 +547,7 @@
         ]
     },
     "15039": {
-        "song_id": "15039",
+        "song_id": 15039,
         "game_version": 15,
         "title": "少年A",
         "title_ascii": "KID A",
@@ -1067,7 +558,7 @@
         ]
     },
     "15041": {
-        "song_id": "15041",
+        "song_id": 15041,
         "game_version": 15,
         "title": "Be OK",
         "title_ascii": "Be OK",
@@ -1078,7 +569,7 @@
         ]
     },
     "15049": {
-        "song_id": "15049",
+        "song_id": 15049,
         "game_version": 15,
         "title": "PARANOiA ～HADES～",
         "title_ascii": "PARANOIA -HADES-",
@@ -1089,7 +580,7 @@
         ]
     },
     "15050": {
-        "song_id": "15050",
+        "song_id": 15050,
         "game_version": 15,
         "title": "TRIP MACHINE PhoeniX",
         "title_ascii": "TRIP MACHINE PhoeniX",
@@ -1099,30 +590,8 @@
             "15050_3"
         ]
     },
-    "15206": {
-        "song_id": "15206",
-        "game_version": 15,
-        "title": "CRYMSON",
-        "title_ascii": "CRYMSON",
-        "genre": "DIGITAL HARDCORE",
-        "artist": "RAM",
-        "chart_ids": [
-            "15206_3"
-        ]
-    },
-    "15210": {
-        "song_id": "15210",
-        "game_version": 15,
-        "title": "Pluto",
-        "title_ascii": "Pluto",
-        "genre": "SUPERNOVA2 BEAT EX",
-        "artist": "Black∞Hole",
-        "chart_ids": [
-            "15210_3"
-        ]
-    },
     "16018": {
-        "song_id": "16018",
+        "song_id": 16018,
         "game_version": 16,
         "title": "Marie Antoinette",
         "title_ascii": "Marie Antoinette",
@@ -1133,7 +602,7 @@
         ]
     },
     "16020": {
-        "song_id": "16020",
+        "song_id": 16020,
         "game_version": 16,
         "title": "卑弥呼",
         "title_ascii": "HIMIKO",
@@ -1144,7 +613,7 @@
         ]
     },
     "16028": {
-        "song_id": "16028",
+        "song_id": 16028,
         "game_version": 16,
         "title": "Y&Co. is dead or alive",
         "title_ascii": "Y&Co. is dead or alive",
@@ -1155,7 +624,7 @@
         ]
     },
     "16038": {
-        "song_id": "16038",
+        "song_id": 16038,
         "game_version": 16,
         "title": "Secrets",
         "title_ascii": "Secrets",
@@ -1166,7 +635,7 @@
         ]
     },
     "16045": {
-        "song_id": "16045",
+        "song_id": 16045,
         "game_version": 16,
         "title": "THANK YOU FOR PLAYING",
         "title_ascii": "THANK YOU FOR PLAYING",
@@ -1178,7 +647,7 @@
         ]
     },
     "16047": {
-        "song_id": "16047",
+        "song_id": 16047,
         "game_version": 16,
         "title": "thunder HOUSE NATION Remix",
         "title_ascii": "thunder HOUSE NATION Remix",
@@ -1188,19 +657,8 @@
             "16047_4"
         ]
     },
-    "16048": {
-        "song_id": "16048",
-        "game_version": 16,
-        "title": "Our Song",
-        "title_ascii": "Our Song",
-        "genre": "HOUSE",
-        "artist": "Shinichi Osawa",
-        "chart_ids": [
-            "16048_3"
-        ]
-    },
     "17013": {
-        "song_id": "17013",
+        "song_id": 17013,
         "game_version": 17,
         "title": "She is my wife",
         "title_ascii": "She is my wife",
@@ -1211,7 +669,7 @@
         ]
     },
     "17015": {
-        "song_id": "17015",
+        "song_id": 17015,
         "game_version": 17,
         "title": "Raison d'&ecirc;tre～交差する宿命～",
         "title_ascii": "RAISON D'ETRE-MALCHUT AND L'ERISIA-",
@@ -1222,7 +680,7 @@
         ]
     },
     "17017": {
-        "song_id": "17017",
+        "song_id": 17017,
         "game_version": 17,
         "title": "ワルツ第17番 ト短調”大犬のワルツ”",
         "title_ascii": "VALSE DU GRANDE CHIEN",
@@ -1235,7 +693,7 @@
         ]
     },
     "17024": {
-        "song_id": "17024",
+        "song_id": 17024,
         "game_version": 17,
         "title": "D",
         "title_ascii": "D",
@@ -1246,7 +704,7 @@
         ]
     },
     "17041": {
-        "song_id": "17041",
+        "song_id": 17041,
         "game_version": 17,
         "title": "Session 1 -Genesis-",
         "title_ascii": "Session 1 -Genesis-",
@@ -1257,7 +715,7 @@
         ]
     },
     "17056": {
-        "song_id": "17056",
+        "song_id": 17056,
         "game_version": 17,
         "title": "eRAseRmOToRpHAntOM",
         "title_ascii": "eRAseRmOToRpHAntOM",
@@ -1268,7 +726,7 @@
         ]
     },
     "18014": {
-        "song_id": "18014",
+        "song_id": 18014,
         "game_version": 18,
         "title": "ZETA～素数の世界と超越者～",
         "title_ascii": "ZETA",
@@ -1279,7 +737,7 @@
         ]
     },
     "18026": {
-        "song_id": "18026",
+        "song_id": 18026,
         "game_version": 18,
         "title": "New Castle Legions",
         "title_ascii": "New Castle Legions",
@@ -1290,7 +748,7 @@
         ]
     },
     "18039": {
-        "song_id": "18039",
+        "song_id": 18039,
         "game_version": 18,
         "title": "Session 9 -Chronicles-",
         "title_ascii": "Session 9 -Chronicles-",
@@ -1300,19 +758,8 @@
             "18039_3"
         ]
     },
-    "18041": {
-        "song_id": "18041",
-        "game_version": 18,
-        "title": "ラクエン Feat.Chiharu Chonan -JAKA respect for K.S.K. Remix",
-        "title_ascii": "RAKUEN FEAT.CHIHARU CHONAN -JAKA RESPECT FOR K.S.K. REMIX",
-        "genre": "TECHY FREEFORM",
-        "artist": "Remixed by JAKAZiD",
-        "chart_ids": [
-            "18041_3"
-        ]
-    },
     "18056": {
-        "song_id": "18056",
+        "song_id": 18056,
         "game_version": 18,
         "title": "SABER WING",
         "title_ascii": "SABER WING",
@@ -1323,7 +770,7 @@
         ]
     },
     "19014": {
-        "song_id": "19014",
+        "song_id": 19014,
         "game_version": 19,
         "title": "SA.YO.NA.RA. SUPER STAR",
         "title_ascii": "SA.YO.NA.RA. SUPER STAR",
@@ -1334,7 +781,7 @@
         ]
     },
     "19030": {
-        "song_id": "19030",
+        "song_id": 19030,
         "game_version": 19,
         "title": "NNRT",
         "title_ascii": "NNRT",
@@ -1344,19 +791,8 @@
             "19030_3"
         ]
     },
-    "19041": {
-        "song_id": "19041",
-        "game_version": 19,
-        "title": "Session 12 -Esther-",
-        "title_ascii": "Session 12 -Esther-",
-        "genre": "PROGRE SYNTHETIC",
-        "artist": "PRASTIK DANCEFLOOR",
-        "chart_ids": [
-            "19041_3"
-        ]
-    },
     "19042": {
-        "song_id": "19042",
+        "song_id": 19042,
         "game_version": 19,
         "title": "聖人の塔",
         "title_ascii": "SEIJIN NO TOU",
@@ -1366,19 +802,8 @@
             "19042_3"
         ]
     },
-    "19066": {
-        "song_id": "19066",
-        "game_version": 19,
-        "title": "Trust -MATERIAL ver- (IIDX Edition)",
-        "title_ascii": "Trust -MATERIAL ver- (IIDX Edition)",
-        "genre": "CHARACTER SONG",
-        "artist": "Tatsh feat. ヨーコ",
-        "chart_ids": [
-            "19066_3"
-        ]
-    },
     "19071": {
-        "song_id": "19071",
+        "song_id": 19071,
         "game_version": 19,
         "title": "quaver♪",
         "title_ascii": "quaver",
@@ -1389,7 +814,7 @@
         ]
     },
     "19074": {
-        "song_id": "19074",
+        "song_id": 19074,
         "game_version": 19,
         "title": "TITANS RETURN",
         "title_ascii": "TITANS RETURN",
@@ -1400,7 +825,7 @@
         ]
     },
     "20006": {
-        "song_id": "20006",
+        "song_id": 20006,
         "game_version": 20,
         "title": "トリカゴノ鳳凰",
         "title_ascii": "TORIKAGONO HOUOH",
@@ -1411,7 +836,7 @@
         ]
     },
     "20041": {
-        "song_id": "20041",
+        "song_id": 20041,
         "game_version": 20,
         "title": "SYNC-ANTHEM",
         "title_ascii": "SYNC-ANTHEM",
@@ -1422,7 +847,7 @@
         ]
     },
     "20051": {
-        "song_id": "20051",
+        "song_id": 20051,
         "game_version": 20,
         "title": "Sol Cosine Job 2",
         "title_ascii": "Sol Cosine Job 2",
@@ -1432,19 +857,8 @@
             "20051_3"
         ]
     },
-    "20057": {
-        "song_id": "20057",
-        "game_version": 20,
-        "title": "Holy Snow",
-        "title_ascii": "Holy Snow",
-        "genre": "CHRISTMAS SYMPHONY",
-        "artist": "Mutsuhiko Izumi",
-        "chart_ids": [
-            "20057_3"
-        ]
-    },
     "20062": {
-        "song_id": "20062",
+        "song_id": 20062,
         "game_version": 20,
         "title": "STULTI",
         "title_ascii": "STULTI",
@@ -1455,7 +869,7 @@
         ]
     },
     "20070": {
-        "song_id": "20070",
+        "song_id": 20070,
         "game_version": 20,
         "title": "DAY DREAM",
         "title_ascii": "DAY DREAM",
@@ -1466,7 +880,7 @@
         ]
     },
     "20071": {
-        "song_id": "20071",
+        "song_id": 20071,
         "game_version": 20,
         "title": "JOMANDA",
         "title_ascii": "JOMANDA",
@@ -1477,7 +891,7 @@
         ]
     },
     "20099": {
-        "song_id": "20099",
+        "song_id": 20099,
         "game_version": 20,
         "title": "音楽",
         "title_ascii": "ONGAKU",
@@ -1489,7 +903,7 @@
         ]
     },
     "21021": {
-        "song_id": "21021",
+        "song_id": 21021,
         "game_version": 21,
         "title": "Odin",
         "title_ascii": "Odin",
@@ -1500,7 +914,7 @@
         ]
     },
     "21029": {
-        "song_id": "21029",
+        "song_id": 21029,
         "game_version": 21,
         "title": "廿",
         "title_ascii": "TWENTY",
@@ -1511,7 +925,7 @@
         ]
     },
     "21047": {
-        "song_id": "21047",
+        "song_id": 21047,
         "game_version": 21,
         "title": "ra'am",
         "title_ascii": "ra'am",
@@ -1521,63 +935,8 @@
             "21047_3"
         ]
     },
-    "21070": {
-        "song_id": "21070",
-        "game_version": 21,
-        "title": "Votum stellarum -Hommarju Remix-",
-        "title_ascii": "Votum stellarum -Hommarju Remix-",
-        "genre": "UK HARDCORE",
-        "artist": "Remixed by Hommarju",
-        "chart_ids": [
-            "21070_3"
-        ]
-    },
-    "21074": {
-        "song_id": "21074",
-        "game_version": 21,
-        "title": "Stella Sinistra",
-        "title_ascii": "Stella Sinistra",
-        "genre": "SYMPHONOVATIVE ROCK",
-        "artist": "Akhuta Philharmonic Orchestra",
-        "chart_ids": [
-            "21074_3"
-        ]
-    },
-    "21086": {
-        "song_id": "21086",
-        "game_version": 21,
-        "title": "御千手メディテーション",
-        "title_ascii": "Osenju Meditation",
-        "genre": "ニューエイジ合掌コア",
-        "artist": "昇天家族",
-        "chart_ids": [
-            "21086_3"
-        ]
-    },
-    "21201": {
-        "song_id": "21201",
-        "game_version": 12,
-        "title": "Scripted Connection⇒ long mix",
-        "title_ascii": "SCRIPTED CONNECTION LONG MIX",
-        "genre": "TECHNO",
-        "artist": "DJ MURASAME",
-        "chart_ids": [
-            "21201_3"
-        ]
-    },
-    "22023": {
-        "song_id": "22023",
-        "game_version": 22,
-        "title": "デンドロビウム",
-        "title_ascii": "Dendrobium",
-        "genre": "BLOOM FUSION",
-        "artist": "TAG",
-        "chart_ids": [
-            "22023_3"
-        ]
-    },
     "22049": {
-        "song_id": "22049",
+        "song_id": 22049,
         "game_version": 22,
         "title": "HELL SCAPER -Last Escape Remix-",
         "title_ascii": "HELL SCAPER -Last Escape Remix-",
@@ -1587,19 +946,8 @@
             "22049_3"
         ]
     },
-    "22051": {
-        "song_id": "22051",
-        "game_version": 22,
-        "title": "Amnolys",
-        "title_ascii": "Amnolys",
-        "genre": "ART CORE",
-        "artist": "onoken",
-        "chart_ids": [
-            "22051_3"
-        ]
-    },
     "22052": {
-        "song_id": "22052",
+        "song_id": 22052,
         "game_version": 22,
         "title": "IXION",
         "title_ascii": "IXION",
@@ -1610,7 +958,7 @@
         ]
     },
     "22069": {
-        "song_id": "22069",
+        "song_id": 22069,
         "game_version": 22,
         "title": "The Least 100sec",
         "title_ascii": "The Least 100sec",
@@ -1621,7 +969,7 @@
         ]
     },
     "22089": {
-        "song_id": "22089",
+        "song_id": 22089,
         "game_version": 22,
         "title": "EBONY & IVORY",
         "title_ascii": "EBONY & IVORY",
@@ -1632,7 +980,7 @@
         ]
     },
     "22090": {
-        "song_id": "22090",
+        "song_id": 22090,
         "game_version": 22,
         "title": "In The Breeze",
         "title_ascii": "In The Breeze",
@@ -1643,7 +991,7 @@
         ]
     },
     "22098": {
-        "song_id": "22098",
+        "song_id": 22098,
         "game_version": 22,
         "title": "Discloze",
         "title_ascii": "Discloze",
@@ -1654,7 +1002,7 @@
         ]
     },
     "22100": {
-        "song_id": "22100",
+        "song_id": 22100,
         "game_version": 22,
         "title": "PENDUAL TALISMAN",
         "title_ascii": "PENDUAL TALISMAN",
@@ -1665,7 +1013,7 @@
         ]
     },
     "23022": {
-        "song_id": "23022",
+        "song_id": 23022,
         "game_version": 23,
         "title": "明鏡止水",
         "title_ascii": "meikyoushisui",
@@ -1675,19 +1023,8 @@
             "23022_3"
         ]
     },
-    "23024": {
-        "song_id": "23024",
-        "game_version": 23,
-        "title": "GET READY!!",
-        "title_ascii": "GET READY!!",
-        "genre": "HARDCORE RAVE",
-        "artist": "DJ Shimamura",
-        "chart_ids": [
-            "23024_3"
-        ]
-    },
     "23050": {
-        "song_id": "23050",
+        "song_id": 23050,
         "game_version": 23,
         "title": "朝焼けから始まるボクらの小さな旅",
         "title_ascii": "asayakekarahajimaru bokuranotiisanatabi",
@@ -1698,7 +1035,7 @@
         ]
     },
     "23060": {
-        "song_id": "23060",
+        "song_id": 23060,
         "game_version": 23,
         "title": "quick master (reform version)",
         "title_ascii": "quick master (reform version)",
@@ -1709,7 +1046,7 @@
         ]
     },
     "23074": {
-        "song_id": "23074",
+        "song_id": 23074,
         "game_version": 23,
         "title": "POSSESSION",
         "title_ascii": "POSSESSION",
@@ -1720,7 +1057,7 @@
         ]
     },
     "23079": {
-        "song_id": "23079",
+        "song_id": 23079,
         "game_version": 23,
         "title": "NINJA IS DEAD IIDX ver.",
         "title_ascii": "NINJA IS DEAD IIDX ver.",
@@ -1731,7 +1068,7 @@
         ]
     },
     "24004": {
-        "song_id": "24004",
+        "song_id": 24004,
         "game_version": 24,
         "title": "AsiaN distractive",
         "title_ascii": "AsiaN distractive",
@@ -1742,7 +1079,7 @@
         ]
     },
     "24025": {
-        "song_id": "24025",
+        "song_id": 24025,
         "game_version": 24,
         "title": "(This Is Not) The Angels",
         "title_ascii": "This Is Not The Angels",
@@ -1753,7 +1090,7 @@
         ]
     },
     "24030": {
-        "song_id": "24030",
+        "song_id": 24030,
         "game_version": 24,
         "title": "Sarutobi Champion is 拙者",
         "title_ascii": "Sarutobi Champion is Sessha",
@@ -1764,7 +1101,7 @@
         ]
     },
     "24063": {
-        "song_id": "24063",
+        "song_id": 24063,
         "game_version": 24,
         "title": "BREAK OVER",
         "title_ascii": "BREAK OVER",
@@ -1775,7 +1112,7 @@
         ]
     },
     "24074": {
-        "song_id": "24074",
+        "song_id": 24074,
         "game_version": 24,
         "title": "月雪に舞う華のように",
         "title_ascii": "Tsukiyuki ni mau hananoyouni",
@@ -1786,7 +1123,7 @@
         ]
     },
     "24081": {
-        "song_id": "24081",
+        "song_id": 24081,
         "game_version": 24,
         "title": "Beat Juggling Mix",
         "title_ascii": "Beat Juggling Mix",
@@ -1797,7 +1134,7 @@
         ]
     },
     "24082": {
-        "song_id": "24082",
+        "song_id": 24082,
         "game_version": 24,
         "title": "SEQUENCE CAT",
         "title_ascii": "SEQUENCE CAT",
@@ -1808,7 +1145,7 @@
         ]
     },
     "24083": {
-        "song_id": "24083",
+        "song_id": 24083,
         "game_version": 24,
         "title": "nostos",
         "title_ascii": "nostos",
@@ -1819,7 +1156,7 @@
         ]
     },
     "24088": {
-        "song_id": "24088",
+        "song_id": 24088,
         "game_version": 24,
         "title": "Surf on the Light",
         "title_ascii": "Surf on the Light",
@@ -1830,7 +1167,7 @@
         ]
     },
     "25007": {
-        "song_id": "25007",
+        "song_id": 25007,
         "game_version": 25,
         "title": "EMERALDAS",
         "title_ascii": "EMERALDAS",
@@ -1841,7 +1178,7 @@
         ]
     },
     "25043": {
-        "song_id": "25043",
+        "song_id": 25043,
         "game_version": 25,
         "title": "FUTURE is Dead",
         "title_ascii": "FUTURE is Dead",
@@ -1852,7 +1189,7 @@
         ]
     },
     "25054": {
-        "song_id": "25054",
+        "song_id": 25054,
         "game_version": 25,
         "title": "Hella Deep",
         "title_ascii": "Hella Deep",
@@ -1863,7 +1200,7 @@
         ]
     },
     "25064": {
-        "song_id": "25064",
+        "song_id": 25064,
         "game_version": 25,
         "title": "2 Player",
         "title_ascii": "2 Player",
@@ -1874,7 +1211,7 @@
         ]
     },
     "25093": {
-        "song_id": "25093",
+        "song_id": 25093,
         "game_version": 25,
         "title": "DropZ-Line-",
         "title_ascii": "DropZ-Line-",
@@ -1885,7 +1222,7 @@
         ]
     },
     "26041": {
-        "song_id": "26041",
+        "song_id": 26041,
         "game_version": 26,
         "title": "花冠 feat.Aikapin",
         "title_ascii": "Hanakanmuri feat.Aikapin",
@@ -1895,19 +1232,8 @@
             "26041_3"
         ]
     },
-    "26057": {
-        "song_id": "26057",
-        "game_version": 26,
-        "title": "Particle Arts",
-        "title_ascii": "Particle Arts",
-        "genre": "NEOTRANCE",
-        "artist": "Virtual Self",
-        "chart_ids": [
-            "26057_3"
-        ]
-    },
     "26062": {
-        "song_id": "26062",
+        "song_id": 26062,
         "game_version": 26,
         "title": "The Sealer ～ア・ミリアとミリアの民～",
         "title_ascii": "The Sealer",
@@ -1918,7 +1244,7 @@
         ]
     },
     "26079": {
-        "song_id": "26079",
+        "song_id": 26079,
         "game_version": 26,
         "title": "EVANESCENT",
         "title_ascii": "EVANESCENT",
@@ -1929,7 +1255,7 @@
         ]
     },
     "26085": {
-        "song_id": "26085",
+        "song_id": 26085,
         "game_version": 26,
         "title": "Lethal Weapon",
         "title_ascii": "Lethal Weapon",
@@ -1940,7 +1266,7 @@
         ]
     },
     "26090": {
-        "song_id": "26090",
+        "song_id": 26090,
         "game_version": 26,
         "title": "50th Memorial Songs -Flagship medley-",
         "title_ascii": "50th Memorial Songs -Flagship medley-",
@@ -1951,7 +1277,7 @@
         ]
     },
     "26093": {
-        "song_id": "26093",
+        "song_id": 26093,
         "game_version": 26,
         "title": "ruin of opals",
         "title_ascii": "ruin of opals",
@@ -1962,7 +1288,7 @@
         ]
     },
     "26097": {
-        "song_id": "26097",
+        "song_id": 26097,
         "game_version": 26,
         "title": "ToyCube Pf.(RX-Ver.S.P.L.)",
         "title_ascii": "ToyCube Pf.(RX-Ver.S.P.L.)",
@@ -1973,7 +1299,7 @@
         ]
     },
     "27018": {
-        "song_id": "27018",
+        "song_id": 27018,
         "game_version": 27,
         "title": "華麗なる大犬円舞曲",
         "title_ascii": "Valse Brillante du Grand Chien",
@@ -1984,7 +1310,7 @@
         ]
     },
     "27036": {
-        "song_id": "27036",
+        "song_id": 27036,
         "game_version": 27,
         "title": "GHOST",
         "title_ascii": "GHOST",
@@ -1995,7 +1321,7 @@
         ]
     },
     "27071": {
-        "song_id": "27071",
+        "song_id": 27071,
         "game_version": 27,
         "title": "俺ら東京さ行ぐだ",
         "title_ascii": "ora tokyo sa iguda",
@@ -2006,7 +1332,7 @@
         ]
     },
     "27073": {
-        "song_id": "27073",
+        "song_id": 27073,
         "game_version": 27,
         "title": "ガヴリールドロップキック",
         "title_ascii": "Gabriel DropKick",
@@ -2017,7 +1343,7 @@
         ]
     },
     "27077": {
-        "song_id": "27077",
+        "song_id": 27077,
         "game_version": 27,
         "title": "Theory",
         "title_ascii": "Theory",
@@ -2028,7 +1354,7 @@
         ]
     },
     "27083": {
-        "song_id": "27083",
+        "song_id": 27083,
         "game_version": 27,
         "title": "Silly Love",
         "title_ascii": "Silly Love",
@@ -2038,19 +1364,8 @@
             "27083_3"
         ]
     },
-    "27098": {
-        "song_id": "27098",
-        "game_version": 27,
-        "title": "Punching Down (IIDX Mix)",
-        "title_ascii": "Punching Down (IIDX Mix)",
-        "genre": "SWITCH UP",
-        "artist": "Masayoshi Iimori",
-        "chart_ids": [
-            "27098_3"
-        ]
-    },
     "27113": {
-        "song_id": "27113",
+        "song_id": 27113,
         "game_version": 27,
         "title": "シャムシールの舞",
         "title_ascii": "shamshir dance",
@@ -2061,7 +1376,7 @@
         ]
     },
     "28008": {
-        "song_id": "28008",
+        "song_id": 28008,
         "game_version": 28,
         "title": "ディスコルディア",
         "title_ascii": "Discordia",
@@ -2072,7 +1387,7 @@
         ]
     },
     "28024": {
-        "song_id": "28024",
+        "song_id": 28024,
         "game_version": 28,
         "title": "Sinus Iridum",
         "title_ascii": "Sinus Iridum",
@@ -2083,7 +1398,7 @@
         ]
     },
     "28031": {
-        "song_id": "28031",
+        "song_id": 28031,
         "game_version": 28,
         "title": "Midnight Drive",
         "title_ascii": "Midnight Drive",
@@ -2094,7 +1409,7 @@
         ]
     },
     "28043": {
-        "song_id": "28043",
+        "song_id": 28043,
         "game_version": 28,
         "title": "魔法のかくれんぼ",
         "title_ascii": "magical hide&seek",
@@ -2105,7 +1420,7 @@
         ]
     },
     "28064": {
-        "song_id": "28064",
+        "song_id": 28064,
         "game_version": 28,
         "title": "Ah Hah Yeah",
         "title_ascii": "Ah Hah Yeah",
@@ -2116,7 +1431,7 @@
         ]
     },
     "28078": {
-        "song_id": "28078",
+        "song_id": 28078,
         "game_version": 28,
         "title": "3!dolon Forc3",
         "title_ascii": "3!dolon Forc3",
@@ -2127,7 +1442,7 @@
         ]
     },
     "28081": {
-        "song_id": "28081",
+        "song_id": 28081,
         "game_version": 28,
         "title": "二人ノ廃城幽踊宴",
         "title_ascii": "A Revenant Ball For Two In An Abandoned Castle",
@@ -2138,7 +1453,7 @@
         ]
     },
     "28084": {
-        "song_id": "28084",
+        "song_id": 28084,
         "game_version": 28,
         "title": "Ignis†Ir?",
         "title_ascii": "Ignis+Irae",
@@ -2149,7 +1464,7 @@
         ]
     },
     "28095": {
-        "song_id": "28095",
+        "song_id": 28095,
         "game_version": 28,
         "title": "Scandal",
         "title_ascii": "Scandal",
@@ -2160,7 +1475,7 @@
         ]
     },
     "28100": {
-        "song_id": "28100",
+        "song_id": 28100,
         "game_version": 28,
         "title": "Fire Beat",
         "title_ascii": "Fire Beat",
@@ -2170,19 +1485,8 @@
             "28100_3"
         ]
     },
-    "28208": {
-        "song_id": "28208",
-        "game_version": 28,
-        "title": "雫",
-        "title_ascii": "Shizuku",
-        "genre": "LAMENTO",
-        "artist": "あさき",
-        "chart_ids": [
-            "28208_3"
-        ]
-    },
     "29006": {
-        "song_id": "29006",
+        "song_id": 29006,
         "game_version": 29,
         "title": "Onyx",
         "title_ascii": "Onyx",
@@ -2193,7 +1497,7 @@
         ]
     },
     "29017": {
-        "song_id": "29017",
+        "song_id": 29017,
         "game_version": 29,
         "title": "ピアノ独奏無言歌 \"灰燼\"",
         "title_ascii": "Lied ohne Worte \"Asche-Traum\"",
@@ -2205,7 +1509,7 @@
         ]
     },
     "29026": {
-        "song_id": "29026",
+        "song_id": 29026,
         "game_version": 29,
         "title": "kors k's How to make OTOGE CORE",
         "title_ascii": "kors k's How to make OTOGE CORE",
@@ -2216,7 +1520,7 @@
         ]
     },
     "29061": {
-        "song_id": "29061",
+        "song_id": 29061,
         "game_version": 29,
         "title": "n/a",
         "title_ascii": "n/a",
@@ -2227,7 +1531,7 @@
         ]
     },
     "29068": {
-        "song_id": "29068",
+        "song_id": 29068,
         "game_version": 29,
         "title": "雪上断火",
         "title_ascii": "Burn out beyond determination on snowy",
@@ -2238,7 +1542,7 @@
         ]
     },
     "29072": {
-        "song_id": "29072",
+        "song_id": 29072,
         "game_version": 29,
         "title": "デモーニッシュ",
         "title_ascii": "damonisch",
@@ -2249,7 +1553,7 @@
         ]
     },
     "29084": {
-        "song_id": "29084",
+        "song_id": 29084,
         "game_version": 29,
         "title": "Silver Bullet",
         "title_ascii": "Silver Bullet",
@@ -2260,7 +1564,7 @@
         ]
     },
     "29087": {
-        "song_id": "29087",
+        "song_id": 29087,
         "game_version": 29,
         "title": "Game Changers",
         "title_ascii": "Game Changers",
@@ -2271,7 +1575,7 @@
         ]
     },
     "29098": {
-        "song_id": "29098",
+        "song_id": 29098,
         "game_version": 29,
         "title": "Push on Beats!～音ゲの国のeX-ストリーマー～",
         "title_ascii": "Push on Beats!Otoge no Kuni no eX-Streamer",
@@ -2281,19 +1585,8 @@
             "29098_3"
         ]
     },
-    "29912": {
-        "song_id": "29912",
-        "game_version": 29,
-        "title": "airflow -dreaming of the sky- Game Edition",
-        "title_ascii": "airflow -dreaming of the sky- Game Edition",
-        "genre": "ROCK FUSION",
-        "artist": "ウッチーズ",
-        "chart_ids": [
-            "29912_3"
-        ]
-    },
     "30020": {
-        "song_id": "30020",
+        "song_id": 30020,
         "game_version": 30,
         "title": "Meissa",
         "title_ascii": "Meissa",
@@ -2304,7 +1597,7 @@
         ]
     },
     "30033": {
-        "song_id": "30033",
+        "song_id": 30033,
         "game_version": 30,
         "title": "C-C-C-N-N-N",
         "title_ascii": "C-C-C-N-N-N",
@@ -2315,7 +1608,7 @@
         ]
     },
     "30053": {
-        "song_id": "30053",
+        "song_id": 30053,
         "game_version": 30,
         "title": "罪過の聖堂",
         "title_ascii": "Cathedral of sin",
