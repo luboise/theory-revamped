@@ -20,12 +20,12 @@
 	 */
 	// "placement": { "mode": "smart" },
 
-  	"routes": [
-    	{
-      		"pattern": "new.theory.tools",
-      		"custom_domain": true
-    	}
-  	]
+	"routes": [
+		{
+			"pattern": "new.theory.tools",
+			"custom_domain": true
+		}
+	],
 
 	/**
 	 * Bindings
@@ -33,6 +33,14 @@
 	 * databases, object storage, AI inference, real-time communication and more.
 	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
 	 */
+
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "prod-theory-revamped",
+			"database_id": "7223007a-9580-4207-b4de-3d2b80cffbad"
+		}
+	]
 
 	/**
 	 * Environment Variables
@@ -56,4 +64,3 @@
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
 }
-

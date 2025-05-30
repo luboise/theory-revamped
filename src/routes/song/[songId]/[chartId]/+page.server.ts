@@ -23,8 +23,18 @@ interface Data {
 	methods: ChartMethod[];
 }
 
-export const load: PageServerLoad = async ({ params }) => {
+export const load: PageServerLoad = async ({ params, platform }) => {
 	const id = Number(params.chartId);
+
+	if (!platform) {
+		throw Error("Platform undefined.");
+	}
+
+	const query = `
+	SELECT * FROM 
+	`;
+
+	const result = await platform.env.DB.prepare("SELECT * FROM users LIMIT 5").run();
 
 	if (!isChartDiff(id)) {
 		error(403, `Invalid request for chart ID ${params.chartId}.`);
