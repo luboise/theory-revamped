@@ -1,6 +1,8 @@
 <script lang="ts">
-	import SONG_FOLDERS from "./folders";
 	import NavigatorList from "./NavigatorList.svelte";
+	import type { SongFolder } from "./types";
+
+	const { songFolders }: { songFolders: { [key: string]: SongFolder } } = $props();
 
 	let searchValue = $state("");
 </script>
@@ -20,10 +22,10 @@
 		</form>
 	</div>
 
-	{#each Object.values(SONG_FOLDERS).toReversed() as folder}
+	{#each Object.values(songFolders).toReversed() as folder}
 		<h4>{folder.title}</h4>
 
-		{#each folder.songs as song}
+		{#each Object.values(folder.songs) as song}
 			<div class="song">
 				{song.title}
 

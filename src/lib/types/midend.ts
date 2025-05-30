@@ -29,7 +29,7 @@ export interface ChartData {
 export interface SongFolder {
 	style: number;
 	title: string;
-	songs: SongData[];
+	songs: { [key: string]: SongData };
 }
 
 export type SongObjectsUploadPayload = Record<
