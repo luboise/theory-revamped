@@ -1,9 +1,9 @@
 import { error } from "@sveltejs/kit";
 import { isChartDiff, type ChartDiff, type SongData } from "$lib/types/midend";
-import { SAMPLE_SONG } from "$lib/test/samples";
 
 import type { PageServerLoad } from "./$types";
 import type { MethodRow, UserRow } from "$lib/types";
+import { getSong } from "$lib/database";
 
 interface ChartMethod {
 	title: string;
@@ -61,7 +61,10 @@ export const load: PageServerLoad = async ({ params, platform }) => {
 		error(500, "Unable to retrieve methods from the database.");
 	}
 
-	const song = { ...SAMPLE_SONG };
+	const song = await getSong(platform.env.DB, Number(params.songId));
+	if (!song) {
+		error(404, `No song available by ID ${params.songId}`);
+	}
 
 	const methods: ChartMethod[] = result.results.map((r): ChartMethod => {
 		const { username, author_id, title, timestamp, body, rating } = r;
@@ -105,7 +108,13 @@ Gear shift up by 2 at the blue circle and down by 2 at the purple circle. Don't 
 	*/
 
 	const data: Data = {
-		song,
+		song: {
+			...song,
+			songId: song.id,
+			gameVersion: song.game_version,
+			titleAscii: song.title_ascii,
+			chartIds: []
+		},
 		chartId: Number(params.chartId) as ChartDiff,
 		methods
 	};
