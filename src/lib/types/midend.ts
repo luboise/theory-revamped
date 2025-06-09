@@ -46,21 +46,36 @@ export type SongObjectsUploadPayload = Record<
 	}
 >;
 
+type AttachmentEmbed = `||${string}|${string}||` | `||${string}|${string}|${string}||`;
+
 interface MethodAttachmentBase {
+	type: string;
 	position: number;
 }
 
 export interface ImageAttachment extends MethodAttachmentBase {
+	type: "image";
 	url: string;
 	width: number;
 	height: number;
 }
 
-export interface GearShiftAttachment {
+export interface GearShiftAttachment extends MethodAttachmentBase {
+	type: "gearshift";
 	amount: number;
 }
 
 export type MethodAttachment = ImageAttachment | GearShiftAttachment;
+export function attachmentEmbedOf(attachment: MethodAttachment): AttachmentEmbed {
+	switch (attachment.type) {
+		case "gearshift": {
+			return `||gs|${attachment.amount}||`;
+		}
+		case "image": {
+			return `||image|temp||`;
+		}
+	}
+}
 
 export interface ChartMethod {
 	title: string;
