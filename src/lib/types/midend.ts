@@ -1,5 +1,6 @@
 // 5 and 11 are unused
 // 0-4  = SPB-SPL
+
 // 6-10 = DPB-DPL
 export type ChartDiff = 0 | 1 | 2 | 3 | 4 | 6 | 7 | 8 | 9 | 10;
 
@@ -44,3 +45,33 @@ export type SongObjectsUploadPayload = Record<
 		chart_ids: number[];
 	}
 >;
+
+interface MethodAttachmentBase {
+	position: number;
+}
+
+export interface ImageAttachment extends MethodAttachmentBase {
+	url: string;
+	width: number;
+	height: number;
+}
+
+export interface GearShiftAttachment {
+	amount: number;
+}
+
+export type MethodAttachment = ImageAttachment | GearShiftAttachment;
+
+export interface ChartMethod {
+	title: string;
+
+	authorId: number;
+	authorName: string;
+
+	rating: number;
+	difficulty: ChartDiff;
+	timestamp: Date;
+
+	body: string;
+	attachments: MethodAttachment[];
+}

@@ -1,22 +1,9 @@
 import { error } from "@sveltejs/kit";
-import { isChartDiff, type ChartDiff, type SongData } from "$lib/types/midend";
+import { type ChartMethod, isChartDiff, type ChartDiff, type SongData } from "$lib/types/midend";
 
 import type { PageServerLoad } from "./$types";
 import type { MethodRow, UserRow } from "$lib/types";
 import { getSong } from "$lib/database";
-
-interface ChartMethod {
-	title: string;
-
-	authorId: number;
-	authorName: string;
-
-	rating: number;
-	difficulty: ChartDiff;
-	timestamp: Date;
-
-	body: string;
-}
 
 interface Data {
 	song: SongData;
@@ -75,7 +62,8 @@ export const load: PageServerLoad = async ({ params, platform }) => {
 			title,
 			rating,
 			body,
-			timestamp: new Date(timestamp)
+			timestamp: new Date(timestamp),
+			attachments: []
 		};
 	});
 
