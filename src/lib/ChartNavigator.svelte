@@ -23,16 +23,17 @@
 	</div>
 
 	{#each Object.values(songFolders).toReversed() as folder}
-		<h4>{folder.title}</h4>
+		<div class="song-folder">
+			<h4>{folder.title}</h4>
 
-		{#each Object.values(folder.songs) as song}
-			<div class="song">
-				{song.title}
-
-				<NavigatorList {song} playmode="SP" />
-				<NavigatorList {song} playmode="DP" />
-			</div>
-		{/each}
+			{#each Object.values(folder.songs) as song}
+				<div class="song">
+					<span style:overflow="hidden">{song.title}</span>
+					<NavigatorList {song} playmode="SP" showMissing={false} />
+					<!-- <NavigatorList {song} playmode="DP" /> -->
+				</div>
+			{/each}
+		</div>
 	{/each}
 
 	<!-- <div className="game-version-dropdowns">{gameVersionDropdowns}</div> -->
@@ -40,7 +41,16 @@
 
 <style>
 	.song {
-		margin-bottom: 1em;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.song-folder {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+
+		padding: 0 0.2em;
 	}
 
 	#chart-navigator {
