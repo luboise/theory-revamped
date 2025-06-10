@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { ChartDiff, PlayMode, SongData } from "./database/types";
 
-	const { song, playmode }: { song: SongData; playmode: PlayMode } = $props();
+	const {
+		song,
+		playmode,
+		showMissing = false
+	}: { song: SongData; playmode: PlayMode; showMissing: boolean | undefined } = $props();
 
 	const indices: ChartDiff[] = playmode === "SP" ? [0, 1, 2, 3, 4] : [6, 7, 8, 9, 10];
 
@@ -21,11 +25,13 @@
 
 <div>
 	{#each indices as id}
-		<a href={`/song/${song.songId}/${id}`} style={`grid-column: ${(id % 6) + 1};`}>
-			<button style:background-color={lookups[id].color} disabled={!song.chartIds.includes(id)}>
-				{lookups[id].text}
-			</button>
-		</a>
+		{#if showMissing || song.chartIds.includes(id)}
+			<a href={`/song/${song.songId}/${id}`}>
+				<button style:background-color={lookups[id].color} disabled={!song.chartIds.includes(id)}>
+					{lookups[id].text}
+				</button>
+			</a>
+		{/if}
 	{/each}
 </div>
 
@@ -36,8 +42,9 @@
 	}
 
 	div {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
+		display: flex;
+		/* grid-template-columns: repeat(5, 1fr); */
+		gap: 0.05em;
 
 		align-items: center;
 		justify-content: center;
